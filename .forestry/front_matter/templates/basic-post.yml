@@ -31,4 +31,5 @@ fields:
   config:
     maxSize: '3'
 pages:
+- content/post/rationis-enim-perfectio-est-virtus.md
 - content/post/quam-hoc-suave.md
