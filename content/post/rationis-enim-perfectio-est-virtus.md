@@ -2,7 +2,6 @@
 banner = ""
 categories = ["Branding"]
 date = "2019-03-22T04:00:00+00:00"
-draft = true
 menu = ""
 tags = []
 title = "Rationis enim perfectio est virtus"
