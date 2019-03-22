@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Article on My New Hugo Site</title>
+    <link>/tags/new-article/</link>
+    <description>Recent content in New Article on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2019 04:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/new-article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You should therefore move it all there</title>
+      <link>/post/you-should-therefore-move-it-all-there/</link>
+      <pubDate>Thu, 14 Mar 2019 04:00:00 +0000</pubDate>
+      
+      <guid>/post/you-should-therefore-move-it-all-there/</guid>
+      <description>Num igitur eum postea censes anxio animo aut sollicito fuisse? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete. Quae est igitur causa istarum angustiarum? Quid enim tanto opus est instrumento in optimis artibus comparandis? Qui est in parvis malis. Immo alio genere;
+ De maximma autem re eodem modo, divina mente atque natura mundum universum et eius maxima partis administrari. Ut in geometria, prima si dederis, danda sunt omnia.</description>
+    </item>
+    
+  </channel>
+</rss>

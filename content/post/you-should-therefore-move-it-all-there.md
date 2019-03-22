@@ -4,7 +4,6 @@ categories = ["Design"]
 date = "2019-03-14T04:00:00+00:00"
 tags = ["New Article", "Design"]
 title = "You should therefore move it all there"
-[menu.Main]
 weight = 1
 
 +++
