@@ -1,6 +1,6 @@
-baseURL = ""
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Strata"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
@@ -141,3 +141,7 @@ paginate = 10
 	url  = "/"
 	weight = 10
 
+[[menu.main]]
+	name = "Blog"
+	url  = "post/"
+	weight = 0
