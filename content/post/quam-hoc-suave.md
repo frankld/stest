@@ -2,7 +2,6 @@
 banner = ""
 categories = ["Design"]
 date = "2019-03-21T04:00:00+00:00"
-draft = true
 menu = ""
 tags = []
 title = "Quam hoc suave! "
