@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: MAIN WEBSITE
 - type: directory
   path: content
   label: Pages
@@ -14,6 +16,15 @@ sections:
   label: Post
   create: all
   match: "**/*"
+- type: heading
+  label: PORTFOLIO POSTS
+- type: directory
+  path: content/portfolio
+  label: Portfolio Entry
+  create: all
+  match: "**/*"
+  templates:
+  - basic-post
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
