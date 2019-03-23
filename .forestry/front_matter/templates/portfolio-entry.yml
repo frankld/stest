@@ -1,4 +1,34 @@
 ---
 label: Portfolio Entry
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: intro
+  label: Intro
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group_list
+  label: Entry Item
+  name: entry_item
+  description: Add image and text
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: item_image
+    label: item image
+    config:
+      maxSize: '5'
+  - type: textarea
+    name: description
+    label: Description
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
