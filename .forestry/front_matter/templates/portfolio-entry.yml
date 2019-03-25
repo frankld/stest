@@ -5,6 +5,12 @@ fields:
 - type: text
   name: title
   label: Title
+- type: datetime
+  name: entry_date
+  label: Entry Date
+  hidden: false
+  config:
+    date_format: MM/DD/YYYY
 - type: textarea
   name: intro
   label: Intro
