@@ -2,8 +2,11 @@
 banner = ""
 categories = []
 date = "2019-03-22T04:00:00+00:00"
+name = "About"
 tags = []
 title = "Test Page"
+weight = 2
+[menu.main]
 name = "About"
 weight = 2
 
