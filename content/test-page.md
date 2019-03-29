@@ -4,7 +4,6 @@ categories = []
 date = "2019-03-22T04:00:00+00:00"
 tags = []
 title = "Test Page"
-[menu.main]
 name = "About"
 weight = 2
 
