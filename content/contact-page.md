@@ -4,8 +4,6 @@ categories = []
 date = "2019-03-29T04:00:00+00:00"
 tags = []
 title = "Contact Page"
-[menu.Main]
-weight = 1
 
 +++
 About Me
