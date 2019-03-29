@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="uk-container uk-container-expand uk-margin-xlarge-top">
 	<span>
 		<h1>{{ .Title }}</h1>
 
@@ -10,4 +11,5 @@
 	</p>
 
 	{{ template "_internal/disqus.html" . }}
+</div>
 {{ end }}

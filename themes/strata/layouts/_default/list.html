@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="uk-container uk-container-expand uk-margin-xlarge-top">
     {{ .Content }}
 
     {{ $paginator := .Paginate .Data.Pages }}
@@ -7,4 +8,5 @@
     {{ end }}
 
     {{ partial "pagination" . }}
+</div>
 {{ end }}
