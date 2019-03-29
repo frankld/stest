@@ -2,9 +2,10 @@
 banner = ""
 categories = ["Design"]
 date = "2019-03-21T04:00:00+00:00"
-menu = ""
 tags = []
 title = "Quam hoc suave! "
+[menu.]
+weight = 2
 
 +++
 # Ait enim se, si uratur, Quam hoc suave! dicturum.

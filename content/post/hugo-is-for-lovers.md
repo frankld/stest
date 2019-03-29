@@ -2,11 +2,12 @@
 banner = "banners/placeholder.png"
 categories = ["Lorem"]
 date = "2015-08-03T13:39:46+02:00"
-menu = ""
 tags = []
 title = "Hugo is for lovers"
-+++
+[menu.]
+weight = 4
 
++++
 ## Step 1. Install Hugo
 
 Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the
