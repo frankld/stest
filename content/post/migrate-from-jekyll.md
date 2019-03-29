@@ -4,7 +4,6 @@ categories = ["Lorem"]
 date = "2015-10-10T13:07:31+02:00"
 tags = []
 title = "Migrate from Jekyll"
-[menu.]
 weight = 3
 
 +++

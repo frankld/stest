@@ -4,7 +4,6 @@ categories = ["Design"]
 date = "2019-03-21T04:00:00+00:00"
 tags = []
 title = "Quam hoc suave! "
-[menu.]
 weight = 2
 
 +++

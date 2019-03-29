@@ -4,7 +4,6 @@ categories = ["Ipsum"]
 date = "2015-09-17T13:47:08+02:00"
 tags = []
 title = "Go is for lovers"
-[menu.]
 weight = 6
 
 +++
