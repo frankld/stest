@@ -4,8 +4,9 @@ categories = []
 date = "2019-03-22T04:00:00+00:00"
 tags = []
 title = "Test Page"
-[menu.Main]
-weight = 1
+[menu.main]
+name = "About"
+weight = 2
 
 +++
 # Sed erat aequius Triarium aliquid de dissensione nostra iudicare.
