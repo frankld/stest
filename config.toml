@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Francis Laguna-Driscoll - Portfolio"
@@ -122,3 +123,9 @@ paginate = 10
 			message = "Message"
 			submit = "Send message"
 
+=======
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 2
+>>>>>>> 43a9c627623f59d1b22e7772a74fe5183525bfa2

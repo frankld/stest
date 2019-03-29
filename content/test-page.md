@@ -6,7 +6,7 @@ tags = []
 title = "Test Page"
 [menu.main]
 name = "About"
-weight = 2
+weight = 1
 
 +++
 # Sed erat aequius Triarium aliquid de dissensione nostra iudicare.
