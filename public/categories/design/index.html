@@ -30,42 +30,45 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://example.org/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="https://example.org//css/ie8.css"><![endif]-->
-
+		
 		
 		<link href="https://example.org/categories/design/index.xml" rel="alternate" type="application/rss+xml" title="Francis Laguna-Driscoll - Portfolio" />
 		<link href="https://example.org/categories/design/index.xml" rel="feed" type="application/rss+xml" title="Francis Laguna-Driscoll - Portfolio" />
 		
+		<link rel="tex" href="css/vue-mouse-parallax.css"/>
 		
 	</head>
 
 	<body id="top">
 		<!-- Header -->
 
-<nav class="uk-navbar-container uk-position-absolute uk-width-100 uk-navbar-transparent" uk-navbar>
+<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-background-default uk-padding-remove-vertical ;top: 50vh;">
+<nav class="uk-navbar-container uk-position-top uk-width-100 uk-navbar-transparent uk-padding uk-dark" style="z-index:9999;" uk-navbar="dropbar: true;" >
 		<div class="uk-navbar-left">
-			<a class="uk-navbar-item uk-logo" href="https://example.org/" >FRANCIS<br>LAGUNA<br>DRISCOLL</a>
+			<a class="uk-navbar-item uk-logo" uk-scrollspy="cls:uk-animation-slide-top;repeat:true; offset-top:100px;" href="https://example.org/" >FRANK.LD</a>
 		</div>
 		<div class="uk-navbar-right">
 				
-				<ul class="uk-navbar-nav">
+				<ul class="uk-navbar-nav uk-dark">
 						
-							<li class="uk-navbar-item"><a href="https://example.org/test-page/">Test Page</a></li>
+							<li class="uk-navbar-item uk-dark uk-active"><a href="https://example.org/" class="uk-dark">Home</a></li>
 						
-							<li class="uk-navbar-item"><a href="https://example.org/">Home</a></li>
+							<li class="uk-navbar-item uk-dark uk-active"><a href="https://example.org/test-page/" class="uk-dark">About</a></li>
 						
-							<li class="uk-navbar-item"><a href="https://example.org/post/">Blog</a></li>
+							<li class="uk-navbar-item uk-dark uk-active"><a href="https://example.org/contact-page/" class="uk-dark">Contact</a></li>
 						
 				</ul>
 				
 			</div>
 	</nav>
 
-
+</div>
 
 
 			<!-- Main -->
 			<div id="main">
 				
+<div class="uk-container uk-container-expand uk-margin-xlarge-top">
     
 
     
@@ -106,6 +109,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
     
 
+</div>
 
 			</div>
 		<!-- Footer -->
@@ -151,6 +155,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <script src="https://example.org/js/jquery.poptrox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script src="vue-mouse-parallax/dist/vue-mouse-parallax.browser.js"></script>
 <script src="https://example.org/js/util.js"></script>
 
 <script src="https://example.org/js/main.js"></script>

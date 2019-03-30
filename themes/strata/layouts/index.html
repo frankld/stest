@@ -14,7 +14,7 @@
 		</div>
 		<div>
 					<div class="uk-cover-container uk-padding-large uk-flex uk-flex-middle" uk-height-viewport style="background-image:url(/bg.jpg); background-size: cover;" uk-parallax="bgy: -200" >
-						<div class="uk-card uk-card-default uk-card-hover uk-display-block uk-link-reset uk-margin uk-text-center uk-scrollspy-inview uk-animation-slide-top-medium">
+						<div class="js-tilt uk-card uk-card-default uk-card-hover uk-display-block uk-link-reset uk-margin uk-text-center uk-scrollspy-inview" data-tilt >
 							<img src="frank.jpg" alt="">
 						</div>
 					</div>
@@ -26,11 +26,64 @@
 
 <!-- Section 2 -->
 
-	<div class="uk-container uk-container-expand uk-flex uk-flex uk-flex-middle uk-flex-center" uk-height-viewport>
+	<div class="uk-container uk-container-large uk-flex uk-flex uk-flex-middle uk-flex-center" uk-height-viewport>
 		<div class="uk-flex-center uk-padding uk-text-center" uk-grid>
 			<div class="uk-width-3-5">
 				<h1 class="uk-text-bold">I’M A GRAPHIC DESIGNER WHO <br> BREAKS THE MOLD AND DOTS THE I’s</h1>
 				<p>Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis.</p>
+			</div>
+
+			<div tabindex="-1" uk-slider="center: true">
+				<div class="uk-position-relative" >
+					<div class="uk-slider-container uk-light">
+						<ul class="uk-slider-items uk-grid">
+							<li class="uk-width-3-4">
+								<div class="uk-panel uk-box-shadow-large">
+									<img src="postpic.png" alt="">
+									<div class="uk-position-center uk-panel"><h1>1</h1></div>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div class="uk-panel uk-box-shadow-large">
+									<img src="postpic.png" alt="">
+									<div class="uk-position-center uk-panel"><h1>2</h1></div>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div class="uk-panel uk-box-shadow-large">
+									<img src="postpic.png" alt="">
+									<div class="uk-position-center uk-panel"><h1>3</h1></div>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div class="uk-panel uk-box-shadow-large">
+									<img src="postpic.png" alt="">
+									<div class="uk-position-center uk-panel"><h1>4</h1></div>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div class="uk-panel uk-box-shadow-large">
+									<img src="postpic.png" alt="">
+									<div class="uk-position-center uk-panel"><h1>5</h1></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+			
+					<div class="uk-hidden@s uk-light">
+						<a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+						<a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+					</div>
+			
+					<div class="uk-visible@s">
+						<a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+						<a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+					</div>
+			
+				</div>
+			
+				<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+			
 			</div>
 
 		</div>

@@ -30,80 +30,81 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://example.org/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="https://example.org//css/ie8.css"><![endif]-->
-
+		
 		
 		<link href="https://example.org/index.xml" rel="alternate" type="application/rss+xml" title="Francis Laguna-Driscoll - Portfolio" />
 		<link href="https://example.org/index.xml" rel="feed" type="application/rss+xml" title="Francis Laguna-Driscoll - Portfolio" />
 		
+		<link rel="tex" href="css/vue-mouse-parallax.css"/>
 		
 	</head>
 
 	<body id="top">
 		<!-- Header -->
 
-<nav class="uk-navbar-container uk-position-absolute uk-width-100 uk-navbar-transparent" uk-navbar>
+<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-background-default uk-padding-remove-vertical ;top: 50vh;">
+<nav class="uk-navbar-container uk-position-top uk-width-100 uk-navbar-transparent uk-padding uk-dark" style="z-index:9999;" uk-navbar="dropbar: true;" >
 		<div class="uk-navbar-left">
-			<a class="uk-navbar-item uk-logo" href="https://example.org/" >FRANCIS<br>LAGUNA<br>DRISCOLL</a>
+			<a class="uk-navbar-item uk-logo" uk-scrollspy="cls:uk-animation-slide-top;repeat:true; offset-top:100px;" href="https://example.org/" >FRANK.LD</a>
 		</div>
 		<div class="uk-navbar-right">
 				
-				<ul class="uk-navbar-nav">
+				<ul class="uk-navbar-nav uk-dark">
 						
-							<li class="uk-navbar-item"><a href="https://example.org/test-page/">Test Page</a></li>
+							<li class="uk-navbar-item uk-dark uk-active"><a href="https://example.org/" class="uk-dark">Home</a></li>
 						
-							<li class="uk-navbar-item"><a href="https://example.org/">Home</a></li>
+							<li class="uk-navbar-item uk-dark uk-active"><a href="https://example.org/test-page/" class="uk-dark">About</a></li>
 						
-							<li class="uk-navbar-item"><a href="https://example.org/post/">Blog</a></li>
+							<li class="uk-navbar-item uk-dark uk-active"><a href="https://example.org/contact-page/" class="uk-dark">Contact</a></li>
 						
 				</ul>
 				
 			</div>
 	</nav>
 
-
+</div>
 
 
 			<!-- Main -->
 			<div id="main">
 				
-<div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+
+
+<div class="uk-grid-collapse uk-child-width-expand@s" uk-grid>
 		<div>
-			<div class="uk-background-primary uk-padding uk-light" uk-height-viewport>
-					
-					<h1><strong>HEY, I’M FRANCIS LAGUNA-DRISCOLL<br>I’M A GRAPHIC DESIGNER BASED IN NY</strong></h1>
-					
-					<div uk-grid>
-						<div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-						</div>
-						<div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-						</div>
-						<div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+			<div class="uk-padding uk-dark uk-flex" uk-height-viewport>
+				<div class="uk-flex uk-flex-wrap uk-flex-wrap-middle">
+						
+						<h1 class="uk-animation-slide-left-small"><strong>HEY, I’M FRANCIS LAGUNA-DRISCOLL<br>I’M A GRAPHIC DESIGNER BASED IN NY</strong></h1>
+						
+						<p class="uk-animation-slide-left-medium">Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+					<div class="uk-cover-container uk-padding-large uk-flex uk-flex-middle" uk-height-viewport style="background-image:url(/bg.jpg); background-size: cover;" uk-parallax="bgy: -200" >
+						<div class="uk-card uk-card-default uk-card-hover uk-display-block uk-link-reset uk-margin uk-text-center uk-scrollspy-inview uk-animation-slide-top-medium">
+							<img src="frank.jpg" alt="">
 						</div>
 					</div>
-			</div>
 		</div>
-		<div>
-			<div class="uk-background-secondary uk-padding uk-light" uk-height-viewport>
-					<div class="uk-cover-container">
-							<img src="/bg.jpg" alt="" uk-cover>
-						</div>
-			</div>
-		</div>
+		<a class="uk-position-bottom-center uk-padding">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225.249" height="225.249" viewBox="0 0 225.249 225.249" transform="scale(0.35)"><defs><style>.a{fill:#fff;}.b{fill:#fe5222;}.c{filter:url(#a);}</style><filter id="a" x="0" y="0" width="225.249" height="225.249" filterUnits="userSpaceOnUse"><feOffset dy="10" input="SourceAlpha"/><feGaussianBlur stdDeviation="10" result="b"/><feFlood flood-opacity="0.161"/><feComposite operator="in" in2="b"/><feComposite in="SourceGraphic"/></filter></defs><g transform="translate(940.249 -1508) rotate(90)"><g class="c" transform="matrix(0, -1, 1, 0, 1508, 940.25)"><circle class="a" cx="82.624" cy="82.624" r="82.624" transform="translate(195.25 20) rotate(90)"/></g><g transform="translate(1638.047 827.624) rotate(135)"><rect class="b" width="12.151" height="48.603" rx="6.075" transform="translate(0)"/><rect class="b" width="48.603" height="12.151" rx="6.075" transform="translate(0)"/></g></g></svg>
+		</a>
 </div>
 
-<div class="uk-section-primary" uk-height-viewport>
-	<div class="uk-container uk-container-expand">
-		<div uk-grid>
-			<div class="uk-width-1-2">
 
+
+	<div class="uk-container uk-container-expand uk-flex uk-flex uk-flex-middle uk-flex-center" uk-height-viewport>
+		<div class="uk-flex-center uk-padding uk-text-center" uk-grid>
+			<div class="uk-width-3-5">
+				<h1 class="uk-text-bold">I’M A GRAPHIC DESIGNER WHO <br> BREAKS THE MOLD AND DOTS THE I’s</h1>
+				<p>Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis.</p>
 			</div>
 
 		</div>
 	</div>
-</div>
+
 	
 
 			<h3>Section</h3>
@@ -173,9 +174,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         
             <li><a href="https://example.org/post/migrate-from-jekyll/">Migrate from Jekyll</a></li>
         
-            <li><a href="https://example.org/post/go-is-for-lovers/">Go is for lovers</a></li>
-        
             <li><a href="https://example.org/post/hugo-is-for-lovers/">Hugo is for lovers</a></li>
+        
+            <li><a href="https://example.org/post/creating-a-new-theme/">Creating a new theme</a></li>
         
         </ol>
         </p>
@@ -293,6 +294,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <script src="https://example.org/js/jquery.poptrox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script src="vue-mouse-parallax/dist/vue-mouse-parallax.browser.js"></script>
 <script src="https://example.org/js/util.js"></script>
 
 <script src="https://example.org/js/main.js"></script>

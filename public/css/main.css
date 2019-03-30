@@ -19,3 +19,13 @@ html {
 .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
     font-family: 'Saira', sans-serif , "Segoe UI", "Roboto" , "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+nav .uk-logo {
+	font-size: 1.2em;
+	font-weight: 700;
+	letter-spacing: .4em;
+}
+nav a{
+	color: #1c1c1c !important;
+	letter-spacing: .4em;
+}
