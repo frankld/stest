@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://thirsty-jepsen-4ccc9d.netlify.com/"
 disqusShortname = "FLD"
 googleAnalytics = ""
 languageCode = "en-us"
