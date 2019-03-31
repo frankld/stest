@@ -4,7 +4,7 @@ categories = ["Branding"]
 date = "2019-03-22T04:00:00+00:00"
 menu = ""
 tags = []
-title = "Sylvia is super Cute"
+title = "Sylvia is super cute"
 weight = 1
 
 +++
