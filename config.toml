@@ -5,6 +5,10 @@ languageCode = "en-us"
 paginate = 10
 theme = "strata"
 title = "Francis Laguna-Driscoll - Portfolio"
+[[menu.main]]
+name = "Work"
+url = "/post"
+weight = 4
 [params]
 custom_css = []
 custom_js = []
