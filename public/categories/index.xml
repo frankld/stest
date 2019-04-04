@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Francis Laguna-Driscoll - Portfolio</title>
-    <link>https://example.org/categories/</link>
+    <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/</link>
     <description>Recent content in Categories on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Mar 2019 04:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thirsty-jepsen-4ccc9d.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Branding</title>
-      <link>https://example.org/categories/branding/</link>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/branding/</link>
       <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/branding/</guid>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/branding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>https://example.org/categories/design/</link>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/design/</link>
       <pubDate>Thu, 21 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/design/</guid>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ipsum</title>
-      <link>https://example.org/categories/ipsum/</link>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ipsum/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>https://example.org/categories/ipsum/</guid>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ipsum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lorem</title>
-      <link>https://example.org/categories/lorem/</link>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/lorem/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://example.org/categories/lorem/</guid>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/lorem/</guid>
       <description></description>
     </item>
     

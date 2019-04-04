@@ -1,10 +1,20 @@
 {{ partial "head" . }}
-	<body id="top">
+	<body>
 		{{ partial "header" . }}
 			{{ "<!-- Main -->" | safeHTML }}
-			<div id="main">
-				{{ block "main" . }}{{ end }}
-			</div>
+
+		{{ if .IsHome }}
+			{{ partial "home/intro" . }}
+		{{ end }}
+		
+		<div id="main" class="position-relative" style="z-index:100;" >
+			{{ block "main" . }}{{ end }}
+		</div>
+
+		{{ if .IsHome }}
+			{{ partial "home/background" .}}
+		{{ end }}
+
 		{{ partial "footer" . }}
 	</body>
 </html>

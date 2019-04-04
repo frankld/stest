@@ -1,0 +1,85 @@
+baseurl: 'https://thirsty-jepsen-4ccc9d.netlify.com/'
+disqusShortname: FLD
+googleAnalytics: ''
+languageCode: en-us
+paginate: 10
+theme: strata
+title: Francis Laguna-Driscoll - Portfolio
+params:
+  custom_css: []
+  custom_js: []
+  date_format: '2006-01-02'
+  description: >-
+    Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu
+    faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend
+    maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae
+    dui molestie condimentum. Suspendisse tempus quis dui ut mattis.
+  lead: 'HEY, I’M FRANCIS LAGUNA-DRISCOLL I’M A GRAPHIC DESIGNER BASED IN NY'
+  name: Francis Laguna-Driscoll
+  show_read_time: false
+  about:
+    content: >-
+      Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
+      lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis
+      tortor primis integer massa adipiscing id nisi accumsan pellentesque
+      commodo blandit enim arcu non at amet id arcu magna. Accumsan orci
+      faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.
+    hide: false
+    title: Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque.
+  contact:
+    address:
+      - 1234 Somewhere Rd.
+      - 'Nashville, TN 00000'
+      - United States
+    content: >-
+      Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna.
+      Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem
+      neque lorem ipsum dolor.
+    email: fldriscoll@gmail.com
+    gmaps_address: '39.7889055,-120.5443524'
+    hide: false
+    phone: 000-000-0000
+    title: Get In Touch
+    form:
+      email: Email
+      message: Message
+      name: Name
+      submit: Send message
+  portfolio:
+    hide: false
+    title: Recent Work
+    gallery:
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/01.jpg
+        thumb: thumbs/01.jpg
+        title: Lorem ipsum dolor.
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/02.jpg
+        thumb: thumbs/02.jpg
+        title: Lorem ipsum dolor.
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/03.jpg
+        thumb: thumbs/03.jpg
+        title: Lorem ipsum dolor.
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/04.jpg
+        thumb: thumbs/04.jpg
+        title: Lorem ipsum dolor.
+  recentposts:
+    hide: false
+    title: Recent blog posts
+  sidebar:
+    avatar: avatar.jpg
+    bio: '**HEY, I’M FRANCIS LAGUNA-DRISCOLL I’M A GRAPHIC DESIGNER BASED IN NY**'
+    copyright:
+      - '&copy; Francis Laguna-Driscoll'
+      - '2019'
+      - 'Based on:'
+    dribbble: spf13
+    facebook: spf13
+    flickr: spf13
+    github: ''
+    instagram: spf13
+    googleplus: ''
+    linkedin: spf13
+    twitter: ''

@@ -1,20 +1,27 @@
 {{ "<!-- Header -->" | safeHTML }}
+<header>
+	{{ if .IsHome }}
+		<nav class="navbar position-absolute navbar-expand-lg vw-100 p-5" style="z-index:9999;">
+			{{ else }}
+		<nav class="navbar position-relative navbar-expand-lg vw-100 p-5" style="z-index:9999;">
+	{{ end }}
+		<a class="navbar-brand" href="{{ .Site.BaseURL }}">FRANK.LD</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-background-default uk-padding-remove-vertical ;top: 50vh;">
-<nav class="uk-navbar-container uk-position-top uk-width-100 uk-navbar-transparent uk-padding uk-dark" style="z-index:9999;" uk-navbar="dropbar: true;" >
-		<div class="uk-navbar-left">
-			<a class="uk-navbar-item uk-logo" href="{{ .Site.BaseURL }}" >FRANK.LD</a>
-		</div>
-		<div class="uk-navbar-right">
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
 				{{ with .Site.Menus.main }}
-				<ul class="uk-navbar-nav uk-dark">
-						{{ range . }}
-							<li class="uk-navbar-item uk-dark uk-active"><a href="{{ .URL | absURL }}" class="uk-dark">{{ .Name }}</a></li>
-						{{ end }}
-				</ul>
+					{{ range . }}
+				<li class="nav-item active">
+					<a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+				</li>
+					{{ end }}
 				{{ end }}
-			</div>
+			</ul>
+		</div>
 	</nav>
-
-</div>
+</header>
 

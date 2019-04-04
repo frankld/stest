@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Francis Laguna-Driscoll - Portfolio</title>
-    <link>https://example.org/categories/design/</link>
+    <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/design/</link>
     <description>Recent content in Design on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Mar 2019 04:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.org/categories/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thirsty-jepsen-4ccc9d.netlify.com/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quam hoc suave! </title>
-      <link>https://example.org/post/quam-hoc-suave/</link>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/quam-hoc-suave/</link>
       <pubDate>Thu, 21 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/quam-hoc-suave/</guid>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/quam-hoc-suave/</guid>
       <description>Ait enim se, si uratur, Quam hoc suave! dicturum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. De vacuitate doloris eadem sententia erit. Sed in rebus apertissimis nimium longi sumus. Quia nec honesto quic quam honestius nec turpi turpius. Duo Reges: constructio interrete. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Qua tu etiam inprudens utebare non numquam.
  Sit enim idem caecus, debilis. Qui enim voluptatem ipsam contemnunt, iis licet dicere se acupenserem maenae non anteponere.</description>
     </item>

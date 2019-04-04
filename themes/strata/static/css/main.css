@@ -1,3 +1,7 @@
+html, body , * {
+	font-family: 'Saira', sans-serif , "Segoe UI", "Roboto" , "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 html {
 	font-family: 'Saira', sans-serif , "Segoe UI", "Roboto" , "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	font-size: 16px;
@@ -5,43 +9,25 @@ html {
 	line-height: 1.5;
 	-webkit-text-size-adjust: 100%;
 	background: #fff;
-	color: #666
+	color: #666;
+}
+.text-primary {
+	color: #FE5222 !important;
+}
+a {
+	color: #222;
 }
 
-.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Saira', sans-serif , "Segoe UI", "Roboto" , "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.nav-link {
+	font-size: .8rem;
 }
 
-.uk-logo {
-    font-family: 'Saira', sans-serif , "Segoe UI", "Roboto" , "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
-    font-family: 'Saira', sans-serif , "Segoe UI", "Roboto" , "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-nav .uk-logo {
-	font-size: 1.2em;
+.navbar-brand {
 	font-weight: 700;
-	letter-spacing: .4em;
-}
-nav a{
-	color: #1c1c1c !important;
-	letter-spacing: .4em;
 }
 
-.uk-slider-container {
-	overflow: inherit !important;
+.social {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
-
-
-.parallax-container[data-v-569ff987] {
-	perspective: 1000px;
-  }
-  
-  .parallax-element[data-v-9f140bfc] {
-	transform-origin: center;
-	transition: all 2s;
-	transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-  }
-  

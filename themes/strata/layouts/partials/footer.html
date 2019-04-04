@@ -1,53 +1,70 @@
 {{ "<!-- Footer -->" | safeHTML }}
-<footer id="footer">
-	<ul class="icons">
-		{{ with .Site.Params.sidebar.googleplus }}
-		<li><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
-		{{ end }}
-		{{ with .Site.Params.sidebar.facebook }}
-        <li><a href="//facebook.com/{{ . }}" target="_blank" class="fab fa-facebook-square"><span class="label">Facebook</span></a></li>
-        {{ end }}
-		{{ with .Site.Params.sidebar.twitter }}
-		<li><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-		{{ end }}
-		{{ with .Site.Params.sidebar.github }}
-		<li><a href="//github.com/{{ . }}" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
-		{{ end }}
-		{{ with .Site.Params.sidebar.gitlab }}
-		<li><a href="//gitlab.com/{{ . }}" target="_blank" class="icon fa-gitlab"><span class="label">GitLab</span></a></li>
-		{{ end }}
-		{{ with .Site.Params.sidebar.linkedin }}
-		<li><a href="//linkedin.com/in/{{ . }}" target="_blank" class="fab fa-linkedin"><span class="label">Linkedin</span></a></li>
-		{{ end }}
-		{{ with .Site.Params.sidebar.dribbble }}
-		<li><a href="//dribbble.com/{{ . }}" target="_blank" class="fab fa-dribbble-square"><span class="label">Dribbble</span></a></li>
-		{{ end }}
-		{{ with .Site.Params.sidebar.flickr }}
-		<li><a href="//flickr.com/photos/{{ . }}" target="_blank" class="fab fa-flickr"><span class="label">Flickr</span></a></li>
-		{{ end }}
-		{{ with .Site.Params.contact.email }}
-		<li><a href="{{ $.Site.BaseURL }}#contact-form" class="fas fa-envelope-square"><span class="label">Email</span></a></li>
-		{{ end }}
-		{{ if not .Site.Params.rss.hide }}
-		<li><a href="{{ if $.RSSLink }}{{ $.RSSLink }}{{ else }}{{ $.Site.RSSLink }}{{ end }}" class="fas fa-rss-square" type="application/rss+xml"><span class="label">RSS</span></a></li>
-		{{ end }}
-	</ul>
 
-	<ul class="copyright">
-		{{ range .Site.Params.sidebar.copyright }}
-		<li>{{ . | markdownify }}</li>
-		{{ end }}
-	</ul>
+
+<footer class="p-5 bg-light position-relative" style="z-index: 9999;">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				{{ partial "footer/copyright" . }}
+			</div>
+			<div class="col d-flex justify-content-end">
+					<ul class="social">
+							{{ with .Site.Params.sidebar.googleplus }}
+							<li class="d-inline p-3"><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span
+										class="text-hide">Google Plus</span></a></li>
+							{{ end }}
+							{{ with .Site.Params.sidebar.facebook }}
+							<li class="d-inline p-3"><a href="//facebook.com/{{ . }}" target="_blank" class="fab fa-facebook-square"><span
+										class="text-hide">Facebook</span></a></li>
+							{{ end }}
+							{{ with .Site.Params.sidebar.twitter }}
+							<li class="d-inline p-3"><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span
+										class="text-hide">Twitter</span></a></li>
+							{{ end }}
+							{{ with .Site.Params.sidebar.github }}
+							<li class="d-inline p-3"><a href="//github.com/{{ . }}" target="_blank" class="icon fa-github"><span
+										class="text-hide">GitHub</span></a></li>
+							{{ end }}
+							{{ with .Site.Params.sidebar.instagram }}
+							<li class="d-inline p-3"><a href="//instagram.com/{{ . }}" target="_blank" class="fab fa-instagram"><span
+										class="text-hide">Instagram</span></a></li>
+							{{ end }}
+							{{ with .Site.Params.sidebar.linkedin }}
+							<li class="d-inline p-3"><a href="//linkedin.com/in/{{ . }}" target="_blank" class="fab fa-linkedin"><span
+										class="text-hide">Linkedin</span></a></li>
+							{{ end }}
+							{{ with .Site.Params.sidebar.dribbble }}
+							<li class="d-inline p-3"><a href="//dribbble.com/{{ . }}" target="_blank" class="fab fa-dribbble-square"><span
+										class="text-hide">Dribbble</span></a></li>
+							{{ end }}
+			
+						</ul>
+			</div>
+		</div>
+	</div>
 </footer>
 
+
+<!-- <footer id="footer" class="">
+		<div class="uk-grid-collapse" uk-grid>
+			<div class="uk-grid-item-match uk-flex-middle uk-width-expand@m" style="background-image:url(/bg5.jpg); background-size: cover;">
+				
+			</div>
+			<div class="uk-grid-item-match uk-flex-middle uk-width-expand@m">
+			</div>
+		</div>
+	
+	</footer> -->
+
 {{ "<!-- Scripts -->" | safeHTML }}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/jquery.poptrox.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/util.js"></script>
 <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/respond.min.js"></script><![endif]-->
+<script src="{{ .Site.BaseURL }}js/swup.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
 
 {{ template "_internal/google_analytics_async.html" . }}
