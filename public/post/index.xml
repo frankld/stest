@@ -6,19 +6,10 @@
     <description>Recent content in Posts on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 04:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://thirsty-jepsen-4ccc9d.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Rationis enim perfectio est virtus</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</link>
-      <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</guid>
-      <description>Rationis enim perfectio est virtus; Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
-    </item>
     
     <item>
       <title>Quam hoc suave! </title>
@@ -73,6 +64,15 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/go-is-for-lovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Sylvia is super cute</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</link>
+      <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</guid>
+      <description>Rationis enim perfectio est virtus; Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
     </item>
     
   </channel>

@@ -1,5 +1,6 @@
 {{ partial "head" . }}
 	<body>
+		<div id="swup" class="transition-fade">
 		{{ partial "header" . }}
 			{{ "<!-- Main -->" | safeHTML }}
 
@@ -7,14 +8,15 @@
 			{{ partial "home/intro" . }}
 		{{ end }}
 		
-		<div id="main" class="position-relative" style="z-index:100;" >
+		<main id="main" class="position-relative" style="z-index:100;" >
 			{{ block "main" . }}{{ end }}
-		</div>
+		</main>
 
 		{{ if .IsHome }}
 			{{ partial "home/background" .}}
 		{{ end }}
 
 		{{ partial "footer/footer" . }}
+		</div>
 	</body>
 </html>

@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</loc>
-    <lastmod>2019-03-22T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/test-page/</loc>
     <lastmod>2019-03-22T04:00:00+00:00</lastmod>
   </url>
@@ -40,6 +35,11 @@
   <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/contact-page/</loc>
     <lastmod>2019-03-29T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</loc>
+    <lastmod>2019-03-22T04:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -79,7 +79,7 @@
   
   <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/</loc>
-    <lastmod>2019-03-22T04:00:00+00:00</lastmod>
+    <lastmod>2019-03-21T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -3,7 +3,7 @@
         {{if eq $index 0}}
             <li class="d-inline"><span class="px-3"></span>{{ $element | markdownify }}</li>
         {{ else }}
-            <li class="d-inline"><span class="px-3">|</span>{{ $element | markdownify }}</li>
+            <li class="d-inline"><span class="px-3">/</span>{{ $element | markdownify }}</li>
         {{ end }}
     {{ end }}
 

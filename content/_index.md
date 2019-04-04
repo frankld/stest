@@ -6,8 +6,8 @@ menu:
     weight: 1
 
 intro:
-  header1: "Hey, I'm Francis"
-  header2: "I’M A GRAPHIC DESIGNER BASED IN NEW YORK"
+  header1: "Hey, I'm Francis Laguna-Driscoll"
+  header2: "**I’M A GRAPHIC DESIGNER**"
   description: "Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis.
 "
 eblast:
@@ -17,7 +17,7 @@ eblast:
 
 web:
   header1: "Web Section"
-  header2: "**TOP NOTCH WEB DESIGNS FOR TOP NOTCH COMPANIES**"
+  header2: "**TOP NOTCH WEB DESIGNS FOR FORTUNE 500 COMPANIES**"
   description: "Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis."
 
 ---

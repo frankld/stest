@@ -1,5 +1,3 @@
-
-AOS.init();
 $(document).ready(function(){
     $('.js-tilt').tilt({
         maxTilt:        10,

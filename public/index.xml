@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Rationis enim perfectio est virtus</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</link>
-      <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</guid>
-      <description>Rationis enim perfectio est virtus; Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
-    </item>
-    
-    <item>
       <title>Test Page</title>
       <link>https://thirsty-jepsen-4ccc9d.netlify.com/test-page/</link>
       <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
@@ -93,6 +84,15 @@ This document is a brief primer on using go templates.</description>
       <description>About Me
 Bio My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.
 In addition to web design, I also have a strong interest in branding, digital illustration and web development. When embarking on a new web project, I like to identify the main message or function that the website should fulfill in order to implement it in into the web design.</description>
+    </item>
+    
+    <item>
+      <title>Sylvia is super cute</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</link>
+      <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</guid>
+      <description>Rationis enim perfectio est virtus; Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
     </item>
     
   </channel>
