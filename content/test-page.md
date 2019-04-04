@@ -8,7 +8,7 @@ title = "Test Page"
 weight = 2
 [menu.main]
 name = "About"
-weight = 2
+weight = 3
 
 +++
 # Sed erat aequius Triarium aliquid de dissensione nostra iudicare.

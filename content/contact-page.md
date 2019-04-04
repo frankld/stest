@@ -6,7 +6,7 @@ tags = []
 title = "Contact Page"
 [menu.main]
 name = "Contact"
-weight = 3
+weight = 4
 
 +++
 About Me
