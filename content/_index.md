@@ -13,7 +13,11 @@ intro:
 eblast:
   header1: "E-blast Section"
   header2: "**I’M A GRAPHIC DESIGNER WHO BREAKS THE MOLD AND DOTS THE I’s**"
-  description: "Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis.
-"
+  description: "Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis."
+
+web:
+  header1: "Web Section"
+  header2: "**TOP NOTCH WEB DESIGNS FOR TOP NOTCH COMPANIES**"
+  description: "Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis."
 
 ---
