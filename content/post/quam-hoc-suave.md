@@ -1,7 +1,8 @@
 +++
-banner = "postpic.png"
+banner = "/uploads/1B5D3568-5F54-4202-A683-D9AF454706E7.png"
 categories = ["Design"]
 date = "2019-03-21T04:00:00+00:00"
+menu = ""
 tags = []
 title = "Quam hoc suave! "
 weight = 2
