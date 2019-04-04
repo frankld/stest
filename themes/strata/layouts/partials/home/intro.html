@@ -5,10 +5,15 @@
             <div class="col-12 col-sm-6 vh-100 d-flex align-items-center">
                 <div class="row ">
                     <div class="col-12 p-5">
-                            {{ with .Site.Params.sidebar.bio }}
-                            <h1 class="">{{ . | markdownify }}</h1>
+                            {{ with .Params.intro.header1 }}
+                                <h1 class="font-weight-bold">{{ . | markdownify }}</h1>
                             {{ end }}
-                            <p class="">Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis.</p>
+                            {{ with .Params.intro.header2 }}
+                            <h4 class="font-weight-bold">{{ . | markdownify }}</h4>
+                            {{ end }}
+                            {{ with .Params.intro.description }}
+                                {{ . | markdownify }}
+                            {{ end }}
                     </div>
                 </div>
             </div>
