@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-    let options = {
-        elements: ['#swup']
-    };
-    const swup = new Swup(options);
+    // let options = {
+    //     elements: ['#swup']
+    // };
+    // const swup = new Swup(options);
     
     $('.js-tilt').tilt({
         maxTilt:        10,

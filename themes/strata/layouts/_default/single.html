@@ -1,15 +1,13 @@
 {{ define "main" }}
-<div class="container">
-	<span>
-		<h1>{{ .Title }}</h1>
-
-		{{ partial "post-meta" . }}
-	</span>
-
-	<p>
-	    {{ .Content }}
-	</p>
-
-	{{ template "_internal/disqus.html" . }}
+<div class="container-fluid p-5" style="min-height:calc(100vh - 136px - 168px);">
+	<div class="row">
+		<div class="col-6">
+				<h1>{{ .Title }}</h1>
+			<p>
+				{{ .Content }}
+			</p>
+		</div>
+	</div>
 </div>
+
 {{ end }}
