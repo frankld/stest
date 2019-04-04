@@ -1,4 +1,10 @@
 $(document).ready(function(){
+
+    let options = {
+        elements: ['#swup']
+    };
+    const swup = new Swup(options);
+    
     $('.js-tilt').tilt({
         maxTilt:        10,
         perspective:    2000,   // Transform perspective, the lower the more extreme the tilt gets.

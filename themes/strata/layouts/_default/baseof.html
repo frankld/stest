@@ -1,22 +1,21 @@
 {{ partial "head" . }}
 	<body>
-		<div id="swup" class="transition-fade">
+		
+			
+		<div id="swup">
 		{{ partial "header" . }}
-			{{ "<!-- Main -->" | safeHTML }}
-
+		
 		{{ if .IsHome }}
 			{{ partial "home/intro" . }}
 		{{ end }}
-		
-		<main id="main" class="position-relative" style="z-index:100;" >
+		{{ "<!-- Main -->" | safeHTML }}
+		<main class="position-relative transition-fade" style="z-index:100;" >
 			{{ block "main" . }}{{ end }}
 		</main>
-
 		{{ if .IsHome }}
 			{{ partial "home/background" .}}
 		{{ end }}
-
-		{{ partial "footer/footer" . }}
 		</div>
+		{{ partial "footer/footer" . }}
 	</body>
 </html>
