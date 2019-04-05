@@ -1,16 +1,21 @@
 {{ define "main" }}
 <div class="container-fluid" style="min-height:calc(100vh - 136px - 168px);">
     {{ .Content }}
-    <div class="row no-gutters">
-        {{ $paginator := .Paginate .Data.Pages }}
-        {{ range $paginator.Pages }}
-        <div class="col-4">
-            <div class="">
-                    {{ .Render "summary" }}
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-8">
+                    <div class="row no-gutters">
+                            {{ $paginator := .Paginate .Data.Pages }}
+                            {{ range $paginator.Pages }}
+                            <div class="col-4">
+                                <div class="m-4 shadow-sm">
+                                        {{ .Render "summary" }}
+                                </div>
+                            </div>
+                        {{ end }}
+                        </div>
             </div>
         </div>
-    {{ end }}
-    </div>
     {{ partial "pagination" . }}
 
 </div>
