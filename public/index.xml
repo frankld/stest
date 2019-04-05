@@ -6,18 +6,20 @@
     <description>Recent content in Home on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2015 13:50:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2015 11:50:46 +0000</lastBuildDate>
     
 	<atom:link href="https://thirsty-jepsen-4ccc9d.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test Page</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/test-page/</link>
+      <title>About Me</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/about/</link>
       <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/test-page/</guid>
-      <description>Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/about/</guid>
+      <description>About Me
+Bio My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.
+In addition to web design, I also have a strong interest in branding, digital illustration and web development. When embarking on a new web project, I like to identify the main message or function that the website should fulfill in order to implement it in into the web design.</description>
     </item>
     
     <item>
@@ -78,12 +80,10 @@ This document is a brief primer on using go templates.</description>
     <item>
       <title>Contact Page</title>
       <link>https://thirsty-jepsen-4ccc9d.netlify.com/contact-page/</link>
-      <pubDate>Fri, 29 Mar 2019 04:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://thirsty-jepsen-4ccc9d.netlify.com/contact-page/</guid>
-      <description>About Me
-Bio My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.
-In addition to web design, I also have a strong interest in branding, digital illustration and web development. When embarking on a new web project, I like to identify the main message or function that the website should fulfill in order to implement it in into the web design.</description>
+      <description>Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
     </item>
     
     <item>
