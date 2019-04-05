@@ -3,7 +3,7 @@ baseurl: https://thirsty-jepsen-4ccc9d.netlify.com/
 disqusShortname: FLD
 googleAnalytics: ''
 languageCode: en-us
-paginate: 8
+paginate: 6
 theme: strata
 title: Francis Laguna-Driscoll - Portfolio
 params:
