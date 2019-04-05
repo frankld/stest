@@ -1,5 +1,5 @@
 +++
-banner = ""
+banner = "/uploads/img16.gif"
 categories = ["Design"]
 date = "2019-03-21T04:00:00+00:00"
 tags = []
