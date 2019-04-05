@@ -1,11 +1,11 @@
-<img src="{{ .Params.banner }}" alt="" class="img-fluid">
-<!-- <span>
+{{ with .Params.banner }}
+<img src="{{ . }}" alt="" class="img-fluid w-100">
+{{ end }}
     <h1>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h1>
 
-    {{ partial "post-meta" . }}
-</span>
+    <!-- {{ partial "post-meta" . }}
 
 <p>{{ .Summary }}</p>
 <hr> -->
