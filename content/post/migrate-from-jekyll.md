@@ -1,7 +1,7 @@
 +++
-banner = "banners/placeholder.png"
-categories = ["Lorem"]
-date = "2015-10-10T13:07:31+02:00"
+banner = "/uploads/1B5D3568-5F54-4202-A683-D9AF454706E7.png"
+categories = ["Design"]
+date = "2019-03-21T04:00:00+00:00"
 tags = []
 title = "Migrate from Jekyll"
 weight = 3
