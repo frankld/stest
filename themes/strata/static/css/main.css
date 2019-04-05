@@ -64,3 +64,8 @@ html.is-animating .transition-fade{
 html.is-animating .transition-slide{
 	left:40%;
 }
+
+.v-padding {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}

@@ -11,27 +11,61 @@ name = "About"
 weight = 3
 +++
 
-About Me
-
-## Bio
-
 My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.
 
 In addition to web design, I also have a strong interest in branding, digital illustration and web development. When embarking on a new web project, I like to identify the main message or function that the website should fulfill in order to implement it in into the web design. My style is clean and minimal; however, I like to remain adaptable and learn new web design and user experience trends.
 
-## Education
+<br>
 
-**Universidad Católica Boliviana**  
-Diseño Gráfico y Comunicación Visual, Graphic Design  
-2011-2016
+<div class="row">
 
-## Skills
+<div class="col">
+        
+<h3 class="mb-3">Education</h3>
+
+<h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
+
+<p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
+
+</div>
+
+<div class="col">
+        
+<h3 class="mb-3">Skills</h3>
 
 Web Design  
+
+<br>
+
 Adobe Photoshop, Adobe Illustrator  
+
+<br>
+
 HTML5, CSS3  
+
+<br>
+
 SCSS/SASS  
+
+<br>
+
 jQuery  
+
+<br>
+
 Bootstrap  
+
+<br>
+
 Vue/Nuxt  
+
+<br>
+
 Spanish
+
+
+</div>
+
+</div>
+
+
