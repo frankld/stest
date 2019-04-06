@@ -44,6 +44,8 @@ fields:
   - type: file
     name: image
     label: Image
+  config:
+    labelField: header2
 pages:
 - content/post/migrate-from-jekyll.md
 - content/post/create-a-new-theme.md
