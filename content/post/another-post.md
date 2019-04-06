@@ -4,7 +4,6 @@ categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
 tags = []
 title = "Hearts and Homes for Refugees"
-[menu.]
 [[portfolio_items]]
 description = "Hic nihil fuit, quod quaereremus. Pauca mutat vel plura sane; Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Ut aliquid scire se gaudeant?"
 header1 = "Print Design"
