@@ -30,6 +30,23 @@ fields:
   label: Banner
   config:
     maxSize: '3'
+- type: field_group_list
+  name: portfolio_items
+  label: Portfolio Items
+  description: These are Items
+  fields:
+  - type: text
+    name: header1
+    label: header1
+  - type: text
+    name: header2
+    label: header2
+  - type: textarea
+    name: description
+    label: Short Description
+  - type: file
+    name: image
+    label: Image
 pages:
 - content/post/migrate-from-jekyll.md
 - content/post/create-a-new-theme.md
