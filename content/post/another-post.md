@@ -14,6 +14,7 @@ image = "/uploads/54520896_2375882892423371_8068594303217172480_o.jpg"
 description = "Non autem hoc: igitur ne illud quidem. Sed nimis multa. Confecta res esset. Iam enim adesse poterit. Traditur, inquit, ab Epicuro ratio neglegendi doloris."
 header1 = "Web Design"
 header2 = "Dynamic Layouts and Reusable Components"
+image = "/uploads/EA100891_1.jpg"
 
 +++
 ## Step 1. Install Hugo
