@@ -39,9 +39,9 @@ fields:
   config:
     labelField: header2
 pages:
+- content/post/another-post.md
 - content/post/migrate-from-jekyll.md
 - content/post/create-a-new-theme.md
-- content/post/another-post.md
 - content/post/go-is-for-great-lovers.md
 - content/contact-page.md
 - content/post/rationis-enim-perfectio-est-virtus.md
