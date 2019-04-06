@@ -1,10 +1,12 @@
-<a href="{{ .Permalink }}">
+<a href="{{ .Permalink }}" title="{{ .Title }}"> 
     {{ with .Params.banner }}
-        <img src="{{ . }}" alt="" class="img-fluid w-100 js-tilt shadow" data-tilt>
+        
+    <img src="{{ . }}" alt="" class="work-image img-fluid w-100 js-tilt shadow" data-tilt>
     {{ end }}
 </a>
+
     <!-- <h1>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        
     </h1> -->
 
     <!-- {{ partial "post-meta" . }}

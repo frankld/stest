@@ -9,11 +9,11 @@
             </div>
         </div>
         <div class="col-12 col-xl-8">
-            <div class="row no-gutters">
+            <div class="row no-gutters px-4">
                 {{ $paginator := .Paginate .Data.Pages }}
                 {{ range $paginator.Pages }}
                 <div class="col-12 col-md-4">
-                    <div class="m-4 shadow-sm">
+                    <div class="work m-4 shadow-sm position-relative">
                         {{ .Render "summary" }}
                     </div>
                 </div>

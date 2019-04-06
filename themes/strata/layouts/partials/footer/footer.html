@@ -4,38 +4,31 @@
 <footer class="pt-5 position-absolute w-100" style="z-index: 9999;">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col p-5">
+			<div class="col-12 col-sm-6 px-5 pt-3 pt-sm-5 pb-3 pb-sm-5">
 				{{ partial "footer/copyright" . }}
 			</div>
-			<div class="col p-5 d-flex justify-content-end">
+			<div class="col-12 col-sm-6 px-5 pt-3 pt-sm-5 pb-5 d-inline d-sm-flex justify-content-end">
 					<ul class="social">
 							{{ with .Site.Params.sidebar.googleplus }}
-							<li class="d-inline p-3"><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span
-										class="text-hide">Google Plus</span></a></li>
+							<li class="d-inline p-3"><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span class="text-hide">Google Plus</span></a></li>
 							{{ end }}
 							{{ with .Site.Params.sidebar.facebook }}
-							<li class="d-inline p-3"><a href="//facebook.com/{{ . }}" target="_blank" class="fab fa-facebook-square"><span
-										class="text-hide">Facebook</span></a></li>
+							<li class="d-inline p-3"><a href="//facebook.com/{{ . }}" target="_blank" class="fab fa-facebook-square"><span class="text-hide">Facebook</span></a></li>
 							{{ end }}
 							{{ with .Site.Params.sidebar.twitter }}
-							<li class="d-inline p-3"><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span
-										class="text-hide">Twitter</span></a></li>
+							<li class="d-inline p-3"><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span class="text-hide">Twitter</span></a></li>
 							{{ end }}
 							{{ with .Site.Params.sidebar.github }}
-							<li class="d-inline p-3"><a href="//github.com/{{ . }}" target="_blank" class="icon fa-github"><span
-										class="text-hide">GitHub</span></a></li>
+							<li class="d-inline p-3"><a href="//github.com/{{ . }}" target="_blank" class="icon fa-github"><span class="text-hide">GitHub</span></a></li>
 							{{ end }}
 							{{ with .Site.Params.sidebar.instagram }}
-							<li class="d-inline p-3"><a href="//instagram.com/{{ . }}" target="_blank" class="fab fa-instagram"><span
-										class="text-hide">Instagram</span></a></li>
+							<li class="d-inline p-3"><a href="//instagram.com/{{ . }}" target="_blank" class="fab fa-instagram"><span class="text-hide">Instagram</span></a></li>
 							{{ end }}
 							{{ with .Site.Params.sidebar.linkedin }}
-							<li class="d-inline p-3"><a href="//linkedin.com/in/{{ . }}" target="_blank" class="fab fa-linkedin"><span
-										class="text-hide">Linkedin</span></a></li>
+							<li class="d-inline p-3"><a href="//linkedin.com/in/{{ . }}" target="_blank" class="fab fa-linkedin"><span class="text-hide">Linkedin</span></a></li>
 							{{ end }}
 							{{ with .Site.Params.sidebar.dribbble }}
-							<li class="d-inline p-3"><a href="//dribbble.com/{{ . }}" target="_blank" class="fab fa-dribbble-square"><span
-										class="text-hide">Dribbble</span></a></li>
+							<li class="d-inline p-3"><a href="//dribbble.com/{{ . }}" target="_blank" class="fab fa-dribbble-square"><span class="text-hide">Dribbble</span></a></li>
 							{{ end }}
 			
 						</ul>

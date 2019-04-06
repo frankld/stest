@@ -1,27 +1,16 @@
 {{ "<!-- Header -->" | safeHTML }}
 <header>
-	{{ if .IsHome }}
-		<nav class="navbar navbar-expand-lg vw-100 px-5 pt-5" style="z-index:9999;">
-			{{ else }}
-		<nav class="navbar position-relative navbar-expand-lg vw-100 p-5" style="z-index:9999;">
-	{{ end }}
+	<nav class="navbar navbar-expand-lg vw-100 px-5 pt-5" style="z-index:9999;">
 		<a class="navbar-brand" href="{{ .Site.BaseURL }}">FRANK.LD</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				{{ with .Site.Menus.main }}
-					{{ range . }}
-				<li class="nav-item px-2">
-					<a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-				</li>
-					{{ end }}
-				{{ end }}
-			</ul>
-		</div>
+		<ul class="navbar-nav ml-auto">
+			{{ with .Site.Menus.main }}
+			{{ range . }}
+			<li class="nav-item px-2">
+				<a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+			</li>
+			{{ end }}
+			{{ end }}
+		</ul>
 	</nav>
 </header>
-
