@@ -2,6 +2,11 @@
 label: Basic Post
 hide_body: false
 fields:
+- type: file
+  name: banner
+  label: Banner
+  config:
+    maxSize: '3'
 - type: text
   name: title
   label: Title
@@ -10,9 +15,6 @@ fields:
 - type: datetime
   name: date
   label: Date
-- type: tag_list
-  name: tags
-  label: Tags
 - type: tag_list
   name: categories
   label: Categories
@@ -25,11 +27,25 @@ fields:
     options:
     - Main
   label: Menu
-- type: file
-  name: banner
-  label: Banner
+- type: field_group_list
+  name: portfolio_items
+  label: Portfolio Items
+  description: These are Items
+  fields:
+  - type: text
+    name: header1
+    label: header1
+  - type: text
+    name: header2
+    label: header2
+  - type: textarea
+    name: description
+    label: Short Description
+  - type: file
+    name: image
+    label: Image
   config:
-    maxSize: '3'
+    labelField: header2
 pages:
 - content/post/migrate-from-jekyll.md
 - content/post/create-a-new-theme.md

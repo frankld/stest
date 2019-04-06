@@ -2,9 +2,19 @@
 banner = "/uploads/img2.png"
 categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
-menu = ""
 tags = []
-title = "Another Post"
+title = "Hearts and Homes for Refugees"
+[menu.]
+[[portfolio_items]]
+description = "Hic nihil fuit, quod quaereremus. Pauca mutat vel plura sane; Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Ut aliquid scire se gaudeant?"
+header1 = "Print Design"
+header2 = "Sed plane dicit quod intellegit."
+image = "/uploads/54520896_2375882892423371_8068594303217172480_o.jpg"
+[[portfolio_items]]
+description = "Non autem hoc: igitur ne illud quidem. Sed nimis multa. Confecta res esset. Iam enim adesse poterit. Traditur, inquit, ab Epicuro ratio neglegendi doloris."
+header1 = "Web Design"
+header2 = "Dynamic Layouts and Reusable Components"
+image = "/uploads/EA100891_1.jpg"
 
 +++
 ## Step 1. Install Hugo
