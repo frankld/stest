@@ -6,9 +6,10 @@ tags = []
 title = "Another Post"
 [menu.]
 [[portfolio_items]]
+[[portfolio_items]]
 description = "Non autem hoc: igitur ne illud quidem. Sed nimis multa. Confecta res esset. Iam enim adesse poterit. Traditur, inquit, ab Epicuro ratio neglegendi doloris."
 header1 = "Web Design"
-header2 = "Hearts and Homes for Refugees"
+header2 = "Dynamic Layouts and Reusable Components"
 
 +++
 ## Step 1. Install Hugo
