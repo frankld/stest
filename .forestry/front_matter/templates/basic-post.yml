@@ -2,6 +2,11 @@
 label: Basic Post
 hide_body: false
 fields:
+- type: file
+  name: banner
+  label: Banner
+  config:
+    maxSize: '3'
 - type: text
   name: title
   label: Title
@@ -10,9 +15,6 @@ fields:
 - type: datetime
   name: date
   label: Date
-- type: tag_list
-  name: tags
-  label: Tags
 - type: tag_list
   name: categories
   label: Categories
@@ -25,11 +27,6 @@ fields:
     options:
     - Main
   label: Menu
-- type: file
-  name: banner
-  label: Banner
-  config:
-    maxSize: '3'
 - type: field_group_list
   name: portfolio_items
   label: Portfolio Items
