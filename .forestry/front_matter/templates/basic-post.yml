@@ -19,14 +19,6 @@ fields:
   name: categories
   label: Categories
   description: Select your Categories
-- type: select
-  name: menu
-  config:
-    source:
-      type: simple
-    options:
-    - Main
-  label: Menu
 - type: field_group_list
   name: portfolio_items
   label: Portfolio Items
