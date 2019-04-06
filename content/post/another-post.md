@@ -2,9 +2,13 @@
 banner = "/uploads/img2.png"
 categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
-menu = ""
 tags = []
 title = "Another Post"
+[menu.]
+[[portfolio_items]]
+description = "Non autem hoc: igitur ne illud quidem. Sed nimis multa. Confecta res esset. Iam enim adesse poterit. Traditur, inquit, ab Epicuro ratio neglegendi doloris."
+header1 = "Web Design"
+header2 = "Hearts and Homes for Refugees"
 
 +++
 ## Step 1. Install Hugo
