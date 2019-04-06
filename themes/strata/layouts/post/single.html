@@ -15,11 +15,20 @@
 			{{ template "_internal/disqus.html" . }}
 		</div>
 	</div>
-	<div class="row">
-		<div class="col">
 
+	{{ range .Params.portfolio_items }}
+	<div class="row">
+		<div class="col-12 col-lg-6 p-5">
+			<h4 class="text-primary">{{ .header1 }}</h4>
+			<h2 class="font-weight-bold mb-3">{{ .header2 }}</h2>
+			<p>{{ .description }}</p>
+		</div>
+		<div class="col-12 col-lg-6 p-5 d-flex justify-content-center">
+			<img src="{{ .image }}" alt="" class="img-fluid" style="max-height:50vh;">
 		</div>
 	</div>
+	{{ end }}
 </div>
+
 
 {{ end }}
