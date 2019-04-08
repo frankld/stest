@@ -39,6 +39,7 @@ fields:
   config:
     labelField: header2
 pages:
+- content/post/wam-partners-website-proposal.md
 - content/post/another-post.md
 - content/post/migrate-from-jekyll.md
 - content/post/create-a-new-theme.md
