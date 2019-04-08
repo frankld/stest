@@ -7,6 +7,11 @@ thumb = "/uploads/agua1.png"
 title = "CREATE A NEW THEME!"
 [[portfolio_items]]
 description = "Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo. Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum; Qui potest igitur habitare in beata vita summi mali metus?"
+header1 = "Flat 2d Style"
+header2 = "Toon style Illustrations"
+image = "/uploads/agua1.png"
+[[portfolio_items]]
+description = "Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo. Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum; Qui potest igitur habitare in beata vita summi mali metus?"
 header1 = "Digital Illustration"
 header2 = "Water Safety Social Media Posts"
 image = "/uploads/agua2.png"
