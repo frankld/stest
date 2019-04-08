@@ -3,8 +3,8 @@ label: Basic Post
 hide_body: false
 fields:
 - type: file
-  name: banner
-  label: Banner
+  name: thumb
+  label: Thumbnail
   config:
     maxSize: '3'
 - type: text
