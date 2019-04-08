@@ -84,3 +84,11 @@ html.is-animating .transition-slide{
     -o-transform: translate(-50%, -50%);
 }
 
+
+.medium-zoom-image--opened {
+z-index: 201;
+}
+
+.medium-zoom-overlay {
+    z-index: 200;
+}

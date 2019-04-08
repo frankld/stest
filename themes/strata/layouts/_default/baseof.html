@@ -8,15 +8,16 @@
 			{{ partial "home/intro" . }}
 		{{ end }}
 		{{ "<!-- Main -->" | safeHTML }}
-		<main class="position-relative" style="z-index:100;" >
+		<main class="main-content position-relative" style="z-index: 100;" >
 			{{ block "main" . }}{{ end }}
 		</main>
 		
-		
 			{{ partial "home/background" .}}
+
 		
 		</div>
 	</div>
 		{{ partial "footer/footer" . }}
+		<div id="zoom-content" style="width:100vw; height:100vh; position:absolute; top:0; left:0; z-index:102; pointer-events:none; "></div>
 	</body>
 </html>

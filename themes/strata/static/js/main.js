@@ -4,6 +4,9 @@ $(document).ready(function(){
     //     elements: ['#swup']
     // };
     // const swup = new Swup(options);
+    mediumZoom('.single-image', {
+        margin: 24
+    })
     
     $('.js-tilt').tilt({
         maxTilt:        10,

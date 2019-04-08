@@ -1,7 +1,6 @@
 <a href="{{ .Permalink }}" title="{{ .Title }}"> 
     {{ with .Params.banner }}
-        
-    <img src="{{ . }}" alt="" class="work-image img-fluid w-100 js-tilt shadow" data-tilt>
+    <img src="{{ . }}" alt="" class="work-image img-fluid w-100 js-tilt shadow" data-tilt data-action="zoom" data-zoom-src="{{ . }}">
     {{ end }}
 </a>
 
