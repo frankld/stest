@@ -34,6 +34,11 @@ fields:
     name: description
     label: Short Description
   - type: file
+    name: thumb
+    label: Thumbnail
+    config:
+      maxSize: '2'
+  - type: file
     name: image
     label: Image
   config:
