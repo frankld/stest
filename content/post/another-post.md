@@ -16,6 +16,7 @@ description = "Non autem hoc: igitur ne illud quidem. Sed nimis multa. Confecta 
 header1 = "Web Design"
 header2 = "Dynamic Layouts and Reusable Components"
 image = "/uploads/EA100891_1.jpg"
+thumb = "/uploads/EA100891_1.jpg"
 
 +++
 ## Step 1. Install Hugo
