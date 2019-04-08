@@ -4,7 +4,7 @@ categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
 tags = []
 thumb = "/uploads/agua1.png"
-title = "CREATE A NEW THEME!"
+title = "GAMLP Social Media Illustrations"
 [[portfolio_items]]
 description = "Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo. Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum; Qui potest igitur habitare in beata vita summi mali metus?"
 header1 = "Flat 2d Style"
