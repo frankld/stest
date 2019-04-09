@@ -4,6 +4,7 @@ categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
 portfolio_items = []
 tags = []
+thumb = "/uploads/wam_photography_thumb.jpg"
 title = "Go is a piece of shit"
 
 +++
