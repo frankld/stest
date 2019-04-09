@@ -39,11 +39,11 @@ fields:
   config:
     labelField: header2
 pages:
+- content/post/go-is-for-great-lovers.md
 - content/post/migrate-from-jekyll.md
 - content/post/create-a-new-theme.md
 - content/post/wam-partners-website-proposal.md
 - content/post/another-post.md
-- content/post/go-is-for-great-lovers.md
 - content/contact-page.md
 - content/post/rationis-enim-perfectio-est-virtus.md
 - content/post/quam-hoc-suave.md
