@@ -1,9 +1,11 @@
 +++
 banner = "/uploads/1B5D3568-5F54-4202-A683-D9AF454706E7.png"
-categories = ["Design"]
-date = "2019-03-21T04:00:00+00:00"
+categories = ["Illustration"]
+date = "2018-02-14T05:00:00+00:00"
+portfolio_items = []
 tags = []
-title = "Quam hoc suave! "
+thumb = "/uploads/img4.png"
+title = "Digital Illustration"
 weight = 2
 
 +++
