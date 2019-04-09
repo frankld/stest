@@ -2,8 +2,11 @@
 banner = "/uploads/courier-02.png"
 categories = ["Branding"]
 date = "2019-03-22T04:00:00+00:00"
+portfolio_items = []
 tags = []
+thumb = "/uploads/fl1-1.png"
 title = "Sylvia is super cute"
+
 +++
 # Rationis enim perfectio est virtus;
 
