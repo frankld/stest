@@ -1,16 +1,17 @@
 {{ "<!-- Header -->" | safeHTML }}
 <header>
-	<nav class="navbar vw-100 px-5 pt-5" style="z-index:9999;">
-		<a class="navbar-brand" href="{{ .Site.BaseURL }}">FRANK.LD</a>
-
-		<ul class="navbar-nav ml-auto flex-row">
-			{{ with .Site.Menus.main }}
-			{{ range . }}
-			<li class="nav-item px-2">
-				<a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-			</li>
-			{{ end }}
-			{{ end }}
-		</ul>
-	</nav>
-</header>
+		<nav class="navbar vw-100 px-5 align-items-end" style="z-index:9999; height: 8vh">
+			<a class="navbar-brand" href="{{ .Site.BaseURL }}">FRANK.LD</a>
+	
+			<ul class="navbar-nav ml-auto flex-row">
+				{{ with .Site.Menus.main }}
+				{{ range . }}
+				<li class="nav-item px-2">
+					<a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+				{{ end }}
+			</ul>
+		</nav>
+	</header>
+	

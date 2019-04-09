@@ -1,23 +1,20 @@
 {{ partial "head" . }}
 	<body>	
-	<div id="swup">
-			{{ partial "header" . }}
-		<div class="transition-fade">
 		
-		{{ if .IsHome }}
-			{{ partial "home/intro" . }}
-		{{ end }}
+		{{ partial "header" . }}
+
 		{{ "<!-- Main -->" | safeHTML }}
-		<main class="main-content position-relative" style="z-index: 100;" >
+		<main class="main-content position-relative" style="z-index: 100; height: 84vh; overflow:scroll;" >
+			{{ if .IsHome }}
+				{{ partial "home/intro" . }}
+			{{ end }}
 			{{ block "main" . }}{{ end }}
 		</main>
 		
-			{{ partial "home/background" .}}
-
-		
-		</div>
-	</div>
 		{{ partial "footer/footer" . }}
-		<div id="zoom-content" style="width:100vw; height:100vh; position:absolute; top:0; left:0; z-index:102; pointer-events:none; "></div>
+
+		{{ partial "home/background" .}}
+		
+		{{ partial "footer/scripts" . }}
 	</body>
 </html>
