@@ -1,6 +1,5 @@
 <ul class="copyright">
     {{ range $index, $element := .Site.Params.sidebar.copyright  }}
-    <li class="d-inline"> test branch </li>
         {{if eq $index 0}}
             <li class="d-inline"><span class="px-3"></span>{{ $element | markdownify }}</li>
         {{ else }}

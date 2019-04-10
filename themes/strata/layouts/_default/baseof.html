@@ -1,20 +1,24 @@
 {{ partial "head" . }}
 	<body>	
-		
+		<div id="swup">
 		{{ partial "header" . }}
 
-		{{ "<!-- Main -->" | safeHTML }}
-		<main class="main-content position-relative" style="z-index: 100; height: 84vh; overflow:scroll;" >
-			{{ if .IsHome }}
-				{{ partial "home/intro" . }}
-			{{ end }}
-			{{ block "main" . }}{{ end }}
-		</main>
+			{{ "<!-- Main -->" | safeHTML }}
+			<main class="main-content position-relative transition-fade" style="z-index: 100; height: 84vh; overflow:scroll;" >
+				{{ if .IsHome }}
+					{{ partial "home/intro" . }}
+				{{ end }}
+				{{ block "main" . }}{{ end }}
+			</main>
+		
+
 		
 		{{ partial "footer/footer" . }}
+
 
 		{{ partial "home/background" .}}
 		
 		{{ partial "footer/scripts" . }}
+		</div>
 	</body>
 </html>

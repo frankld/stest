@@ -1,5 +1,6 @@
 {{ define "main" }}
-<div class="container-fluid d-flex align-items-center" style="min-height:calc(100vh - 136px - 168px); max-width: 2000px;">
+<div class="list-container d-inline d-lg-flex align-items-center justify-content-center h-100 m-auto" style="max-width:1440px;">
+<div class="container-fluid">
     {{ .Content }}
     <div class="row">
         <div class="col-12 col-xl-4 px-5 py-4 d-flex align-items-center">
@@ -13,7 +14,7 @@
                 {{ $paginator := .Paginate .Data.Pages }}
                 {{ range $paginator.Pages }}
                 <div class="col-12 col-md-4">
-                    <div class="work m-4 shadow-sm position-relative">
+                    <div class="work m-4 shadow-sm position-relative bg-light">
                         {{ .Render "summary" }}
                     </div>
                 </div>
@@ -21,7 +22,9 @@
             </div>
         </div>
     </div>
-    {{ partial "pagination" . }}
-
+    <div class="row">
+                {{ partial "pagination" . }}
+    </div>
 </div>
+</div> 
 {{ end }}

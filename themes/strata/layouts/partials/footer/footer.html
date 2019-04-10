@@ -2,10 +2,10 @@
 
 <footer class="position-relative px-5 container-fluid d-flex align-items-center w-100" style="z-index:102; height: 8vh">
 		<div class="row w-100">
-			<div class="col">
+			<div class="col-12 col-sm-6 p-2">
 					{{ partial "footer/copyright" . }}
 			</div>
-			<div class="col d-inline d-sm-flex justify-content-end">
+			<div class="col-12 col-sm-6 p-2 d-inline d-sm-flex justify-content-end">
 					<ul class="social">
 							{{ with .Site.Params.sidebar.googleplus }}
 							<li class="d-inline p-3"><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span class="text-hide">Google Plus</span></a></li>
