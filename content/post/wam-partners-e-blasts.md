@@ -1,7 +1,6 @@
 +++
 categories = ["EBlast"]
 date = "2018-01-18T05:00:00+00:00"
-draft = true
 thumb = "/uploads/mc_wam_thumb.jpg"
 title = "WAM Partners E-Blasts"
 [[portfolio_items]]
