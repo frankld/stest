@@ -39,6 +39,7 @@ fields:
   config:
     labelField: header2
 pages:
+- content/post/think-animated-gif.md
 - content/post/wam-partners-e-blasts.md
 - content/post/go-is-for-great-lovers.md
 - content/post/migrate-from-jekyll.md
