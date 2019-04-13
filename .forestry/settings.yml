@@ -11,20 +11,13 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: PORTFOLIO POSTS
 - type: directory
   path: content/post
   label: Post
   create: all
   match: "**/*"
-- type: heading
-  label: PORTFOLIO POSTS
-- type: directory
-  path: content/portfolio
-  label: Portfolio Entry
-  create: all
-  match: "**/*"
-  templates:
-  - basic-post
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
