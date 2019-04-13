@@ -4,7 +4,7 @@ disqusShortname: FLD
 googleAnalytics: ''
 languageCode: en-us
 paginate: 6
-theme: strata
+theme: frank
 title: Francis Laguna-Driscoll - Portfolio
 params:
   custom_css: []

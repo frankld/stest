@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+    <body>
+        <header>
+            {{ block "header" .}} {{ end }}
+        </header>
+        <div id="content" style="padding:10px;">
+        {{ block "main" . }}{{ end }}
+        </div>
+        <hr>
+        <footer>
+            {{ block "footer" .}}{{ end }}    
+        </footer>
+        {{ partial "scripts.html" }}
+    </body>
+</html>

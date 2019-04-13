@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2019 04:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://thirsty-jepsen-4ccc9d.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Animation</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/animation/</link>
+      <pubDate>Thu, 11 Apr 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/animation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Branding</title>
@@ -30,20 +39,47 @@
     </item>
     
     <item>
-      <title>Ipsum</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ipsum/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      <title>Eblast</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/eblast/</link>
+      <pubDate>Thu, 18 Jan 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ipsum/</guid>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/eblast/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Lorem</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/lorem/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Illustration</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/illustration/</link>
+      <pubDate>Wed, 14 Feb 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/lorem/</guid>
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/illustration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/photography/</link>
+      <pubDate>Thu, 04 Apr 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ux/Ui</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ux/ui/</link>
+      <pubDate>Mon, 08 Apr 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ux/ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Design</title>
+      <link>https://thirsty-jepsen-4ccc9d.netlify.com/categories/web-design/</link>
+      <pubDate>Mon, 08 Apr 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/categories/web-design/</guid>
       <description></description>
     </item>
     

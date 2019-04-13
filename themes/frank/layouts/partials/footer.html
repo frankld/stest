@@ -1,0 +1,3 @@
+        {{ range $index, $element := .Site.Params.sidebar.copyright  }}
+            {{ $element | markdownify }}
+        {{ end }}

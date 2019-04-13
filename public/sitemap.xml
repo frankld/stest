@@ -9,27 +9,37 @@
   
   <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/quam-hoc-suave/</loc>
-    <lastmod>2019-03-21T04:00:00+00:00</lastmod>
+    <lastmod>2018-02-14T05:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/migrate-from-jekyll/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <lastmod>2019-03-21T04:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/think-animated-gif/</loc>
+    <lastmod>2019-04-11T04:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/wam-partners-website-proposal/</loc>
+    <lastmod>2019-04-08T04:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/create-a-new-theme/</loc>
+    <lastmod>2019-04-04T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/another-post/</loc>
+    <lastmod>2019-04-04T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/go-is-for-great-lovers/</loc>
+    <lastmod>2019-04-04T04:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,8 +53,19 @@
   </url>
   
   <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/wam-partners-e-blasts/</loc>
+    <lastmod>2018-01-18T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/</loc>
     <lastmod>2015-06-24T11:50:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/animation/</loc>
+    <lastmod>2019-04-11T04:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -55,7 +76,7 @@
   
   <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/</loc>
-    <lastmod>2019-03-22T04:00:00+00:00</lastmod>
+    <lastmod>2019-04-11T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -66,25 +87,43 @@
   </url>
   
   <url>
-    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ipsum/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/eblast/</loc>
+    <lastmod>2018-01-18T05:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/lorem/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/illustration/</loc>
+    <lastmod>2018-02-14T05:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/photography/</loc>
+    <lastmod>2019-04-04T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/post/</loc>
-    <lastmod>2019-03-21T04:00:00+00:00</lastmod>
+    <lastmod>2018-02-14T05:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thirsty-jepsen-4ccc9d.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/ux/ui/</loc>
+    <lastmod>2019-04-08T04:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-jepsen-4ccc9d.netlify.com/categories/web-design/</loc>
+    <lastmod>2019-04-08T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
