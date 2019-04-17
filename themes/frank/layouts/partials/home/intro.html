@@ -1,0 +1,29 @@
+{{ "<!-- INTRO -->" | safeHTML }}
+
+<div class="container-fluid position-relative v-padding" style="z-index:105; max-width: 2000px;">
+        <div class="row">
+            <div class="col-12 col-lg-4 col-xl-5 d-flex align-items-center">
+                <div class="row ">
+                    <div class="col-12 p-5">
+                            {{ with .Params.intro.header1 }}
+                                <h3 class="text-primary">{{ . | markdownify }}</h3>
+                            {{ end }}
+                            {{ with .Params.intro.header2 }}
+                            <h1 class="mb-4">{{ . | markdownify }}</h1>
+                            {{ end }}
+                            {{ with .Params.intro.description }}
+                                {{ . | markdownify }}
+                            {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 col-xl-7 d-flex align-items-center">
+                <div class="row ">
+                    <div class="col-12 p-5">
+                        <img src="frank.jpg" alt="This is me" class="js-tilt-lg shadow-lg img-fluid" data-tilt>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
