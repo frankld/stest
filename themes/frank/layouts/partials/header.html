@@ -1,57 +1,49 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
+<nav class="navbar navbar-light bg-light" role="navigation" aria-label="main navigation">
+  <div class="container px-4">
+    <div class="navbar-brand py-3">
+      <a class="navbar-brand" href="/">
+        <h1 id="logo" class="text-weight-bold h3 mb-0">
+          <span class="F">F</span>
+          <span class="R">R</span>
+          <span class="A">A</span>
+          <span class="N">N</span>
+          <span class="K">K</span>
+          <span class="DOT">.</span>
+          <span class="L">L</span>
+          <span class="D">D</span>
+        </h1>
+      </a>
+    </div>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
+    <a href="#" class="toggler">
+      <span class="navbar-toggler-bars"></span>
+      <span class="navbar-toggler-bars"></span>
+      <span class="navbar-toggler-bars"></span>
     </a>
   </div>
+</nav>
 
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-end">
-     {{ range .Site.Menus.main }}
-      <a class="navbar-item" href="{{ .URL }}">
-        {{ .Name}}
-      </a>
-      {{ end }}
+<aside id="mySidenav" class="sidenav">
+    <a id="nav-close" class="toggler close" href="#"></a>
+  <div class="container" style="max-width:900px;">
+    <div class="row vh-100 d-flex align-items-center">
+      <div class="col p-4">
+        <div>
+          <div class="pb-5 text-center text-sm-left">
+            <h1 class="menu-header"> <strong>FRANCIS <br> LAGUNA-DRISCOLL</strong></h1>
+            <h3 class="menu-header" style="font-weight:400;">DESIGNER / PHOTOGRAPHER</h3>
+          </div>
+          <ul class="nav flex-column text-center text-sm-left">
+            {{ $currentPage := .Page }}
+            {{ range .Site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link {{ if eq $currentPage.URL .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
     </div>
   </div>
-</nav>
-
-
-
-<!--
-<nav class="">
-  <a class="" href="#" title="Home">
-    <h1 class="f4 lh-title">FRANK.LD</h1>
-  </a>
-  <div class="">
-           {{ range .Site.Menus.main }}
-            <a class="" href="{{ .URL }}">{{ .Name}}</a>
-        {{ end }}
-  </div>
-</nav>
-
--->
-
-
-
-<!--
-<header class="" style="">
-    <h1>
-        <a href="{{ .Site.BaseURL }}"></a>
-    </h1>
-    <ul>
-        {{ range .Site.Menus.main }}
-        <li>
-            <a href="{{ .URL }}">{{ .Name}}</a>
-        </li>
-        {{ end }}
-    </ul>
-    <a href="#">Menu</a>
-</header>
--->
+</aside>
