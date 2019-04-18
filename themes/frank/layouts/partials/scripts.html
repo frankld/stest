@@ -1,5 +1,6 @@
 {{ $jquery := resources.Get "node_modules/jquery/dist/jquery.min.js" }}
 {{ $popper := resources.Get "node_modules/popper.js/dist/umd/popper.min.js" }}
+{{ $tilt := resources.Get "node_modules/" }}
 {{ $gsap := resources.Get "node_modules/gsap/src/minified/TweenMax.min.js" }}
 {{ $global := resources.Get "js/global.js" }}
 {{ $scripts := slice $jquery $gsap $popper $global | resources.Concat "js/bundle.js" }}

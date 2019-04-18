@@ -15,7 +15,8 @@ let header = document.querySelectorAll('.menu-header');
                 TweenMax.staggerFrom( items  , .5, { x: -100 , opacity: 0, delay: .5 }, 0.08);
             }
             else {
-                
+                TweenMax.staggerFrom( header  , .1, { x: -100 , opacity: 0 }, 0.1);
+                TweenMax.staggerFrom( items  , .1, { x: -100 , opacity: 0 }, 0.08);
             }
          });
     });
