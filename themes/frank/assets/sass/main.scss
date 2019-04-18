@@ -2,7 +2,8 @@ $primary: rgb(240, 68, 0);
 $headings-font-family: 'Montserrat';
 $headings-font-weight: 700;
 $logo-font-weight: 800;
-
+$menu-color: #333;
+$menu-opacity: 0.5;
 
 
 $container-max-widths: (
@@ -18,16 +19,17 @@ $speed: 600ms;
 $easing: cubic-bezier(0.7, 0, 0, 0.7);
 
 .toggler .navbar-toggler-bars {
-    transition: all 90ms;
+    transition: all 200ms;
     display: block;
     position: relative;
     height: 3px;
     width: 30px;
-    background-color: #212529;
-    -webkit-transition: all 90ms;
-    -moz-transition: all 90ms;
-    -ms-transition: all 90ms;
-    -o-transition: all 90ms;
+    background-color: $menu-color;
+    opacity: $menu-opacity;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
 }
 
 .close {
@@ -46,19 +48,31 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
     left: 15px;
     content: ' ';
     height: 33px;
-    width: 5px;
-    background-color: #333;
+    width: 3px;
+    background-color: $menu-color;
+    opacity: $menu-opacity;
   }
   .close:before {
     transform: rotate(45deg);
-  }
+    opacity: 1;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
   .close:after {
     transform: rotate(-45deg);
-  }
+    opacity: 1;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
   
 
 .toggler:hover .navbar-toggler-bars {
     width: 25px;
+    opacity: 1;
 }
 
 .toggler .navbar-toggler-bars:nth-of-type(2)  {

@@ -7022,16 +7022,17 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .toggler .navbar-toggler-bars {
-  transition: all 90ms;
+  transition: all 200ms;
   display: block;
   position: relative;
   height: 3px;
   width: 30px;
-  background-color: #212529;
-  -webkit-transition: all 90ms;
-  -moz-transition: all 90ms;
-  -ms-transition: all 90ms;
-  -o-transition: all 90ms; }
+  background-color: #333;
+  opacity: 0.5;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms; }
 
 .close {
   position: absolute;
@@ -7049,17 +7050,29 @@ a.text-dark:hover, a.text-dark:focus {
   left: 15px;
   content: ' ';
   height: 33px;
-  width: 5px;
-  background-color: #333; }
+  width: 3px;
+  background-color: #333;
+  opacity: 0.5; }
 
 .close:before {
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  opacity: 1;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg); }
 
 .close:after {
-  transform: rotate(-45deg); }
+  transform: rotate(-45deg);
+  opacity: 1;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg); }
 
 .toggler:hover .navbar-toggler-bars {
-  width: 25px; }
+  width: 25px;
+  opacity: 1; }
 
 .toggler .navbar-toggler-bars:nth-of-type(2) {
   right: 0px;
