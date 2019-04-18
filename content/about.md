@@ -28,6 +28,16 @@ In addition to web design, I also have a strong interest in branding, digital il
           <p>jQuery</p>
           <p>Bootstrap</p>
           <p>Vue/Nuxt</p>
+          <p>Hugo</p>
+        </div>
+        <div class="col">
+			<h6 class="font-weight-bold">Design Tools</h6>
+          <p>Adobe Photoshop</p>
+          <p>Adobe Illustrator</p>
+          <p>Adobe Indesign</p>
+          <p>Adobe XD</p>          
+          <p>Sketch</p>
+          <p>Vue/Nuxt</p>
         </div>
       </div>
 	</div>
@@ -42,3 +52,31 @@ In addition to web design, I also have a strong interest in branding, digital il
     <p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
   </div>
 </div>
+
+<br>
+
+Adobe Photoshop, Adobe Illustrator
+
+<br>
+
+
+
+<br>
+
+SCSS/SASS
+
+<br>
+
+jQuery
+
+<br>
+
+Bootstrap
+
+<br>
+
+Vue/Nuxt
+
+<br>
+
+Spanish
