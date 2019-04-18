@@ -11,7 +11,7 @@ let header = document.querySelectorAll('.menu-header');
         t.addEventListener("mousedown", function(){ 
             sidenav.classList.toggle('menu-active');
             if (k === 0) {
-                TweenMax.staggerFrom( header  , .5, { x: -100 , opacity: 0 }, 0.2);
+                TweenMax.staggerFrom( header  , .5, { x: -100 , opacity: 0 , delay: .4 }, 0.1);
                 TweenMax.staggerFrom( items  , .5, { x: -100 , opacity: 0, delay: .5 }, 0.08);
             }
             else {
