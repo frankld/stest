@@ -21,8 +21,8 @@ In addition to web design, I also have a strong interest in branding, digital il
 <div class="col">
 <h3 class="mb-3">Skills</h3>
 <div class="row">
-<div class="col">
-<h6 class="font-weight-bold mb-3">Web Development</h6>
+<div class="col-12 col-sm-4">
+<h5 class="font-weight-bold mb-3">Web Development</h5>
 <p>HTML5, CSS3</p>
 <p>SCSS/SASS</p>
 <p>jQuery</p>
@@ -30,8 +30,8 @@ In addition to web design, I also have a strong interest in branding, digital il
 <p>Vue/Nuxt</p>
 <p>Hugo</p>
 </div>
-<div class="col">
-<h6 class="font-weight-bold mb-3">Design Tools</h6>
+<div class="col-12 col-sm-4">
+<h5 class="font-weight-bold mb-3">Design Tools</h5>
 <p>Adobe Photoshop</p>
 <p>Adobe Illustrator</p>
 <p>Adobe Indesign</p>
@@ -39,8 +39,8 @@ In addition to web design, I also have a strong interest in branding, digital il
 <p>Sketch</p>
 <p>Vue/Nuxt</p>
 </div>
-<div class="col">
-<h6 class="font-weight-bold mb-3">Animation</h6>
+<div class="col-12 col-sm-4">
+<h5 class="font-weight-bold mb-3">Animation</h5>
 <p>Adobe After Effects </p>
 <p>GSAP</p>
 <p>ScrollMagic</p>
