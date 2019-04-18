@@ -22,16 +22,16 @@ In addition to web design, I also have a strong interest in branding, digital il
       <h3 class="mb-3">Skills</h3>
       <div class="row">
 		<div class="col">
-			<h6 class="font-weight-bold">Web Development</h6>
-          HTML5, CSS3<br>
-          SCSS/SASS<br>
-          jQuery<br>
-          Bootstrap<br>
-          Vue/Nuxt<br>
-          Hugo
+			<h6 class="font-weight-bold mb-3">Web Development</h6>
+			<p>HTML5, CSS3</p>
+			<p>SCSS/SASS</p>
+			<p>jQuery</p>
+			<p>Bootstrap</p>
+			<p>Vue/Nuxt</p>
+			<p>Hugo</p>
         </div>
         <div class="col">
-			<h6 class="font-weight-bold">Design Tools</h6>
+			<h6 class="font-weight-bold mb-3">Design Tools</h6>
           <p>Adobe Photoshop</p>
           <p>Adobe Illustrator</p>
           <p>Adobe Indesign</p>
