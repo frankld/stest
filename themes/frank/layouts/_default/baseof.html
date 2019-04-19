@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-    {{ partial "head.html" . }}
+    {{ partial "header/head.html" . }}
     <body>
         <header>
             {{ block "header" .}} {{ end }}
         </header>
-        <div id="content" style="padding:10px;">
+        <div id="content" class="pt-5">
         {{ block "main" . }}{{ end }}
         </div>
-        <hr>
         <footer>
             {{ block "footer" .}}{{ end }}    
         </footer>

@@ -1,3 +1,11 @@
-        {{ range $index, $element := .Site.Params.sidebar.copyright  }}
-            {{ $element | markdownify }}
-        {{ end }}
+<div class="bg-light vw-100">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                {{ range $index, $element := .Site.Params.sidebar.copyright  }}
+                    {{ $element | markdownify }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

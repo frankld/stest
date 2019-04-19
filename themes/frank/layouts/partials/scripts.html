@@ -2,6 +2,12 @@
 {{ $popper := resources.Get "node_modules/popper.js/dist/umd/popper.min.js" }}
 {{ $tilt := resources.Get "node_modules/tilt.js/dest/tilt.jquery.min.js" }}
 {{ $gsap := resources.Get "node_modules/gsap/src/minified/TweenMax.min.js" }}
+{{ $imports := slice $jquery $tilt $gsap $popper | resources.Concat "js/imports.js" }}
+
+{{ $jstart := resources.Get "js/start.js" }}
+{{ $tilter := resources.Get "js/tilter.js" }}
 {{ $global := resources.Get "js/global.js" }}
-{{ $scripts := slice $jquery $tilt $gsap $popper $global | resources.Concat "js/bundle.js" }}
+{{ $jend := resources.Get "js/end.js"  }}
+{{ $scripts := slice $jstart $tilter $global $jend | resources.Concat "js/bundle.js" | resources.Minify }}
+<script src="{{ $imports.Permalink }}"></script>
 <script src="{{ $scripts.Permalink }}"></script>

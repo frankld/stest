@@ -2,78 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Francis Laguna-Driscoll - Portfolio</title>
-    <link>https://thirsty-jepsen-4ccc9d.netlify.com/</link>
+    <link>https://frankld.netlify.com/</link>
     <description>Recent content in Home on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 11:50:46 +0000</lastBuildDate>
     
-	<atom:link href="https://thirsty-jepsen-4ccc9d.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://frankld.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/about/</link>
+      <link>https://frankld.netlify.com/about/</link>
       <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/about/</guid>
+      <guid>https://frankld.netlify.com/about/</guid>
       <description>My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.
 In addition to web design, I also have a strong interest in branding, digital illustration and web development. When embarking on a new web project, I like to identify the main message or function that the website should fulfill in order to implement it in into the web design.</description>
     </item>
     
     <item>
       <title>Digital Illustration</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/quam-hoc-suave/</link>
+      <link>https://frankld.netlify.com/post/quam-hoc-suave/</link>
       <pubDate>Wed, 14 Feb 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/quam-hoc-suave/</guid>
+      <guid>https://frankld.netlify.com/post/quam-hoc-suave/</guid>
       <description>Ait enim se, si uratur, Quam hoc suave! dicturum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. De vacuitate doloris eadem sententia erit. Sed in rebus apertissimis nimium longi sumus. Quia nec honesto quic quam honestius nec turpi turpius. Duo Reges: constructio interrete. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Qua tu etiam inprudens utebare non numquam.
  Sit enim idem caecus, debilis. Qui enim voluptatem ipsam contemnunt, iis licet dicere se acupenserem maenae non anteponere.</description>
     </item>
     
     <item>
       <title>Hearts and Homes for Refugees</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/migrate-from-jekyll/</link>
+      <link>https://frankld.netlify.com/post/migrate-from-jekyll/</link>
       <pubDate>Thu, 21 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/migrate-from-jekyll/</guid>
+      <guid>https://frankld.netlify.com/post/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
     </item>
     
     <item>
       <title>Think Animated Gif</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/think-animated-gif/</link>
+      <link>https://frankld.netlify.com/post/think-animated-gif/</link>
       <pubDate>Thu, 11 Apr 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/think-animated-gif/</guid>
+      <guid>https://frankld.netlify.com/post/think-animated-gif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WAM Partners Website Proposal</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/wam-partners-website-proposal/</link>
+      <link>https://frankld.netlify.com/post/wam-partners-website-proposal/</link>
       <pubDate>Mon, 08 Apr 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/wam-partners-website-proposal/</guid>
+      <guid>https://frankld.netlify.com/post/wam-partners-website-proposal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GAMLP Social Media Illustrations</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/create-a-new-theme/</link>
+      <link>https://frankld.netlify.com/post/create-a-new-theme/</link>
       <pubDate>Thu, 04 Apr 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/create-a-new-theme/</guid>
+      <guid>https://frankld.netlify.com/post/create-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>JAM &amp; HONEY TEST</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/another-post/</link>
+      <link>https://frankld.netlify.com/post/another-post/</link>
       <pubDate>Thu, 04 Apr 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/another-post/</guid>
+      <guid>https://frankld.netlify.com/post/another-post/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo</description>
@@ -81,38 +81,38 @@ More complete instructions are available at installing hugo</description>
     
     <item>
       <title>WAM Partners Photography</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/go-is-for-great-lovers/</link>
+      <link>https://frankld.netlify.com/post/go-is-for-great-lovers/</link>
       <pubDate>Thu, 04 Apr 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/go-is-for-great-lovers/</guid>
+      <guid>https://frankld.netlify.com/post/go-is-for-great-lovers/</guid>
       <description>WAM Partners Photography Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Quod quidem iam fit etiam in Academia. Nam si amitti vita beata potest, beata esse non potest. Quorum sine causa fieri nihil putandum est. Duo Reges: constructio interrete. Sed ad rem redeamus;
 HDR Composites Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo.</description>
     </item>
     
     <item>
       <title>Contact Page</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/contact-page/</link>
+      <link>https://frankld.netlify.com/contact-page/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/contact-page/</guid>
+      <guid>https://frankld.netlify.com/contact-page/</guid>
       <description>Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
     </item>
     
     <item>
       <title>Museos Franciscanos</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</link>
+      <link>https://frankld.netlify.com/post/rationis-enim-perfectio-est-virtus/</link>
       <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/rationis-enim-perfectio-est-virtus/</guid>
+      <guid>https://frankld.netlify.com/post/rationis-enim-perfectio-est-virtus/</guid>
       <description>Rationis enim perfectio est virtus; Lorem ipsum dolor sit a met, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
     </item>
     
     <item>
       <title>WAM Partners E-Blasts</title>
-      <link>https://thirsty-jepsen-4ccc9d.netlify.com/post/wam-partners-e-blasts/</link>
+      <link>https://frankld.netlify.com/post/wam-partners-e-blasts/</link>
       <pubDate>Thu, 18 Jan 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://thirsty-jepsen-4ccc9d.netlify.com/post/wam-partners-e-blasts/</guid>
+      <guid>https://frankld.netlify.com/post/wam-partners-e-blasts/</guid>
       <description></description>
     </item>
     
