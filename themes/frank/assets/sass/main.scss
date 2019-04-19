@@ -95,14 +95,11 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
     /*0width-changethiswithJavaScript*/position: fixed;
     /*Stayinplace*/z-index: 9999;
     /*Stayontop*/top: 0;
-    left: -100vw ;
+    left: -200px;
+    visibility:hidden;
+    opacity: 0;
     background-color: #DDD;
     /*Black*/overflow-x: hidden;
-    transition: all .4s ease-out;
-    -webkit-transition: all .4s ease-out;
-    -moz-transition: all .4s ease-out;
-    -ms-transition: all .4s ease-out;
-    -o-transition: all .4s ease-out;
 }
   
   .active {

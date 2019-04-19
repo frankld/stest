@@ -7095,15 +7095,12 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 9999;
   /*Stayontop*/
   top: 0;
-  left: -100vw;
+  left: -200px;
+  visibility: hidden;
+  opacity: 0;
   background-color: #DDD;
   /*Black*/
-  overflow-x: hidden;
-  transition: all .4s ease-out;
-  -webkit-transition: all .4s ease-out;
-  -moz-transition: all .4s ease-out;
-  -ms-transition: all .4s ease-out;
-  -o-transition: all .4s ease-out; }
+  overflow-x: hidden; }
 
 .active {
   font-weight: 700; }
