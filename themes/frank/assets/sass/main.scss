@@ -18,6 +18,11 @@ $container-max-widths: (
 $speed: 600ms;
 $easing: cubic-bezier(0.7, 0, 0, 0.7);
 
+p img {
+  max-width: 100%;
+  height: auto;
+}
+
 .toggler .navbar-toggler-bars {
     transition: all 200ms;
     display: block;
