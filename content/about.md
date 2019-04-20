@@ -17,6 +17,10 @@ In addition to web design, I also have a strong interest in branding, digital il
 
 <br>
 
+![alt text](https://frankld.netlify.com/frank.jpg "Logo Title Text 1")
+
+<br>
+
 <div class="row">
 <div class="col">
 <h3 class="mb-3">Skills</h3>

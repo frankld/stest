@@ -21,7 +21,6 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
 .toggler .navbar-toggler-bars {
     transition: all 200ms;
     display: block;
-    position: relative;
     height: 3px;
     width: 30px;
     background-color: $menu-color;
@@ -32,13 +31,12 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
     -o-transition: all 200ms;
 }
 
+
 .close {
-    position: absolute;
-    right: 32px;
-    top: 32px;
     width: 32px;
     height: 32px;
     opacity: 0.3;
+    position: relative;
   }
   .close:hover {
     opacity: 1;
