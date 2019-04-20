@@ -17,7 +17,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 
 <br>
 
-![alt text](https://frankld.netlify.com/frank.jpg "Logo Title Text 1")
+sd
 
 <br>
 
@@ -58,9 +58,9 @@ In addition to web design, I also have a strong interest in branding, digital il
 <br>
 
 <div class="row">
-    <div class="col">
-        <h3 class="mb-3">Education</h3>
-        <h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
-        <p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
-    </div>
+<div class="col">
+<h3 class="mb-3">Education</h3>
+<h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
+<p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
+</div>
 </div>
