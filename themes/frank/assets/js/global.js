@@ -7,6 +7,9 @@ var letters = document.querySelectorAll('.logostagger');
 var logotl = new TimelineMax({paused: true});
 var menutl = new TimelineMax({paused: true});
 var sidenav = document.getElementById('mySidenav');
+var rWork = document.querySelectorAll('.recentWork');
+var rLink = document.querySelectorAll('.recentLink');
+var rImage = document.querySelectorAll('.recentImage');
 //MENU TIMELINE
 menutl.staggerFrom( header  , .4, { x: -100 , opacity: 0 , delay: .4 }, 0.1)
 .staggerFrom( items  , .4, { x: -100 , opacity: 0, delay: .4 }, 0.08 , .2);
@@ -35,3 +38,21 @@ $('#logo').hover(function(){
         logotl.reverse();
     }
 );
+
+
+rImage.forEach(function(t , k) {
+    t.addEventListener('mouseover',function(){
+        let nodes = [].slice.apply(rLink);
+        nodes.splice(k , 1 );
+        console.dir(nodes);
+            TweenMax.to( nodes , .6 , { autoAlpha: 0.2 , ease: 'ease-in' } );
+    });
+    t.addEventListener('mouseout',function(){
+        let nodes = [].slice.apply(rLink);
+        nodes.splice(k , 1 );
+        console.dir(nodes);
+        TweenMax.to( nodes , .8 , { autoAlpha: 1 , ease: 'ease-out' } );
+    });
+});
+
+
