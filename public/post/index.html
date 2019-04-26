@@ -13,9 +13,9 @@
         <header>
             
     
-    <nav class="navbar navbar-light bg-light" role="navigation" aria-label="main navigation">
+<nav class="navbar navbar-light p-0 " role="navigation" aria-label="main navigation">
   <div class="container px-4">
-    <div class="navbar-brand py-3">
+    <div class="navbar-brand py-2">
       <a class="navbar-brand text-primary" href="/">
         <h1 id="logo" class="text-weight-bold h5 mb-0">
           <span class="F logostagger">F</span>
@@ -39,7 +39,11 @@
 </nav>
 
 <aside id="mySidenav" class="sidenav">
-    <a id="nav-close" class="toggler close" href="#"></a>
+    <nav class="navbar navbar-light p-0 fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container px-4 py-3 justify-content-end">
+            <a id="nav-close" class="toggler close" href="#"></a>
+        </div>
+      </nav>
   <div class="container" style="max-width:900px;">
     <div class="row vh-100 d-flex align-items-center">
       <div class="col p-4">
@@ -78,40 +82,110 @@
 
 
         </header>
-        <div id="content" style="padding:10px;">
+        <div id="content">
         
-    <div class="container">
-        <h1>Recent Posts:</h1>
+    <div class="container p-4">
+        <div class="row pt-5 text-center">
+            <div class="col">
+                <h2 class="h1 text-primary">Recent Work</h2>
+                <h5>Graphic Design</h5>
+            </div>
+        </div>
+        <div class="row py-4 recentWork">
             
-                <h2 class="h5 "><a href="/post/quam-hoc-suave/">Digital Illustration</a></h2>
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                <div class="w-100">
+                        <a href="/post/quam-hoc-suave/" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="/uploads/img4.png" alt="Digital Illustration" class="recentImage" style="width:100%;"></a>
+                </div>
+            </div>
             
-                <h2 class="h5 "><a href="/post/migrate-from-jekyll/">Hearts and Homes for Refugees</a></h2>
             
-                <h2 class="h5 "><a href="/post/think-animated-gif/">Think Animated Gif</a></h2>
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                <div class="w-100">
+                        <a href="/post/migrate-from-jekyll/" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="/uploads/Hearts%20and%20Homes%20for%20Refugees_thumb.png" alt="Hearts and Homes for Refugees" class="recentImage" style="width:100%;"></a>
+                </div>
+            </div>
             
-                <h2 class="h5 "><a href="/post/wam-partners-website-proposal/">WAM Partners Website Proposal</a></h2>
             
-                <h2 class="h5 "><a href="/post/create-a-new-theme/">GAMLP Social Media Illustrations</a></h2>
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                <div class="w-100">
+                        <a href="/post/think-animated-gif/" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="/uploads/think-1.gif" alt="Think Animated Gif" class="recentImage" style="width:100%;"></a>
+                </div>
+            </div>
             
-                <h2 class="h5 "><a href="/post/another-post/">JAM &amp; HONEY TEST</a></h2>
             
-                <h2 class="h5 "><a href="/post/go-is-for-great-lovers/">WAM Partners Photography</a></h2>
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                <div class="w-100">
+                        <a href="/post/wam-partners-website-proposal/" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="/uploads/wamstaff_thumb.png" alt="WAM Partners Website Proposal" class="recentImage" style="width:100%;"></a>
+                </div>
+            </div>
             
-                <h2 class="h5 "><a href="/post/rationis-enim-perfectio-est-virtus/">Museos Franciscanos</a></h2>
             
-                <h2 class="h5 "><a href="/post/wam-partners-e-blasts/">WAM Partners E-Blasts</a></h2>
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                <div class="w-100">
+                        <a href="/post/create-a-new-theme/" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="/uploads/agua1.png" alt="GAMLP Social Media Illustrations" class="recentImage" style="width:100%;"></a>
+                </div>
+            </div>
             
+            
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                <div class="w-100">
+                        <a href="/post/another-post/" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="/uploads/54520896_2375882892423371_8068594303217172480_o_small.jpg" alt="JAM &amp; HONEY TEST" class="recentImage" style="width:100%;"></a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="row pt-5 text-center">
+                <div class="col">
+                    <h2 class="h1 text-primary">Older Stuff</h2>
+                    <h5>Graphic Design</h5>
+                </div>
+            </div>
+        <div class="row py-4">
+                
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                    <div class="w-100">
+                            <a href="/post/go-is-for-great-lovers/" class="d-block js-tilt m-4 mb-5 shadow" data-tilt><img src="/uploads/wam_photography_thumb.jpg" alt="WAM Partners Photography" class="" style="width:100%;"></a>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                    <div class="w-100">
+                            <a href="/post/rationis-enim-perfectio-est-virtus/" class="d-block js-tilt m-4 mb-5 shadow" data-tilt><img src="/uploads/fl1-1.png" alt="Museos Franciscanos" class="" style="width:100%;"></a>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                    <div class="w-100">
+                            <a href="/post/wam-partners-e-blasts/" class="d-block js-tilt m-4 mb-5 shadow" data-tilt><img src="/uploads/mc_wam_thumb.jpg" alt="WAM Partners E-Blasts" class="" style="width:100%;"></a>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                        <div class="w-100">
+                                <a href="#" class="d-block js-tilt m-4 mb-5 shadow" data-tilt><img src="https://via.placeholder.com/150" alt="View More" class="" style="width:100%;"></a>
+                        </div>
+                    </div>
+        </div>
     </div>
 
 
         </div>
-        <hr>
         <footer>
             
     
-            
-            &copy; Francis Laguna-Driscoll
-        
+    <div class="bg-light vw-100">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                
+                    &copy; Francis Laguna-Driscoll
+                
+            </div>
+        </div>
+    </div>
+</div>
 
     
         </footer>

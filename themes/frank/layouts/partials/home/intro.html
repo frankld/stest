@@ -1,21 +1,23 @@
 {{ "<!-- INTRO -->" | safeHTML }}
+<div class="container vh-100">
+    <div class="row pt-5">
+        <div class="col-12 p-4 d-none d-sm-inline">
+                {{ with .Params.intro.header1 }}
+                <h1 class="display-3">{{ . | markdownify }}</h1>
+                {{ end }}
+        </div>
+        <div class="col-12 p-4 d-inline d-sm-none">
+            {{ with .Params.intro.header1 }}
+            <h1 class="display-4">{{ . | markdownify }}</h1>
+            {{ end }}
+    </div>
+    </div>
+</div>
+<div class="container position-relative py-sm-5 INTRO sunset-left" style="z-index:105;">
 
-<div class="container position-relative py-sm-5" style="z-index:105;">
         <div class="row">
             <div class="col-12 col-lg-4 col-xl-5 d-flex align-items-center">
-                <div class="row ">
-                    <div class="col-12 p-4">
-                            {{ with .Params.intro.header1 }}
-                                <h3 class="text-primary">{{ . | markdownify }}</h3>
-                            {{ end }}
-                            {{ with .Params.intro.header2 }}
-                            <h1 class="mb-4">{{ . | markdownify }}</h1>
-                            {{ end }}
-                            {{ with .Params.intro.description }}
-                                {{ . | markdownify }}
-                            {{ end }}
-                    </div>
-                </div>
+    
             </div>
             <div class="col-12 col-lg-8 col-xl-7 d-flex align-items-center">
                 <div class="row ">

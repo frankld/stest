@@ -2,7 +2,7 @@
 title: Home
 date: 2015-06-24 11:50:46 +0000
 intro:
-  header1: Hey, I'm Francis Laguna-Driscoll
+  header1: Francis Laguna-Driscoll is a Graphic Designer and Photographer in New York City
   header2: "**I’M A GRAPHIC DESIGNER**"
   description: 'Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor,
     eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus

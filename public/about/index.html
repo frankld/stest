@@ -13,9 +13,9 @@
         <header>
             
 
-<nav class="navbar navbar-light bg-light" role="navigation" aria-label="main navigation">
+<nav class="navbar navbar-light p-0 " role="navigation" aria-label="main navigation">
   <div class="container px-4">
-    <div class="navbar-brand py-3">
+    <div class="navbar-brand py-2">
       <a class="navbar-brand text-primary" href="/">
         <h1 id="logo" class="text-weight-bold h5 mb-0">
           <span class="F logostagger">F</span>
@@ -39,7 +39,11 @@
 </nav>
 
 <aside id="mySidenav" class="sidenav">
-    <a id="nav-close" class="toggler close" href="#"></a>
+    <nav class="navbar navbar-light p-0 fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container px-4 py-3 justify-content-end">
+            <a id="nav-close" class="toggler close" href="#"></a>
+        </div>
+      </nav>
   <div class="container" style="max-width:900px;">
     <div class="row vh-100 d-flex align-items-center">
       <div class="col p-4">
@@ -78,14 +82,16 @@
 
 
         </header>
-        <div id="content" style="padding:10px;">
+        <div id="content">
         
 
 <div class="container py-5">
     <div class="row">
         <div class="col">
             <h1 class="mb-5">About Me</h1> 
-            <p>My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.</p>
+            <p><img src="/uploads/frank.jpg" alt="" /></p>
+
+<p>My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.</p>
 
 <p>In addition to web design, I also have a strong interest in branding, digital illustration and web development. When embarking on a new web project, I like to identify the main message or function that the website should fulfill in order to implement it in into the web design. My style is clean and minimal; however, I like to remain adaptable and learn new web design and user experience trends.</p>
 
@@ -128,11 +134,11 @@
 <p><br></p>
 
 <div class="row">
-    <div class="col">
-        <h3 class="mb-3">Education</h3>
-        <h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
-        <p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
-    </div>
+<div class="col">
+<h3 class="mb-3">Education</h3>
+<h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
+<p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
+</div>
 </div>
 
         </div>
@@ -141,13 +147,20 @@
 
 
         </div>
-        <hr>
         <footer>
             
 
-        
-            &copy; Francis Laguna-Driscoll
-        
+<div class="bg-light vw-100">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                
+                    &copy; Francis Laguna-Driscoll
+                
+            </div>
+        </div>
+    </div>
+</div>
 
     
         </footer>
