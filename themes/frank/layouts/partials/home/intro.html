@@ -1,31 +1,36 @@
 {{ "<!-- INTRO -->" | safeHTML }}
-<div class="container vh-100">
+<div class="container position-relative">
     <div class="row pt-5">
-        <div class="col-12 p-4 d-none d-sm-inline">
-                {{ with .Params.intro.header1 }}
-                <h1 class="display-3">{{ . | markdownify }}</h1>
-                {{ end }}
-        </div>
-        <div class="col-12 p-4 d-inline d-sm-none">
+        <div class="col-12 col-md-11 p-4 text-center text-sm-left">
             {{ with .Params.intro.header1 }}
             <h1 class="display-4">{{ . | markdownify }}</h1>
             {{ end }}
-    </div>
+        </div>
     </div>
 </div>
-<div class="container position-relative py-sm-5 INTRO sunset-left" style="z-index:105;">
+<div class="container position-relative py-sm-5">
 
-        <div class="row">
-            <div class="col-12 col-lg-4 col-xl-5 d-flex align-items-center">
-    
-            </div>
-            <div class="col-12 col-lg-8 col-xl-7 d-flex align-items-center">
-                <div class="row ">
-                    <div class="col-12 p-4">
-                        <img src="frank.jpg" alt="This is me" class="js-tilt-lg shadow-lg img-fluid" data-tilt>
-                    </div>
+    <div class="row">
+        <div class="col-12 col-lg-4 col-xl-5 d-flex align-items-center">
+
+        </div>
+        <div class="col-12 col-lg-8 col-xl-7 d-flex align-items-center">
+            <div class="row ">
+                <div class="col-12 p-4">
+                    <img src="frank.jpg" alt="This is me" class="js-tilt-lg shadow-lg img-fluid" data-tilt>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+
+<div class="container position-relative p-4">
+    <div class="row">
+        <div class="col py-5">
+            {{ with .Params.space1 }}
+            <h1 class="display-5">{{ . | markdownify }}</h3>
+            {{ end }}
+        </div>
+    </div>
+    <span id="showScroll"  class="shape-left-sunset"></span>
+</div>

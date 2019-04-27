@@ -1,0 +1,58 @@
+{{ "<!-- Recent Work -->" | safeHTML }}
+
+<div class="container py-sm-5 position-relative">
+    <div class="row">
+        <div class="col-12 col-lg-4 col-xl-5 p-4">
+            {{ with .Params.recent.header1 }}
+            <h3 class="">{{ . }} </h3>
+            {{ end }}
+            <p>Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc
+                quis dolor.</p>
+        </div>
+    </div>
+{{ range $key, $value := last 3 (where .Data.Pages "Section" "post") }}
+
+    {{ if eq $key 0 }}
+
+    <div class="row py-5">
+        <div class="col-12 col-sm-6">
+            <a href="{{.URL}}">
+                <img src="https://picsum.photos/800/500?random=2" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
+            </a>
+        </div>
+        <div class="col-12 col-sm-6 d-none d-sm-flex align-items-center">
+            {{ partial "home/recent-meta.html" . }}
+        </div>
+    </div>
+
+    {{else if eq $key 1 }}
+
+    <div class="row d-flex justify-content-center py-5">
+        <div class="col-12 col-sm-6">
+            <a href="{{.URL}}">
+                <img src="https://picsum.photos/800/500?random=1" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
+            </a>
+        </div>
+        <div class="col-12 col-sm-3 d-none d-sm-flex align-items-center">
+            {{ partial "home/recent-meta.html" . }}
+        </div>
+    </div>
+    
+    {{ else }}
+
+    <div class="row d-flex justify-content-end py-5 position-relative">
+        <div class="col-12 col-sm-6">
+            <a href="{{.URL}}">
+                <img src="https://picsum.photos/800/500?random=3" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
+            </a>
+        </div>
+        <div class="col-12 col-sm-3 d-none d-sm-flex align-items-center">
+            {{ partial "home/recent-meta.html" . }}
+        </div>
+        <span class="shape-right-sunset"></span>
+    </div>
+    
+    {{end}}
+
+{{ end }}
+</div>

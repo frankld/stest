@@ -1,4 +1,5 @@
 +++
+banner = "/uploads/wamstaff_thumb.png"
 categories = ["Web Design", "UX/UI"]
 date = "2019-04-08T04:00:00+00:00"
 thumb = "/uploads/wamstaff_thumb.png"

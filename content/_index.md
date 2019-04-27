@@ -8,8 +8,12 @@ intro:
     eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus
     felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie
     condimentum. Suspendisse tempus quis dui ut mattis. '
-eblast:
-  header1: E-blast Section
+
+space1: Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor,
+    eu faucibus quam nunc quis dolor.
+  
+recent:
+  header1: RECENT WORK
   header2: "**I’M A GRAPHIC DESIGNER WHO BREAKS THE MOLD AND DOTS THE I’s**"
   description: Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor,
     eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus

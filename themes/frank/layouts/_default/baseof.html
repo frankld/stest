@@ -2,10 +2,10 @@
 <html>
     {{ partial "header/head.html" . }}
     <body>
-        <header>
+        <header id="fixed-nav" class="bg-white py-5" >
             {{ block "header" .}} {{ end }}
         </header>
-        <div id="content">
+        <div id="content" >
         {{ block "main" . }}{{ end }}
         </div>
         <footer>

@@ -3,7 +3,6 @@ banner = "/uploads/1B5D3568-5F54-4202-A683-D9AF454706E7.png"
 categories = ["Illustration"]
 date = "2018-02-14T05:00:00+00:00"
 portfolio_items = []
-tags = []
 thumb = "/uploads/img4.png"
 title = "Digital Illustration"
 weight = 2

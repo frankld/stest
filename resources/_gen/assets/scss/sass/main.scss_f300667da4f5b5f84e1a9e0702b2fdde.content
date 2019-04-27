@@ -7021,8 +7021,39 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-h1 {
-  line-height: 2; }
+.display-4 {
+  font-size: 1.7rem;
+  line-height: 1.5; }
+
+.display-5 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5; }
+
+dl {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: .8rem; }
+
+dd {
+  margin-bottom: 1rem; }
+
+@media (min-width: 576px) {
+  .display-4 {
+    font-size: 2rem; }
+  .display-5 {
+    font-size: 1.7rem; } }
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem; }
+  .display-5 {
+    font-size: 2rem; } }
+
+@media (min-width: 992px) {
+  .display-4 {
+    font-size: 4rem; }
+  .display-5 {
+    font-size: 2.5rem; } }
 
 #logo {
   font-weight: 800; }
@@ -7097,29 +7128,52 @@ p img {
   position: relative;
   display: inline-block; }
 
-[class*=sunset]:before {
+[class*=sunset] {
+  background-image: linear-gradient(#FFD800, #FF1D00);
+  background-color: red; }
+
+[class*=shape] {
   content: '';
   height: 600px;
   width: 200px;
-  background-image: linear-gradient(#FFD800, #FF1D00);
-  background-color: red;
   display: block;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   border-radius: 200px;
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
   -ms-border-radius: 200px;
   -o-border-radius: 200px; }
 
-.sunset-menu:before {
-  bottom: -100px;
-  left: -85px; }
+.shape-menu-sunset {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
 
-.sunset-left:before {
-  top: 0;
-  left: -100px; }
+.shape-left-sunset {
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%); }
 
-.sunset-right:before {
-  top: 0;
-  right: -100px; }
+.shape-right-sunset {
+  top: 50%;
+  right: -100px;
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%); }
+
+.toplayer {
+  z-index: 9999; }
+
+.shade {
+  background: #00f !important; }

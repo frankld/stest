@@ -1,13 +1,24 @@
+<!-- LIBRARIES -->
+
 {{ $jquery := resources.Get "node_modules/jquery/dist/jquery.min.js" }}
 {{ $popper := resources.Get "node_modules/popper.js/dist/umd/popper.min.js" }}
 {{ $tilt := resources.Get "node_modules/tilt.js/dest/tilt.jquery.min.js" }}
 {{ $gsap := resources.Get "node_modules/gsap/src/minified/TweenMax.min.js" }}
-{{ $imports := slice $jquery $tilt $gsap $popper | resources.Concat "js/imports.js" }}
+{{ $scroll := resources.Get "node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js" }}
+{{ $scrolldebug := resources.Get "node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js" }}
+{{ $scrollgsap := resources.Get "node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js" }}
+
+{{ $imports := slice $jquery $gsap $scroll $scrollgsap $scrolldebug $tilt $popper  | resources.Concat "js/imports.js" }}
+
+
+
+<!-- MAIN JAVASCRIPT -->
 
 {{ $jstart := resources.Get "js/start.js" }}
 {{ $tilter := resources.Get "js/tilter.js" }}
 {{ $global := resources.Get "js/global.js" }}
 {{ $jend := resources.Get "js/end.js"  }}
+
 {{ $scripts := slice $jstart $tilter $global $jend | resources.Concat "js/bundle.js" | resources.Minify }}
 <script src="{{ $imports.Permalink }}"></script>
 <script src="{{ $scripts.Permalink }}"></script>

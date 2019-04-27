@@ -1,4 +1,5 @@
 +++
+banner = "/uploads/mc_wam_thumb.jpg"
 categories = ["EBlast"]
 date = "2018-01-18T05:00:00+00:00"
 thumb = "/uploads/mc_wam_thumb.jpg"

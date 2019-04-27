@@ -15,7 +15,7 @@ $('.js-tilt-lg').tilt({
     maxTilt:        10,
     perspective:    3000,   // Transform perspective, the lower the more extreme the tilt gets.
     easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
-    scale:          1.01,      // 2 = 200%, 1.5 = 150%, etc..
+    scale:          1.02,      // 2 = 200%, 1.5 = 150%, etc..
     speed:          900,    // Speed of the enter/exit transition.
     transition:     true,   // Set a transition on enter/exit.
     disableAxis:    null,   // What axis should be disabled. Can be X or Y.

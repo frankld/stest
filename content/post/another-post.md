@@ -2,7 +2,6 @@
 banner = "/uploads/img2.png"
 categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
-tags = []
 thumb = "/uploads/54520896_2375882892423371_8068594303217172480_o_small.jpg"
 title = "JAM & HONEY TEST"
 [[portfolio_items]]

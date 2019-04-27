@@ -3,7 +3,6 @@ banner = "/uploads/img4.png"
 categories = ["Photography"]
 date = "2019-04-04T04:00:00+00:00"
 portfolio_items = []
-tags = []
 thumb = "/uploads/wam_photography_thumb.jpg"
 title = "WAM Partners Photography"
 
