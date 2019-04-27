@@ -7030,6 +7030,13 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.5rem;
   line-height: 1.5; }
 
+dl {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: .8rem; }
+
+dd {
+  margin-bottom: 1rem; }
+
 @media (min-width: 576px) {
   .display-4 {
     font-size: 2rem; }
@@ -7122,11 +7129,13 @@ p img {
   display: inline-block; }
 
 [class*=sunset] {
+  background-image: linear-gradient(#FFD800, #FF1D00);
+  background-color: red; }
+
+[class*=shape] {
   content: '';
   height: 600px;
   width: 200px;
-  background-image: linear-gradient(#FFD800, #FF1D00);
-  background-color: red;
   display: block;
   position: absolute;
   z-index: -1;
@@ -7136,7 +7145,7 @@ p img {
   -ms-border-radius: 200px;
   -o-border-radius: 200px; }
 
-.sunset-menu {
+.shape-menu-sunset {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -7145,7 +7154,7 @@ p img {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%); }
 
-.sunset-left {
+.shape-left-sunset {
   top: 50%;
   left: -100px;
   transform: translateY(-50%);
@@ -7154,14 +7163,43 @@ p img {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%); }
 
-.sunset-right {
+.shape-right-sunset {
   top: 50%;
-  right: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%); }
+  right: -100px;
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%); }
 
 .toplayer {
   z-index: 9999; }
+
+.shade {
+  background: #00f !important; }
+
+.dot-grid {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  left: 0px; }
+
+.dot-grid:before {
+  content: '';
+  background-image: url(/img/plus.svg);
+  background-repeat: repeat repeat;
+  display: block;
+  height: 120%;
+  width: 84%;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }

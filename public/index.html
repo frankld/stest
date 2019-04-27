@@ -10,10 +10,10 @@
 
 <link rel="stylesheet" href="https://frankld.netlify.com/sass/main.css">
     <body>
-        <header>
+        <header id="fixed-nav" class="bg-white py-5" >
             
     
-<nav class="navbar navbar-light p-0 bg-white" role="navigation" aria-label="main navigation">
+<nav id="fixed-nav" class="navbar navbar-light" role="navigation" aria-label="main navigation">
   <div class="container px-4">
     <div class="navbar-brand py-2 ">
       <a class="navbar-brand text-primary" href="/">
@@ -30,7 +30,7 @@
       </a>
     </div>
 
-    <a href="#" class="toggler position-relative">
+    <a class="toggler position-relative">
       <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="20" height="9.717"><g data-name="menu"><path data-name="bottom" d="M0 7.717h20v2H0z"/><path data-name="middle" d="M0 3.859h20v2H0z"/><path data-name="top" d="M0 0h20v2H0z"/></g></svg>
     </a>
   </div>
@@ -40,7 +40,7 @@
 <aside id="mySidenav" class="sidenav">
     <nav class="navbar navbar-light p-0 fixed-top" role="navigation" aria-label="main navigation">
         <div class="container px-4 py-3 justify-content-end">
-            <a id="nav-close" class="toggler close" href="#">
+            <a id="nav-close" class="toggler close" >
               <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="12.021" height="12.021" viewBox="0 0 12.021 12.021">
                 <g id="menu" transform="translate(78.51 156.152)">
                   <rect id="line2" width="15" height="2" transform="translate(-78.51 -145.545) rotate(-45)"/>
@@ -90,7 +90,7 @@
 
 
         </header>
-        <div id="content">
+        <div id="content" >
         
 
     <!-- INTRO -->
@@ -111,8 +111,9 @@
         </div>
         <div class="col-12 col-lg-8 col-xl-7 d-flex align-items-center">
             <div class="row ">
-                <div class="col-12 p-4">
+                <div class="col-12 p-4 position-relative">
                     <img src="frank.jpg" alt="This is me" class="js-tilt-lg shadow-lg img-fluid" data-tilt>
+                    <span class="dot-grid"></span>
                 </div>
             </div>
         </div>
@@ -127,102 +128,126 @@
             
         </div>
     </div>
-    <span id="showScroll"  class="sunset-left"></span>
+    <span id="showScroll"  class="shape-left-sunset sm-h-1"></span>
 </div>
-    <!-- Recent Work -->
+    <div id="recent">
+        <!-- Recent Work -->
 
-<div class="container py-sm-5 position-relative">
-    <div class="row">
-            <div class="col-12 col-lg-4 col-xl-5 p-4 d-flex align-items-center">
-                    <div class="row">
-                        <div class="col">
-                                
-                                     <h3 class="">RECENT WORK </h3>
-                                
-                            <p>Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc quis dolor.
-                                Vestibulum eget tempor lorem, eleifend maximus felis. Sed aliquam urna sed aliquet. Morbi vestibulum
-                                mauris vitae dui molestie condimentum. Suspendisse tempus quis dui ut mattis.</p>
-                        </div>
-                    </div>
-                </div>
-        <div class="col-12 col-lg-8 col-xl-7 p-4 d-flex align-items-center">
-            <div class="row no-gutters">
-                
-                <div id="column1" class="col">
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/300" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/600" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/300" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="column2" class="col position-relative" style="top:-30px;">
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/400" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/500" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/400" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="column3" class="col">
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/300" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/600" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="m-2">
-                                <img src="https://picsum.photos/400/300" alt="practice image" class="img-fluid js-tilt shadow" data-tilt>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container py-sm-5 position-relative">
+            <div class="row">
+                <div class="col-12 col-lg-4 col-xl-5 p-4">
+                    
+                    <h3 class="">RECENT WORK </h3>
+                    
+                    <p>Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor, eu faucibus quam nunc
+                        quis dolor.</p>
                 </div>
             </div>
+        
+        
+            
+        
+            <div class="row py-5">
+                <div class="col-12 col-sm-6">
+                    <a href="/post/go-is-for-great-lovers/">
+                        <img src="https://picsum.photos/800/500?random=2" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 d-none d-sm-flex align-items-center">
+                    <dl>
+	<dt>YEAR:</dt>
+	<dd>2019</dd>
+	<dt>EMPLOYER:</h6>
+	<dd>WAM Partners Photography</dd>
+	<dt>CATEGORIES:</dt>
+		
+	<dd>
+	
+			Photography
+		
+	</dd>
+		
+	
+	<dt>DATE:</dt>
+	<dd>2019</dd>
+</dl>
+                </div>
+            </div>
+        
+            
+        
+        
+        
+            
+        
+            <div class="row d-flex justify-content-center py-5">
+                <div class="col-12 col-sm-6">
+                    <a href="/post/rationis-enim-perfectio-est-virtus/">
+                        <img src="https://picsum.photos/800/500?random=1" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-3 d-none d-sm-flex align-items-center">
+                    <dl>
+	<dt>YEAR:</dt>
+	<dd>2019</dd>
+	<dt>EMPLOYER:</h6>
+	<dd>Museos Franciscanos</dd>
+	<dt>CATEGORIES:</dt>
+		
+	<dd>
+	
+			Branding
+		
+	</dd>
+		
+	
+	<dt>DATE:</dt>
+	<dd>2019</dd>
+</dl>
+                </div>
+            </div>
+        
+            
+        
+        
+        
+            
+        
+            <div class="row d-flex justify-content-end py-5 position-relative">
+                <div class="col-12 col-sm-6">
+                    <a href="/post/wam-partners-e-blasts/">
+                        <img src="https://picsum.photos/800/500?random=3" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-3 d-none d-sm-flex align-items-center">
+                    <dl>
+	<dt>YEAR:</dt>
+	<dd>2018</dd>
+	<dt>EMPLOYER:</h6>
+	<dd>WAM Partners E-Blasts</dd>
+	<dt>CATEGORIES:</dt>
+		
+	<dd>
+	
+			EBlast
+		
+	</dd>
+		
+	
+	<dt>DATE:</dt>
+	<dd>2018</dd>
+</dl>
+                </div>
+                <span class="shape-right-sunset sm-h-2"></span>
+            </div>
+            
+            
+        
+        
         </div>
-    </div>
+    
 </div>
+
     <!-- WEB SECTION -->
 <div class="container py-sm-5">
     <div class="row d-flex">

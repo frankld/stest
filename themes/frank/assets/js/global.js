@@ -66,20 +66,38 @@ rImage.forEach(function(t , k) {
     var controller = new ScrollMagic.Controller();
     
     //tweens
-    var blockTween = new TweenMax.to('[class*=sunset]', 1, {
-        y:10
+    var hTween1 = new TweenMax.to('.sm-h-1', 1, {
+        y:100
     });
+    var hTween2 = new TweenMax.to('.sm-h-2', 1, {
+        y: 100
+    });
+
+    var hTween3 = new TweenMax.to('.dot-grid', 1, {
+        x: 50
+    });
+
+    // dot-grid
 
     // intro scene
     var introScene = new ScrollMagic.Scene({
+        duration: wh * 2
+    }).setTween([hTween1, hTween3]);
+    
+    var recentScene = new ScrollMagic.Scene({
+        triggerElement: '#recent',
+        triggerHook: "onCenter",
+        offset: 100,
         duration: wh
-
-    }).setTween(blockTween);
+    }).setTween(hTween2);
+    // recentScene.addIndicators({name: "pin scene", colorEnd: "#FFFFFF"});
+    
+    
 
     var menuScene = new ScrollMagic.Scene({
         offset: wh/3
-    }).setTween();
-    menuScene.addIndicators({name: "pin scene", colorEnd: "#FFFFFF"});
+    });
+    
 
     menuScene.on('enter', function(event){
         fixednav.classList.add('fixed-top');
@@ -95,34 +113,5 @@ rImage.forEach(function(t , k) {
         TweenMax.to( fixednav , .5, {boxShadow:"0px 0px 0px rgba(0,0,0,0)"});
     });
 
-
-
-
-
-
-
-
-
-//     //MENU HIDE
-// menuscrolltl.to("#fixed-nav" , 1, {boxShadow:"0px 0px 8px rgba(0,0,0,0.5)"});
-// menuscrolltl.to("#content" , .5, {marginTop:"162px"});
-
-// window.addEventListener("scroll", function(){
-//     if (pageYOffset > wh/3) {
-
-//         TweenMax.to("#fixed-nav" , .5, {boxShadow:"0px 0px 8px rgba(0,0,0,0.2)"});
-//         TweenMax.fromTo("#fixed-nav" , .5, {opacity: 0} , {opacity:1});
-        
-//         // console.dir(pageYOffset);
-//         // menuscrolltl.play();
-//     }
-//     else {
-
-//         TweenMax.to("#content" , 0, {marginTop:"0"});
-//         TweenMax.to("#fixed-nav" , .5, {boxShadow:"0px 0px 0px rgba(0,0,0,0)"});
-//     }
-// });
-
-
     
-    controller.addScene([introScene,menuScene]);
+    controller.addScene([introScene,menuScene,recentScene ]);
