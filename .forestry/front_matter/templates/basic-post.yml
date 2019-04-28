@@ -12,6 +12,11 @@ fields:
   label: Title
   config:
     required: true
+- name: employer
+  type: text
+  config:
+    required: false
+  label: Employer
 - type: datetime
   name: date
   label: Date
