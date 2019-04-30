@@ -1,5 +1,11 @@
+$enable-caret:                                true !default;
+$enable-rounded:                              true !default;
+$enable-shadows:                              true;
+$enable-responsive-font-sizes:                true;
+
 $primary: rgb(240, 68, 0);
 $headings-font-family: 'Montserrat';
+$font-family-sans-serif: 'Montserrat';
 $headings-font-weight: 900;
 
 $display1-size:               5rem ;
