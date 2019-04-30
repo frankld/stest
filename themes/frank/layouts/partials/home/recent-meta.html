@@ -1,19 +1,17 @@
-<dl>
+
 	<dt>YEAR:</dt>
 	<dd>{{ .Params.date | dateFormat "2006" }}</dd>
 	<dt>EMPLOYER:</h6>
 	<dd>{{ .Title}}</dd>
 	<dt>CATEGORIES:</dt>
-	{{ range $key, $value := .Params.categories }}	
+	
+	{{ range $num, $dItem := .Params.categories }}	
 	<dd>
-	{{ if eq $key 0 }}
-			{{$value}}
+	{{ if eq $num 0 }}
+			{{$dItem}}
 		{{ else }}
-			, {{$value}}
+			, {{$dItem}}
 	{{ end }}
 	</dd>
 		
 	{{ end }}
-	<dt>DATE:</dt>
-	<dd>{{ .Params.date | dateFormat "2006" }}</dd>
-</dl>

@@ -1,6 +1,6 @@
 {{ "<!-- INTRO -->" | safeHTML }}
 <div class="container position-relative">
-    <div class="row pt-5">
+    <div class="row">
         <div class="col-12 col-md-11 p-4 text-center text-sm-left">
             {{ with .Params.intro.header1 }}
             <h1 class="display-4">{{ . | markdownify }}</h1>
@@ -17,7 +17,7 @@
         <div class="col-12 col-lg-8 col-xl-7 d-flex align-items-center">
             <div class="row ">
                 <div class="col-12 p-4 position-relative">
-                    <img src="frank.jpg" alt="This is me" class="js-tilt-lg shadow-lg img-fluid" data-tilt>
+                    <a href="/about/"><img src="frank.jpg" alt="This is me" class="js-tilt-lg shadow-lg img-fluid" data-tilt></a>
                     <span class="dot-grid"></span>
                 </div>
             </div>

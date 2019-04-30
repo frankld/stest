@@ -1,4 +1,4 @@
-<nav id="fixed-nav" class="navbar navbar-light" role="navigation" aria-label="main navigation">
+<nav id="fixed-nav" class="navbar navbar-expand-xl navbar-light" role="navigation" aria-label="main navigation">
   <div class="container px-4">
     <div class="navbar-brand py-2 ">
       <a class="navbar-brand text-primary" href="/">
@@ -14,8 +14,17 @@
         </h1>
       </a>
     </div>
+    
+    <ul class="navbar-nav ml-auto d-none d-xl-flex">
+        {{ $currentPage := .Page }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link {{ if eq $currentPage.URL .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+        </li>
+        {{ end }}
+      </ul>
 
-    <a class="toggler position-relative">
+    <a class="toggler position-relative d-xl-none">
       <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="20" height="9.717"><g data-name="menu"><path data-name="bottom" d="M0 7.717h20v2H0z"/><path data-name="middle" d="M0 3.859h20v2H0z"/><path data-name="top" d="M0 0h20v2H0z"/></g></svg>
     </a>
   </div>

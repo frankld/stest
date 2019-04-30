@@ -18,8 +18,8 @@ var rImage = document.querySelectorAll('.recentImage');
 
 
 //MENU TIMELINE
-menutl.staggerFrom( header  , .4, { x: -100 , opacity: 0 , delay: .4 }, 0.1)
-.staggerFrom( items  , .4, { x: -100 , opacity: 0, delay: .4 }, 0.08 , .2);
+// menutl.staggerFrom( header  , .4, { x: -100 , opacity: 0 , delay: .4 }, 0.1)
+// .staggerFrom( items  , .4, { x: -100 , opacity: 0, delay: .4 }, 0.08 , .2);
 // LOGO TIMELINE
 logotl.staggerTo( letters  , .3, { y: "-=5px" }, 0.05);
 // TOGGLER
