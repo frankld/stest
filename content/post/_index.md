@@ -1,8 +1,9 @@
 ---
 title: Recent Work
-date: 2015-06-24 11:50:46 +0000
+date: 2015-06-24T11:50:46.000+00:00
 menu:
   main:
-    weight: 1
+    name: Work
+    weight: 2
 
 ---

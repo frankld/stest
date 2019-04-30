@@ -9,7 +9,6 @@ name = "Contact"
 weight = 4
 
 +++
-
 # Sed erat aequius Triarium aliquid de dissensione nostra iudicare.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.

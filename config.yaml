@@ -9,7 +9,7 @@ title: Francis Laguna-Driscoll - Portfolio
 params:
   custom_css: []
   custom_js: []
-  date_format: 2006-01-02 00:00:00 +0000
+  date_format: 2006-01-02 00:00:00.000000000 +00:00
   description: Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor,
     eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus
     felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie
@@ -79,8 +79,3 @@ params:
     googleplus: ''
     linkedin: fldriscoll
     twitter: ''
-menu:
-  main:
-  - url: "/post"
-    name: Work
-    weight: 2
