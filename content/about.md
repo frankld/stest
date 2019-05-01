@@ -80,12 +80,7 @@ In addition to web design, I also have a strong interest in branding, digital il
     <div class="row">
       <div class="col-12 col-sm-4">
         <h5 class="font-weight-bold mb-3">Email</h5>
-      </div>
-      <div class="col-12 col-sm-4">
-        <h5 class="font-weight-bold mb-3">Social Media</h5>
-      </div>
-      <div class="col-12 col-sm-4">
-        <h5 class="font-weight-bold mb-3"></h5>
+        <p><a href="linked">fldriscoll@gmail.com</a></p>
       </div>
     </div>
 
