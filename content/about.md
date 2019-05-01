@@ -61,4 +61,15 @@ In addition to web design, I also have a strong interest in branding, digital il
 </div>
 </div>
 
-### Let me [know](mailto:fldriscoll@gmail.com?Subject=Hello%2C%20is%20it%20me%20you%27re%20looking%20for%3F) if you have any freelance jobs, in the mean time please take a look at my [resume](http://localhost:1313/)
+
+<div class="row">
+<div class="col">
+<h3 class="mb-3">Resume</h3>
+<h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
+<p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
+</div>
+</div>
+
+
+
+
