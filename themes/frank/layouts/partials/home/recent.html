@@ -10,7 +10,9 @@
                     quis dolor.</p>
             </div>
         </div>
-        {{ range $key, $value := first 4 (where .Data.Pages "Section" "post") }}
+
+        
+        {{ range $key, $value := first 4 (where (sort .Data.Pages ".Params.date" "desc" ) "Section" "post") }}
 
         {{ if eq $key 0 }}
 

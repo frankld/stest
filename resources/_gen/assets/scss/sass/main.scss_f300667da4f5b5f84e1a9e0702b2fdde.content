@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Montserrat";
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.2; }
 
 h1, .h1 {
@@ -7315,3 +7315,12 @@ p img {
 
 .btn-right:hover:after {
   left: 100%; }
+
+.p-items img {
+  max-height: 80vh; }
+
+#zoom-container {
+  z-index: 9998; }
+
+#zoom-template {
+  z-index: 9999; }

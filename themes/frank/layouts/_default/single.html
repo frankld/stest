@@ -7,9 +7,13 @@
 {{ define "main" }}
 
 <div class="container py-5">
+    <div class="row mb-5">
+        <div class="col">
+            <h1 class="display-1">{{ .Title }}</h1>
+        </div>
+    </div>
     <div class="row">
         <div class="col content">
-            <h1 class="mb-5">{{ .Title }}</h1> 
             {{.Content}}
         </div>
     </div>

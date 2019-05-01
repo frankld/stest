@@ -6,7 +6,7 @@ $enable-responsive-font-sizes:                true;
 $primary: rgb(240, 68, 0);
 $headings-font-family: 'Montserrat';
 $font-family-sans-serif: 'Montserrat';
-$headings-font-weight: 900;
+$headings-font-weight: 700;
 
 $display1-size:               5rem ;
 $display2-size:               4.5rem ;
@@ -305,4 +305,18 @@ p img {
 }
 .btn-right:hover:after {
   left: 100%;
+}
+
+.p-items img {
+
+  max-height: 80vh;
+
+}
+
+#zoom-container {
+  z-index: 9998;
+}
+
+#zoom-template {
+  z-index: 9999;
 }

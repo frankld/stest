@@ -1,0 +1,48 @@
+{{ define "header"}}
+
+{{partial "header/header.html" .}}
+
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container py-5">
+    <div class="row mb-5">
+        <div class="col">
+            <h1 class="display-1">{{ .Title }}</h1>
+            <div class="meta d-inline ">
+                    <h6>{{  .Params.employer  }}
+                    <span class="mx-2"> / </span>
+                    {{ range .Params.categories }}
+                    {{ . }}
+                    {{ end }}
+                    <span class="mx-2"> / </span>
+                    {{  .Params.date | dateFormat "January 2, 2006"  }}</h6>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 p-content">
+            {{ .Content }}
+        </div>
+        <div class="col-12 col-md-6 p-items d-flex justify-content-center">
+            <div class="px-5">
+                    {{ range .Params.portfolio_items }}
+
+                    <div class="mb-4">
+                            <img src="{{ .image }}" alt="{{ .header1 }}" class="single-image data-zoomable img-fluid shadow">
+                    </div>
+                    
+                    {{ end }}
+            </div>
+            </div>
+    </div>
+</div>
+
+{{ end }}
+
+{{ define "footer"}}
+
+{{partial "footer.html" .}}
+
+{{ end }}

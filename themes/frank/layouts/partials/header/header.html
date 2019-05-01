@@ -15,16 +15,16 @@
       </a>
     </div>
     
-    <ul class="navbar-nav ml-auto d-none d-xl-flex">
+    <ul class="navbar-nav ml-auto d-none d-lg-block">
         {{ $currentPage := .Page }}
         {{ range .Site.Menus.main }}
-        <li class="nav-item">
-          <a class="nav-link {{ if eq $currentPage.URL .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+        <li class="nav-item mx-2 d-inline">
+          <a class="nav-link d-inline {{ if eq $currentPage.URL .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
         </li>
         {{ end }}
       </ul>
 
-    <a class="toggler position-relative d-xl-none">
+    <a class="toggler position-relative d-lg-none">
       <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="20" height="9.717"><g data-name="menu"><path data-name="bottom" d="M0 7.717h20v2H0z"/><path data-name="middle" d="M0 3.859h20v2H0z"/><path data-name="top" d="M0 0h20v2H0z"/></g></svg>
     </a>
   </div>

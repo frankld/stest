@@ -5,19 +5,18 @@
 {{ end }}
 
 {{ define "main" }}
-    <div class="container p-4">
-        <div class="row pt-1 text-center">
-            <div class="col">
-                <h2 class="h1 text-primary">Recent Work</h2>
-                <!-- <h5>Graphic Design</h5> -->
+    <div class="container">
+            <div class="row mb-4">
+                    <div class="col">
+                        <h1 class="display-3">{{ .Title }}</h1>
+                    </div>
             </div>
-        </div>
+        
         
         <div class="row py-4 recentWork">
             {{ range $key, $value := ( sort .Pages ".Params.date" "desc") }}
             <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
                 <div class="w-100">
-                    <p> {{.Params.date}} </p>    
                     <a href="{{ .URL }}" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 </div>
             </div>

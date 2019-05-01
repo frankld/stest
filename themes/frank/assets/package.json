@@ -13,6 +13,7 @@
     "bootstrap": "^4.3.1",
     "gsap": "^2.1.2",
     "jquery": "^3.4.0",
+    "medium-zoom": "^1.0.4",
     "popper.js": "^1.15.0",
     "scrollmagic": "^2.0.6",
     "tilt.js": "^1.2.1"

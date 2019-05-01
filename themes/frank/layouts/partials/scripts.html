@@ -1,6 +1,7 @@
 <!-- LIBRARIES -->
 
 {{ $jquery := resources.Get "node_modules/jquery/dist/jquery.min.js" }}
+{{ $medium := resources.Get "node_modules/medium-zoom/dist/medium-zoom.min.js" }}
 {{ $popper := resources.Get "node_modules/popper.js/dist/umd/popper.min.js" }}
 {{ $tilt := resources.Get "node_modules/tilt.js/dest/tilt.jquery.min.js" }}
 {{ $gsap := resources.Get "node_modules/gsap/src/minified/TweenMax.min.js" }}
@@ -8,7 +9,7 @@
 {{ $scrolldebug := resources.Get "node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js" }}
 {{ $scrollgsap := resources.Get "node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js" }}
 
-{{ $imports := slice $jquery $gsap $scroll $scrollgsap $scrolldebug $tilt $popper  | resources.Concat "js/imports.js" }}
+{{ $imports := slice $jquery $gsap $scroll $scrollgsap $scrolldebug $tilt $popper $medium  | resources.Concat "js/imports.js" }}
 
 
 

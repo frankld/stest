@@ -14,8 +14,11 @@ var rWork = document.querySelectorAll('.recentWork');
 var rLink = document.querySelectorAll('.recentLink');
 var rImage = document.querySelectorAll('.recentImage');
 
+mediumZoom('.single-image', {
+    margin: 24
+});
 
-
+mediumZoom('[data-zoomable]');
 
 //MENU TIMELINE
 // menutl.staggerFrom( header  , .4, { x: -100 , opacity: 0 , delay: .4 }, 0.1)
@@ -116,3 +119,4 @@ rImage.forEach(function(t , k) {
 
     
     controller.addScene([introScene,menuScene,recentScene ]);
+
