@@ -61,6 +61,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 </div>
 </div>
 
+<br>
 
 <div class="row">
 <div class="col">
