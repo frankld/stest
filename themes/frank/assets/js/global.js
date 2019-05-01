@@ -70,7 +70,7 @@ rImage.forEach(function(t , k) {
         y:100
     });
     var hTween2 = new TweenMax.to('.sm-h-2', 1, {
-        y: 100
+        y:100
     });
 
     var hTween3 = new TweenMax.to('.dot-grid', 1, {
@@ -84,13 +84,14 @@ rImage.forEach(function(t , k) {
         duration: wh * 2
     }).setTween([hTween1, hTween3]);
     
+    
     var recentScene = new ScrollMagic.Scene({
         triggerElement: '#recent',
-        triggerHook: "onCenter",
-        offset: 100,
+        triggerHook: "onEnter",
+        offset: -350,
         duration: wh
     }).setTween(hTween2);
-    // recentScene.addIndicators({name: "pin scene", colorEnd: "#FFFFFF"});
+    
     
     
 

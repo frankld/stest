@@ -12,15 +12,18 @@
                 <!-- <h5>Graphic Design</h5> -->
             </div>
         </div>
+        
         <div class="row py-4 recentWork">
-            {{ range $key, $value := first 6 .Pages }}
+            {{ range $key, $value := ( sort .Pages ".Params.date" "desc") }}
             <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
                 <div class="w-100">
-                        <a href="{{ .URL }}" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
+                    <p> {{.Params.date}} </p>    
+                    <a href="{{ .URL }}" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 </div>
             </div>
             {{ end }}
         </div>
+<!--         
         <div class="row pt-5 text-center">
                 <div class="col">
                     <h2 class="h1 text-primary">Older Stuff</h2>
@@ -40,7 +43,7 @@
                                 <a href="#" class="d-block js-tilt m-4 mb-5 shadow" data-tilt><img src="https://via.placeholder.com/150" alt="View More" class="" style="width:100%;"></a>
                         </div>
                     </div>
-        </div>
+        </div> -->
     </div>
 
 {{ end }}

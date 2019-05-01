@@ -38,6 +38,10 @@ $container-max-widths: (
 $speed: 600ms;
 $easing: cubic-bezier(0.7, 0, 0, 0.7);
 
+#content {
+  overflow: hidden;
+}
+
 .display-4 {
   font-size: 1.7rem;
   line-height: 1.5;

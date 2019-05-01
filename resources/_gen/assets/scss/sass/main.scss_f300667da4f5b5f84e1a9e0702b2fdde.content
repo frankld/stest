@@ -7091,6 +7091,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+#content {
+  overflow: hidden; }
+
 .display-4 {
   font-size: 1.7rem;
   line-height: 1.5; }

@@ -1,5 +1,4 @@
-<div id="recent">
-    {{ "<!-- Recent Work -->" | safeHTML }}
+{{ "<!-- RECENT WORK -->" | safeHTML }}
 
     <div class="container py-sm-5 position-relative">
         <div class="row">
@@ -11,7 +10,7 @@
                     quis dolor.</p>
             </div>
         </div>
-        {{ range $key, $value := last 4 (where .Data.Pages "Section" "post") }}
+        {{ range $key, $value := first 4 (where .Data.Pages "Section" "post") }}
 
         {{ if eq $key 0 }}
 
@@ -48,7 +47,7 @@
 
         {{else if eq $key 2 }}
 
-        <div class="row d-flex justify-content-end py-5 position-relative">
+        <div id="recent" class="row d-flex justify-content-end py-5 position-relative">
             <div class="col-12 col-sm-6">
                 <a href="{{.URL}}">
                     <img src="{{ .Params.thumb}}" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
@@ -77,7 +76,6 @@
                     <img src="{{ .Params.thumb}}" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
                 </a>
             </div>
-
         </div>
 
         {{end}}
@@ -85,4 +83,3 @@
         {{ end }}
     </div>
 
-</div>
