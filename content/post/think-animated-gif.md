@@ -1,6 +1,7 @@
 +++
 categories = ["Animation"]
-date = "2019-04-11T04:00:00+00:00"
+date = "2015-10-15T18:00:00+00:00"
+employer = "Personal Project"
 thumb = "/uploads/think-1.gif"
 title = "Think Animated Gif"
 [[portfolio_items]]
