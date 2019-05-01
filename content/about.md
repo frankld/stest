@@ -80,7 +80,7 @@ In addition to web design, I also have a strong interest in branding, digital il
     <div class="row">
       <div class="col-12 col-sm-4">
         <h5 class="font-weight-bold mb-3">Email</h5>
-        <p><a href="linked">fldriscoll@gmail.com</a></p>
+        <p><a href="http://localhost:1313/mailto:fldriscoll@gmail.com?Subject=Hello%2C%20is%20it%20me%20you%27re%20looking%20for%3F">fldriscoll@gmail.com</a></p>
       </div>
     </div>
 
@@ -88,4 +88,3 @@ In addition to web design, I also have a strong interest in branding, digital il
 </div>
 
 <br>
-
