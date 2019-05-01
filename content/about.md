@@ -65,8 +65,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 <div class="row">
 <div class="col">
 <h3 class="mb-3">Resume</h3>
-<h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
-<p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
+<a href="linked">Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</a>
 </div>
 </div>
 
