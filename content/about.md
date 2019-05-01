@@ -18,59 +18,79 @@ In addition to web design, I also have a strong interest in branding, digital il
 <br>
 
 <div class="row">
-<div class="col">
-<h3 class="mb-3">Skills</h3>
-<div class="row">
-<div class="col-12 col-sm-4">
-<h5 class="font-weight-bold mb-3">Web Development</h5>
-<p>HTML5, CSS3</p>
-<p>SCSS/SASS</p>
-<p>jQuery</p>
-<p>Bootstrap</p>
-<p>Vue/Nuxt</p>
-<p>Hugo</p>
-</div>
-<div class="col-12 col-sm-4">
-<h5 class="font-weight-bold mb-3">Design Tools</h5>
-<p>Adobe Photoshop</p>
-<p>Adobe Illustrator</p>
-<p>Adobe Indesign</p>
-<p>Adobe XD</p>
-<p>Sketch</p>
-<p>Vue/Nuxt</p>
-</div>
-<div class="col-12 col-sm-4">
-<h5 class="font-weight-bold mb-3">Animation</h5>
-<p>Adobe After Effects </p>
-<p>GSAP</p>
-<p>ScrollMagic</p>
-<p>Principal</p>
-<p>InVision Studio</p>
-</div>
-</div>
-</div>
-</div>
-
-<br>
-
-<div class="row">
-<div class="col">
-<h3 class="mb-3">Education</h3>
-<h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
-<p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
-</div>
+  <div class="col">
+    <h3 class="mb-3">Skills</h3>
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        <h5 class="font-weight-bold mb-3">Web Development</h5>
+        <p>HTML5, CSS3</p>
+        <p>SCSS/SASS</p>
+        <p>jQuery</p>
+        <p>Bootstrap</p>
+        <p>Vue/Nuxt</p>
+        <p>Hugo</p>
+      </div>
+      <div class="col-12 col-sm-4">
+        <h5 class="font-weight-bold mb-3">Design Tools</h5>
+        <p>Adobe Photoshop</p>
+        <p>Adobe Illustrator</p>
+        <p>Adobe Indesign</p>
+        <p>Adobe XD</p>
+        <p>Sketch</p>
+        <p>Vue/Nuxt</p>
+      </div>
+      <div class="col-12 col-sm-4">
+        <h5 class="font-weight-bold mb-3">Animation</h5>
+        <p>Adobe After Effects </p>
+        <p>GSAP</p>
+        <p>ScrollMagic</p>
+        <p>Principal</p>
+        <p>InVision Studio</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <br>
 
 <div class="row">
-<div class="col">
-<h3 class="mb-3">Resume</h3>
-<p><a href="linked">Design Resume - 2019</a></p>
-<p><a href="linked">Design Resume - 2018</a></p>
-</div>
+  <div class="col">
+    <h3 class="mb-3">Education</h3>
+    <h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
+    <p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
+  </div>
 </div>
 
 <br>
 
+<div class="row">
+  <div class="col">
+    <h3 class="mb-3">Resume</h3>
+    <p><a href="linked">Design Resume - 2019</a></p>
+    <p><a href="linked">Design Resume - 2018</a></p>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col">
+    <h3 class="mb-3">Contact</h3>
+
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        <h5 class="font-weight-bold mb-3">Email</h5>
+      </div>
+      <div class="col-12 col-sm-4">
+        <h5 class="font-weight-bold mb-3">Social Media</h5>
+      </div>
+      <div class="col-12 col-sm-4">
+        <h5 class="font-weight-bold mb-3"></h5>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<br>
 
