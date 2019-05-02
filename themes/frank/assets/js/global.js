@@ -13,6 +13,10 @@ var sidenav = document.getElementById('mySidenav');
 var rWork = document.querySelectorAll('.recentWork');
 var rLink = document.querySelectorAll('.recentLink');
 var rImage = document.querySelectorAll('.recentImage');
+var rHeader = document.querySelectorAll('.pop');
+
+
+
 
 mediumZoom('.single-image', {
     margin: 24
@@ -54,13 +58,11 @@ rImage.forEach(function(t , k) {
     t.addEventListener('mouseover',function(){
         let nodes = [].slice.apply(rLink);
         nodes.splice(k , 1 );
-        console.dir(nodes);
-            TweenMax.to( nodes , .6 , { autoAlpha: 0.2 , ease: 'ease-in' } );
+            TweenMax.to( nodes , .6 , { autoAlpha: 0.5 , ease: 'ease-in' } );
     });
     t.addEventListener('mouseout',function(){
         let nodes = [].slice.apply(rLink);
         nodes.splice(k , 1 );
-        console.dir(nodes);
         TweenMax.to( nodes , .8 , { autoAlpha: 1 , ease: 'ease-out' } );
     });
 });
@@ -89,7 +91,6 @@ rImage.forEach(function(t , k) {
     
     
     var recentScene = new ScrollMagic.Scene({
-        triggerElement: '#recent',
         triggerHook: "onEnter",
         offset: -350,
         duration: wh
@@ -119,4 +120,3 @@ rImage.forEach(function(t , k) {
 
     
     controller.addScene([introScene,menuScene,recentScene ]);
-

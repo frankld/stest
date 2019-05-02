@@ -7324,3 +7324,26 @@ p img {
 
 #zoom-template {
   z-index: 9999; }
+
+#svgcursor {
+  overflow: visible;
+  transform-origin: 50px 50px;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0; }
+
+#circle {
+  transform-origin: 50px 50px; }
+
+#circle1 {
+  transform-origin: 50px 50px; }
+
+#circle2 {
+  transform-origin: 50px 50px; }
+
+.pop {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: -1; }
