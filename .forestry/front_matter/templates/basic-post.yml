@@ -44,6 +44,7 @@ fields:
   config:
     labelField: header2
 pages:
+- content/post/360-hamilton-ad.md
 - content/post/220e42ndst.md
 - content/post/another-post.md
 - content/post/think-animated-gif.md
