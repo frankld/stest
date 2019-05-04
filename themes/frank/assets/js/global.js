@@ -100,7 +100,7 @@ rImage.forEach(function(t , k) {
     
 
     var menuScene = new ScrollMagic.Scene({
-        offset: wh/3
+        offset: 200
     });
     
 
