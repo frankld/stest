@@ -13,11 +13,11 @@
             </div>
         
         
-        <div class="row py-4 recentWork">
+        <div class="row py-4 recentWork no-gutters">
             {{ range $key, $value := ( sort .Pages ".Params.date" "desc") }}
-            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-3 d-flex justify-content-center">
                 <div class="w-100">
-                    <a href="{{ .URL }}" id="test" class="d-block js-tilt m-4 mb-5 shadow recentLink" data-tilt><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
+                    <a href="{{ .URL }}" id="test" class="d-block js-tilt m-1 recentLink" data-tilt><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 </div>
             </div>
             {{ end }}

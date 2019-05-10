@@ -102,6 +102,11 @@ p img {
   height: auto;
 }
 
+.nav-item:last-child  {
+  margin-right: 0rem !important;
+}
+
+
 .toggler .navbar-toggler-bars {
     transition: all 200ms;
     display: block;

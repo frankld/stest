@@ -106,14 +106,14 @@ rImage.forEach(function(t , k) {
 
     menuScene.on('enter', function(event){
         fixednav.classList.add('fixed-top');
-        fixednav.classList.remove('py-5');
+        fixednav.classList.remove("py-4" , "py-xl-5");
         TweenMax.fromTo( fixednav , .5 , {opacity:0}, {opacity:1});
         TweenMax.to( fixednav , .5, {boxShadow:"0px 0px 8px rgba(0,0,0,0.2)"});
         TweenMax.to("#content" , 0, {marginTop:"162px"});
     });
     menuScene.on('leave', function(event){
         fixednav.classList.remove('fixed-top');
-        fixednav.classList.add('py-5');
+        fixednav.classList.add("py-4" , "py-xl-5");
         TweenMax.to("#content" , 0, {marginTop:"0px"});
         TweenMax.to( fixednav , .5, {boxShadow:"0px 0px 0px rgba(0,0,0,0)"});
     });
