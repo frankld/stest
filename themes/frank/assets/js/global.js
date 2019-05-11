@@ -13,6 +13,7 @@ var sidenav = document.getElementById('mySidenav');
 var rWork = document.querySelectorAll('.recentWork');
 var rLink = document.querySelectorAll('.recentLink');
 var rImage = document.querySelectorAll('.recentImage');
+var recentWrap = document.querySelectorAll('.recentWrap');
 var rHeader = document.querySelectorAll('.pop');
 
 
@@ -55,12 +56,19 @@ $('#logo').hover(function(){
 );
 
 // IMAGE OVERLAY
-rImage.forEach(function(t , k) {
+recentWrap.forEach(function(t , k) {
     t.addEventListener('mouseover',function(){
-            TweenMax.to( this , .6 , { autoAlpha: 0.2 , ease: 'ease-in' } );
+        let image = this.querySelectorAll('.recentImage');
+        TweenMax.to( this.lastElementChild , .6 , { autoAlpha: 1 , ease: 'ease-in' } );
+        TweenMax.to( this.firstElementChild , .6 , { autoAlpha: 0.2 , ease: 'ease-in' } );
+        TweenMax.to( image , .6 , { scale: 1.1 , ease: 'ease-in' } );
+        
     });
     t.addEventListener('mouseout',function(){
-        TweenMax.to( this , .8 , { autoAlpha: 1 , ease: 'ease-out' } );
+        let image = this.querySelectorAll('.recentImage');
+        TweenMax.to( this.lastElementChild , .6 , { autoAlpha: 0 , ease: 'ease-in' } );
+        TweenMax.to( this.firstElementChild , .8 , { autoAlpha: 1 , ease: 'ease-out' } );
+        TweenMax.to( image , .6 , { scale: 1 , ease: 'ease-in' } );
     });
 });
 

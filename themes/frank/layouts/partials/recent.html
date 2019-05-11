@@ -1,0 +1,67 @@
+{{ "<!-- RECENT WORK -->" | safeHTML }}
+        {{ if .IsHome }}
+
+        <div class="container pt-5">
+                <h1 class="h5 text-uppercase"> <strong>Recent Work</strong> </h1>
+                <div class="row py-4 recentWork no-gutters">
+
+        {{ range first 9 (where .Data.Pages "Section" "post") }}
+        <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+            <div class="recentWrap w-100 m-1">
+                <a href="{{ .URL }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
+                <div class="recent-meta">
+                    <a href="{{.URL}}">
+                        <h1 class="h3 text-uppercase">
+                            <strong>
+                                {{ .Title}}
+                            </strong>
+                        </h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+
+
+    </div>
+</div>
+
+
+    
+
+
+
+{{else}}
+
+<div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                    <h1 class="display-3">{{ .Title }}</h1>
+            </div>
+        </div>
+        <div class="row py-4 recentWork no-gutters">
+                {{ range .Pages }}
+                <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="recentWrap w-100 m-1">
+                        <a href="{{ .URL }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
+                        <div class="recent-meta">
+                            <a href="{{.URL}}">
+                                <h1 class="h3 text-uppercase">
+                                    <strong>
+                                        {{ .Title}}
+                                    </strong>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+                
+                
+        </div>
+        </div>
+
+
+
+
+{{ end }}
