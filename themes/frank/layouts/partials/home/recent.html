@@ -1,86 +1,14 @@
 {{ "<!-- RECENT WORK -->" | safeHTML }}
 
-    <div class="container py-sm-5 position-relative">
-        <div class="row">
-            <div class="col-12 col-lg-4 col-xl-5">
-                {{ with .Params.recent.header1 }}
-                <h3>{{ . }} </h3>
-                {{ end }}
-                <p>A collection of my most recent work.</p>
+<div class="container pt-5">
+    <h1 class="h5 text-uppercase"> <strong>Recent Work</strong> </h1>
+    <div class="row py-4 recentWork no-gutters">
+        {{ range first 9 (where .Data.Pages "Section" "post") }}
+        <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+            <div class="w-100">
+                <a href="{{ .URL }}" id="test" class="d-block m-1 shadow-sm recentLink"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
             </div>
         </div>
-
-        
-        {{ range $key, $value := first 4 (where (sort .Data.Pages ".Params.date" "desc" ) "Section" "post") }}
-
-        {{ if eq $key 0 }}
-
-        <div class="row py-5">
-            <div class="col-12 col-sm-6">
-                <a href="{{.URL}}">
-                    <img src="{{ .Params.thumb}}" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 d-none d-sm-flex align-items-center">
-                <dl>
-                    {{ partial "home/recent-meta.html" . }}
-                    <a href="{{.URL}}"> <button type="button" class="btn btn-outline-primary btn-plus btn-right position-relative"> <small class="font-weight-bold">View More</small> </button></a>
-                </dl>
-            </div>
-        </div>
-
-        {{else if eq $key 1 }}
-
-        <div class="row d-flex justify-content-center py-5">
-            <div class="col-12 col-sm-6">
-                <a href="{{.URL}}">
-                    <img src="{{ .Params.thumb}}" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
-                </a>
-            </div>
-            <div class="col-12 col-sm-3 d-none d-sm-flex align-items-center">
-                <dl>
-                    {{ partial "home/recent-meta.html" . }}
-                    <a href="{{.URL}}"> <button type="button" class="btn btn-outline-primary btn-plus btn-right position-relative"> <small class="font-weight-bold">View More</small> </button></a>
-                </dl>
-            </div>
-            <!-- <span class="dot-grid"></span> -->
-        </div>
-
-        {{else if eq $key 2 }}
-
-        <div id="recent" class="row d-flex justify-content-end py-5 position-relative">
-            <div class="col-12 col-sm-6">
-                <a href="{{.URL}}">
-                    <img src="{{ .Params.thumb}}" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
-                </a>
-            </div>
-            <div class="col-12 col-sm-3 d-none d-sm-flex align-items-center">
-                <dl>
-                    {{ partial "home/recent-meta.html" . }}
-                    <a href="{{.URL}}"> <button type="button" class="btn btn-outline-primary btn-plus btn-right position-relative"> <small class="font-weight-bold">View More</small> </button></a>
-                </dl>
-            </div>
-            <span class="shape-right-sunset sm-h-2"></span>
-        </div>
-
-        {{ else }}
-
-        <div class="row d-flex justify-content-end py-5 position-relative">
-            <div class="col-12 col-sm-3 d-none d-sm-flex align-items-center justify-content-end text-right">
-                <dl>
-                    {{ partial "home/recent-meta.html" . }}
-                    <a href="{{.URL}}"> <button type="button" class="btn btn-outline-primary btn-plus btn-left position-relative"> <small class="font-weight-bold">View More</small> </button></a>
-                </dl>
-            </div>
-            <div class="col-12 col-sm-6">
-                <a href="{{.URL}}">
-                    <img src="{{ .Params.thumb}}" alt="" class="img-fluid shadow js-tilt-lg" data-tilt>
-                </a>
-            </div>
-        </div>
-
-        {{end}}
-
         {{ end }}
     </div>
-
+</div>

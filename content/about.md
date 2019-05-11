@@ -1,9 +1,5 @@
 +++
-banner = ""
-categories = []
 date = "2019-03-22T04:00:00+00:00"
-name = "About"
-tags = []
 title = "About Me"
 weight = 2
 [menu.main]

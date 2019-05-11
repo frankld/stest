@@ -7114,7 +7114,9 @@ dd {
   .display-4 {
     font-size: 2rem; }
   .display-5 {
-    font-size: 1.7rem; } }
+    font-size: 1.7rem; }
+  #content {
+    overflow: inherit; } }
 
 @media (min-width: 768px) {
   .display-4 {
@@ -7350,3 +7352,12 @@ p img {
   width: 100%;
   bottom: 0;
   z-index: -1; }
+
+.medium-zoom-overlay {
+  z-index: 2000; }
+
+.data-zoomable {
+  z-index: 2000; }
+
+#content strong {
+  letter-spacing: 5px; }

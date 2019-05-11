@@ -19,7 +19,8 @@ var rHeader = document.querySelectorAll('.pop');
 
 
 mediumZoom('.single-image', {
-    margin: 24
+    margin: 24,
+    
 });
 
 mediumZoom('[data-zoomable]');
@@ -53,17 +54,13 @@ $('#logo').hover(function(){
     }
 );
 
-
+// IMAGE OVERLAY
 rImage.forEach(function(t , k) {
     t.addEventListener('mouseover',function(){
-        let nodes = [].slice.apply(rLink);
-        nodes.splice(k , 1 );
-            TweenMax.to( nodes , .6 , { autoAlpha: 0.5 , ease: 'ease-in' } );
+            TweenMax.to( this , .6 , { autoAlpha: 0.2 , ease: 'ease-in' } );
     });
     t.addEventListener('mouseout',function(){
-        let nodes = [].slice.apply(rLink);
-        nodes.splice(k , 1 );
-        TweenMax.to( nodes , .8 , { autoAlpha: 1 , ease: 'ease-out' } );
+        TweenMax.to( this , .8 , { autoAlpha: 1 , ease: 'ease-out' } );
     });
 });
 
@@ -104,15 +101,16 @@ rImage.forEach(function(t , k) {
     });
     
 
+    //MENU SCENE
     menuScene.on('enter', function(event){
-        fixednav.classList.add('fixed-top');
+        fixednav.classList.add("fixed-top" , "bg-white");
         fixednav.classList.remove("py-4" , "py-xl-5");
         TweenMax.fromTo( fixednav , .5 , {opacity:0}, {opacity:1});
         TweenMax.to( fixednav , .5, {boxShadow:"0px 0px 8px rgba(0,0,0,0.2)"});
         TweenMax.to("#content" , 0, {marginTop:"162px"});
     });
     menuScene.on('leave', function(event){
-        fixednav.classList.remove('fixed-top');
+        fixednav.classList.remove("fixed-top" , "bg-white");
         fixednav.classList.add("py-4" , "py-xl-5");
         TweenMax.to("#content" , 0, {marginTop:"0px"});
         TweenMax.to( fixednav , .5, {boxShadow:"0px 0px 0px rgba(0,0,0,0)"});
