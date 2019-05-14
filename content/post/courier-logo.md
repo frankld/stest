@@ -1,6 +1,6 @@
 +++
 categories = ["Branding"]
-date = "2019-07-15T04:00:00+00:00"
+date = "2019-04-17T04:00:00+00:00"
 employer = "Personal"
 thumb = "/uploads/courier-02-1.png"
 title = "Courier Logo"
