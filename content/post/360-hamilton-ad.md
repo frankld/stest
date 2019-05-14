@@ -5,6 +5,9 @@ employer = "Lorelli NYC"
 thumb = "/uploads/lorelli1.png"
 title = "Lorelli NYC - Freelance"
 [[portfolio_items]]
+image = "/uploads/220East-full-1.jpg"
+img_title = "220 E 42nd Street Eblast"
+[[portfolio_items]]
 description = "Murenam te accusante defenderem. Certe non potest. Cur, nisi quod turpis oratio est? Haec quo modo conveniant, non sane intellego."
 header1 = ""
 header2 = "Hi Res Sample"

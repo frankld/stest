@@ -38,8 +38,8 @@ fields:
   config:
     labelField: img_title
 pages:
-- content/post/gamlp.md
 - content/post/360-hamilton-ad.md
+- content/post/gamlp.md
 - content/post/go-is-for-great-lovers.md
 - content/post/migrate-from-jekyll.md
 - content/post/wam-partners-website-proposal.md
