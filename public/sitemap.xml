@@ -3,23 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://frankld.netlify.com/about/</loc>
+    <loc>https://frankld.netlify.com/about/about/</loc>
     <lastmod>2019-03-22T04:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://frankld.netlify.com/post/quam-hoc-suave/</loc>
-    <lastmod>2018-02-14T05:00:00+00:00</lastmod>
+    <lastmod>2012-02-15T05:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://frankld.netlify.com/post/migrate-from-jekyll/</loc>
     <lastmod>2019-03-21T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/post/think-animated-gif/</loc>
-    <lastmod>2019-04-11T04:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,18 +28,8 @@
   </url>
   
   <url>
-    <loc>https://frankld.netlify.com/post/another-post/</loc>
-    <lastmod>2019-04-04T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://frankld.netlify.com/post/go-is-for-great-lovers/</loc>
     <lastmod>2019-04-04T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/contact-page/</loc>
-    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -53,8 +38,23 @@
   </url>
   
   <url>
+    <loc>https://frankld.netlify.com/post/220e42ndst/</loc>
+    <lastmod>2019-03-15T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/post/360-hamilton-ad/</loc>
+    <lastmod>2019-03-13T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://frankld.netlify.com/post/wam-partners-e-blasts/</loc>
     <lastmod>2018-01-18T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/post/think-animated-gif/</loc>
+    <lastmod>2015-10-15T18:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,8 +63,30 @@
   </url>
   
   <url>
+    <loc>https://frankld.netlify.com/post/</loc>
+    <lastmod>2015-06-24T11:50:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/post/another-post/</loc>
+    <lastmod>2012-02-15T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/about/</loc>
+    <lastmod>2019-03-22T04:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/categories/advertising/</loc>
+    <lastmod>2019-03-13T04:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://frankld.netlify.com/categories/animation/</loc>
-    <lastmod>2019-04-11T04:00:00+00:00</lastmod>
+    <lastmod>2015-10-15T18:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,7 +98,7 @@
   
   <url>
     <loc>https://frankld.netlify.com/categories/</loc>
-    <lastmod>2019-04-11T04:00:00+00:00</lastmod>
+    <lastmod>2019-03-13T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -88,13 +110,13 @@
   
   <url>
     <loc>https://frankld.netlify.com/categories/eblast/</loc>
-    <lastmod>2018-01-18T05:00:00+00:00</lastmod>
+    <lastmod>2019-03-15T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://frankld.netlify.com/categories/illustration/</loc>
-    <lastmod>2018-02-14T05:00:00+00:00</lastmod>
+    <lastmod>2012-02-15T05:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,8 +127,8 @@
   </url>
   
   <url>
-    <loc>https://frankld.netlify.com/post/</loc>
-    <lastmod>2018-02-14T05:00:00+00:00</lastmod>
+    <loc>https://frankld.netlify.com/categories/print/</loc>
+    <lastmod>2019-03-13T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

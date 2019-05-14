@@ -13,10 +13,10 @@
     
     <item>
       <title>About Me</title>
-      <link>https://frankld.netlify.com/about/</link>
+      <link>https://frankld.netlify.com/about/about/</link>
       <pubDate>Fri, 22 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/about/</guid>
+      <guid>https://frankld.netlify.com/about/about/</guid>
       <description>My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.
 In addition to web design, I also have a strong interest in branding, digital illustration and web development. When embarking on a new web project, I like to identify the main message or function that the website should fulfill in order to implement it in into the web design.</description>
     </item>
@@ -24,7 +24,7 @@ In addition to web design, I also have a strong interest in branding, digital il
     <item>
       <title>Digital Illustration</title>
       <link>https://frankld.netlify.com/post/quam-hoc-suave/</link>
-      <pubDate>Wed, 14 Feb 2018 05:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Feb 2012 05:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/post/quam-hoc-suave/</guid>
       <description>Ait enim se, si uratur, Quam hoc suave! dicturum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. De vacuitate doloris eadem sententia erit. Sed in rebus apertissimis nimium longi sumus. Quia nec honesto quic quam honestius nec turpi turpius. Duo Reges: constructio interrete. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Qua tu etiam inprudens utebare non numquam.
@@ -38,15 +38,6 @@ In addition to web design, I also have a strong interest in branding, digital il
       
       <guid>https://frankld.netlify.com/post/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
-    </item>
-    
-    <item>
-      <title>Think Animated Gif</title>
-      <link>https://frankld.netlify.com/post/think-animated-gif/</link>
-      <pubDate>Thu, 11 Apr 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/post/think-animated-gif/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -69,17 +60,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>JAM &amp; HONEY TEST</title>
-      <link>https://frankld.netlify.com/post/another-post/</link>
-      <pubDate>Thu, 04 Apr 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/post/another-post/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo</description>
-    </item>
-    
-    <item>
       <title>WAM Partners Photography</title>
       <link>https://frankld.netlify.com/post/go-is-for-great-lovers/</link>
       <pubDate>Thu, 04 Apr 2019 04:00:00 +0000</pubDate>
@@ -87,15 +67,6 @@ More complete instructions are available at installing hugo</description>
       <guid>https://frankld.netlify.com/post/go-is-for-great-lovers/</guid>
       <description>WAM Partners Photography Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Quod quidem iam fit etiam in Academia. Nam si amitti vita beata potest, beata esse non potest. Quorum sine causa fieri nihil putandum est. Duo Reges: constructio interrete. Sed ad rem redeamus;
 HDR Composites Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo.</description>
-    </item>
-    
-    <item>
-      <title>Contact Page</title>
-      <link>https://frankld.netlify.com/contact-page/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/contact-page/</guid>
-      <description>Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.</description>
     </item>
     
     <item>
@@ -108,12 +79,52 @@ HDR Composites Varietates autem iniurasque fortunae facile veteres philosophorum
     </item>
     
     <item>
+      <title>220 E 42ND Street</title>
+      <link>https://frankld.netlify.com/post/220e42ndst/</link>
+      <pubDate>Fri, 15 Mar 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/post/220e42ndst/</guid>
+      <description>Fortasse id optimum, sed ubi illud: Plus semper voluptatis? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo tandem modo? Duo Reges: constructio interrete.
+Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Hoc est non dividere, sed frangere. Quare attende, quaeso. Quis hoc dicit? Quamquam te quidem video minime esse deterritum. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. Rhetorice igitur, inquam, nos mavis quam dialectice disputare?</description>
+    </item>
+    
+    <item>
+      <title>360 Hamilton Ad</title>
+      <link>https://frankld.netlify.com/post/360-hamilton-ad/</link>
+      <pubDate>Wed, 13 Mar 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/post/360-hamilton-ad/</guid>
+      <description>Hoc tu nunc in illo probas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. At hoc in eo M. An hoc usque quaque, aliter in vita? Hos contra singulos dici est melius. Duo Reges: constructio interrete. Comprehensum, quod cognitum non habet? At certe gravius.
+Negare non possum. Ut aliquid scire se gaudeant? Dat enim intervalla et relaxat. Respondeat totidem verbis. Sed tamen intellego quid velit. Duo enim genera quae erant, fecit tria.</description>
+    </item>
+    
+    <item>
       <title>WAM Partners E-Blasts</title>
       <link>https://frankld.netlify.com/post/wam-partners-e-blasts/</link>
       <pubDate>Thu, 18 Jan 2018 05:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/post/wam-partners-e-blasts/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Think Animated Gif</title>
+      <link>https://frankld.netlify.com/post/think-animated-gif/</link>
+      <pubDate>Thu, 15 Oct 2015 18:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/post/think-animated-gif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JAM &amp; HONEY TEST</title>
+      <link>https://frankld.netlify.com/post/another-post/</link>
+      <pubDate>Wed, 15 Feb 2012 05:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/post/another-post/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo</description>
     </item>
     
   </channel>

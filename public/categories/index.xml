@@ -6,15 +6,24 @@
     <description>Recent content in Categories on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Apr 2019 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2019 04:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://frankld.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Advertising</title>
+      <link>https://frankld.netlify.com/categories/advertising/</link>
+      <pubDate>Wed, 13 Mar 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/categories/advertising/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Animation</title>
       <link>https://frankld.netlify.com/categories/animation/</link>
-      <pubDate>Thu, 11 Apr 2019 04:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2015 18:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/categories/animation/</guid>
       <description></description>
@@ -41,7 +50,7 @@
     <item>
       <title>Eblast</title>
       <link>https://frankld.netlify.com/categories/eblast/</link>
-      <pubDate>Thu, 18 Jan 2018 05:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Mar 2019 04:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/categories/eblast/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>Illustration</title>
       <link>https://frankld.netlify.com/categories/illustration/</link>
-      <pubDate>Wed, 14 Feb 2018 05:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Feb 2012 05:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/categories/illustration/</guid>
       <description></description>
@@ -62,6 +71,15 @@
       <pubDate>Thu, 04 Apr 2019 04:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Print</title>
+      <link>https://frankld.netlify.com/categories/print/</link>
+      <pubDate>Wed, 13 Mar 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/categories/print/</guid>
       <description></description>
     </item>
     

@@ -72,7 +72,6 @@ In addition to web design, I also have a strong interest in branding, digital il
 <div class="row">
   <div class="col">
     <h3 class="mb-3">Contact</h3>
-
     <div class="row">
       <div class="col-12 col-sm-4">
         <h5 class="font-weight-bold mb-3">Email</h5>
