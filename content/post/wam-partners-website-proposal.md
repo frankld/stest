@@ -2,7 +2,7 @@
 banner = "/uploads/wamstaff_thumb.png"
 categories = ["Web Design", "UX/UI"]
 date = "2018-04-13T04:00:00+00:00"
-employer = ""
+employer = "WAM Partners"
 thumb = "/uploads/wamstaff_thumb.png"
 title = "WAM Partners Website Proposal"
 [[portfolio_items]]
