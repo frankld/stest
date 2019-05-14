@@ -3,12 +3,13 @@ categories = ["Print", "Advertising"]
 date = "2019-03-13T04:00:00+00:00"
 employer = "Lorelli NYC"
 thumb = "/uploads/lorelli1.png"
-title = "360 Hamilton Ad"
+title = "Lorelli NYC - Freelance"
 [[portfolio_items]]
 description = "Murenam te accusante defenderem. Certe non potest. Cur, nisi quod turpis oratio est? Haec quo modo conveniant, non sane intellego."
 header1 = ""
 header2 = "Hi Res Sample"
 image = "/uploads/360-Hamilton-large.jpg"
+img_title = "360 Hamilton Digital Ad"
 
 +++
 # Hoc tu nunc in illo probas.
