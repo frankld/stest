@@ -3,9 +3,11 @@ banner = "/uploads/courier-02.png"
 categories = ["Branding"]
 date = "2015-09-11T04:00:00+00:00"
 employer = "University Project"
-portfolio_items = []
 thumb = "/uploads/fl1-1.png"
 title = "Museos Franciscanos"
+[[portfolio_items]]
+image = "/uploads/fl1-1-1.png"
+img_title = "La Paz"
 
 +++
 Lorem ipsum dolor sit a met, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.
