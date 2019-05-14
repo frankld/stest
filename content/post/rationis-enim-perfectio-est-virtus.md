@@ -6,6 +6,18 @@ employer = "University Project"
 thumb = "/uploads/fl1-1.png"
 title = "Museos Franciscanos"
 [[portfolio_items]]
+image = "/uploads/fl2.png"
+img_title = "Copacabana"
+[[portfolio_items]]
+image = ""
+img_title = ""
+[[portfolio_items]]
+image = ""
+img_title = ""
+[[portfolio_items]]
+image = ""
+img_title = ""
+[[portfolio_items]]
 image = "/uploads/fl1-1-1.png"
 img_title = "La Paz"
 
