@@ -9,14 +9,14 @@ title = "Museos Franciscanos"
 image = "/uploads/fl2.png"
 img_title = "Copacabana"
 [[portfolio_items]]
-image = ""
-img_title = ""
+image = "/uploads/fl3.png"
+img_title = "Tarija"
 [[portfolio_items]]
-image = ""
-img_title = ""
+image = "/uploads/fl4.png"
+img_title = "Sucre"
 [[portfolio_items]]
-image = ""
-img_title = ""
+image = "/uploads/fl5.png"
+img_title = "Potosí"
 [[portfolio_items]]
 image = "/uploads/fl1-1-1.png"
 img_title = "La Paz"

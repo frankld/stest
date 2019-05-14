@@ -38,6 +38,7 @@ fields:
   config:
     labelField: img_title
 pages:
+- content/post/rationis-enim-perfectio-est-virtus.md
 - content/post/wam-partners-website-proposal.md
 - content/post/360-hamilton-ad.md
 - content/post/gamlp.md
@@ -47,5 +48,4 @@ pages:
 - content/post/another-post.md
 - content/post/think-animated-gif.md
 - content/post/wam-partners-e-blasts.md
-- content/post/rationis-enim-perfectio-est-virtus.md
 - content/post/quam-hoc-suave.md
