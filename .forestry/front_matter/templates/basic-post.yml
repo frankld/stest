@@ -36,7 +36,7 @@ fields:
     name: image
     label: Image
   config:
-    labelField: header2
+    labelField: img_title
 pages:
 - content/post/360-hamilton-ad.md
 - content/post/go-is-for-great-lovers.md
