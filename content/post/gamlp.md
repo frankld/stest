@@ -3,15 +3,18 @@ banner = "/uploads/img12.png"
 categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
 employer = "Gobierno Autonomo de La Paz"
-thumb = "/uploads/agua1.png"
+thumb = "/uploads/thumb_a.jpg"
 title = "GAMLP Social Media Illustrations"
 [[portfolio_items]]
 header2 = "Toon style Illustrations"
 image = "/uploads/agua1.png"
-img_title = "Flat 2d Style"
+img_title = "Agua1"
 [[portfolio_items]]
-image = "/uploads/agua2.png"
-img_title = "Water Safety Social Media Posts"
+image = "/uploads/agua2.jpg"
+img_title = "Agua2"
+[[portfolio_items]]
+image = "/uploads/agua3.jpg"
+img_title = "Agua3"
 
 +++
 ## Introduction
