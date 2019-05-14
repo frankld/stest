@@ -1,7 +1,6 @@
 +++
 categories = []
 date = "2019-07-15T04:00:00+00:00"
-draft = true
 employer = "Personal"
 thumb = "/uploads/courier-02-1.png"
 title = "Courier Logo"
