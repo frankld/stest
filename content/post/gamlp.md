@@ -2,17 +2,18 @@
 banner = "/uploads/img12.png"
 categories = ["Design"]
 date = "2019-04-04T04:00:00+00:00"
+employer = "Gobierno Autonomo de La Paz"
 thumb = "/uploads/agua1.png"
 title = "GAMLP Social Media Illustrations"
 [[portfolio_items]]
-img_title = "Flat 2d Style"
 header2 = "Toon style Illustrations"
 image = "/uploads/agua1.png"
+img_title = "Flat 2d Style"
 [[portfolio_items]]
-img_title = "Water Safety Social Media Posts"
 image = "/uploads/agua2.png"
-+++
+img_title = "Water Safety Social Media Posts"
 
++++
 ## Introduction
 
 This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
