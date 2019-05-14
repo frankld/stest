@@ -38,6 +38,7 @@ fields:
   config:
     labelField: img_title
 pages:
+- content/post/courier-logo.md
 - content/post/rationis-enim-perfectio-est-virtus.md
 - content/post/wam-partners-website-proposal.md
 - content/post/360-hamilton-ad.md
