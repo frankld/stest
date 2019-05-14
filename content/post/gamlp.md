@@ -7,7 +7,7 @@ thumb = "/uploads/thumb_a.jpg"
 title = "GAMLP Social Media Illustrations"
 [[portfolio_items]]
 header2 = "Toon style Illustrations"
-image = "/uploads/agua1.png"
+image = "/uploads/agua1.jpg"
 img_title = "Agua1"
 [[portfolio_items]]
 image = "/uploads/agua2.jpg"
