@@ -21,7 +21,7 @@ var rHeader = document.querySelectorAll('.pop');
 
 mediumZoom('.single-image', {
     margin: 24,
-    
+
 });
 
 mediumZoom('[data-zoomable]');
@@ -30,99 +30,99 @@ mediumZoom('[data-zoomable]');
 // menutl.staggerFrom( header  , .4, { x: -100 , opacity: 0 , delay: .4 }, 0.1)
 // .staggerFrom( items  , .4, { x: -100 , opacity: 0, delay: .4 }, 0.08 , .2);
 // LOGO TIMELINE
-logotl.staggerTo( letters  , .3, { y: "-=5px" }, 0.05);
+logotl.staggerTo(letters, .3, { y: "-=5px" }, 0.05);
 // TOGGLER
-toggler.forEach(function(t , k) {
-t.addEventListener("mousedown", function(){ 
+toggler.forEach(function (t, k) {
+    t.addEventListener("mousedown", function () {
         if (k === 0) {
             menutl.restart();
-            TweenMax.to( sidenav , .4 , { autoAlpha: 1 , ease: 'ease-in' } );
-            TweenMax.to( sidenav , .4 , { x: '200' , ease: Power2.easeOut  } );
+            TweenMax.to(sidenav, .4, { autoAlpha: 1, ease: 'ease-in' });
+            TweenMax.to(sidenav, .4, { x: '200', ease: Power2.easeOut });
         }
         else {
             menutl.reverse();
-            TweenMax.to( sidenav , .5 , {autoAlpha: 0, delay: .6 } );
-            TweenMax.to( sidenav , 1 , { x: "-200", delay: .6, ease: Power4.easeIn } );
+            TweenMax.to(sidenav, .5, { autoAlpha: 0, delay: .6 });
+            TweenMax.to(sidenav, 1, { x: "-200", delay: .6, ease: Power4.easeIn });
         }
-     });
+    });
 });
 
-$('#logo').hover(function(){
-        logotl.play();
-    },
-    function(){
+$('#logo').hover(function () {
+    logotl.play();
+},
+    function () {
         logotl.reverse();
     }
 );
 
 // IMAGE OVERLAY
-recentWrap.forEach(function(t , k) {
-    t.addEventListener('mouseover',function(){
+recentWrap.forEach(function (t, k) {
+    t.addEventListener('mouseover', function () {
         let image = this.querySelectorAll('.recentImage');
-        TweenMax.to( this.lastElementChild , .6 , { autoAlpha: 1 , ease: 'ease-in' } );
-        TweenMax.to( this.firstElementChild , .6 , { autoAlpha: 0.2 , ease: 'ease-in' } );
-        TweenMax.to( image , .6 , { scale: 1.1 , ease: 'ease-in' } );
-        
+        TweenMax.to(this.lastElementChild, .6, { autoAlpha: 1, ease: 'ease-in' });
+        TweenMax.to(this.firstElementChild, .6, { autoAlpha: 0.2, ease: 'ease-in' });
+        TweenMax.to(image, .6, { scale: 1.1, ease: 'ease-in' });
+
     });
-    t.addEventListener('mouseout',function(){
+    t.addEventListener('mouseout', function () {
         let image = this.querySelectorAll('.recentImage');
-        TweenMax.to( this.lastElementChild , .6 , { autoAlpha: 0 , ease: 'ease-in' } );
-        TweenMax.to( this.firstElementChild , .8 , { autoAlpha: 1 , ease: 'ease-out' } );
-        TweenMax.to( image , .6 , { scale: 1 , ease: 'ease-in' } );
+        TweenMax.to(this.lastElementChild, .6, { autoAlpha: 0, ease: 'ease-in' });
+        TweenMax.to(this.firstElementChild, .8, { autoAlpha: 1, ease: 'ease-out' });
+        TweenMax.to(image, .6, { scale: 1, ease: 'ease-in' });
     });
 });
 
-	// init controller
-    var controller = new ScrollMagic.Controller();
-    
-    //tweens
-    var hTween1 = new TweenMax.to('.sm-h-1', 1, {
-        y:100
-    });
-    var hTween2 = new TweenMax.to('.sm-h-2', 1, {
-        y:100
-    });
+// init controller
+var controller = new ScrollMagic.Controller();
 
-    var hTween3 = new TweenMax.to('.dot-grid', 1, {
-        x: 50
-    });
+//tweens
+var hTween1 = new TweenMax.to('.sm-h-1', 1, {
+    y: 100
+});
+var hTween2 = new TweenMax.to('.sm-h-2', 1, {
+    y: 100
+});
 
-    // dot-grid
+var hTween3 = new TweenMax.to('.dot-grid', 1, {
+    x: 50
+});
 
-    // intro scene
-    var introScene = new ScrollMagic.Scene({
-        duration: wh * 2
-    }).setTween([hTween1, hTween3]);
-    
-    
-    var recentScene = new ScrollMagic.Scene({
-        triggerHook: "onEnter",
-        offset: -350,
-        duration: wh
-    }).setTween(hTween2);
-    
-    
+// dot-grid
+
+// intro scene
+var introScene = new ScrollMagic.Scene({
+    duration: wh * 2
+}).setTween([hTween1, hTween3]);
+
+
+var recentScene = new ScrollMagic.Scene({
+    triggerHook: "onEnter",
+    offset: -350,
+    duration: wh
+}).setTween(hTween2);
+
+
+
+
+var menuScene = new ScrollMagic.Scene({
+    offset: 200
+});
     
 
-    var menuScene = new ScrollMagic.Scene({
-        offset: 200
-    });
-    
-
-    //MENU SCENE
-    menuScene.on('enter', function(event){
-        fixednav.classList.add("fixed-top" , "bg-white");
-        fixednav.classList.remove("py-4" , "py-xl-5");
-        TweenMax.fromTo( fixednav , .5 , {opacity:0}, {opacity:1});
-        TweenMax.to( fixednav , .5, {boxShadow:"0px 0px 8px rgba(0,0,0,0.2)"});
-        TweenMax.to("#content" , 0, {marginTop:"162px"});
-    });
-    menuScene.on('leave', function(event){
-        fixednav.classList.remove("fixed-top" , "bg-white");
-        fixednav.classList.add("py-4" , "py-xl-5");
-        TweenMax.to("#content" , 0, {marginTop:"0px"});
-        TweenMax.to( fixednav , .5, {boxShadow:"0px 0px 0px rgba(0,0,0,0)"});
-    });
+//MENU SCENE
+menuScene.on('enter', function (event) {
+    fixednav.classList.add("fixed-top", "bg-white");
+    fixednav.classList.remove("py-4", "py-xl-5");
+    TweenMax.fromTo(fixednav, .5, { opacity: 0 }, { opacity: 1 });
+    TweenMax.to(fixednav, .5, { boxShadow: "0px 0px 8px rgba(0,0,0,0.2)" });
+    TweenMax.to("#content", 0, { marginTop: "162px" });
+});
+menuScene.on('leave', function (event) {
+    fixednav.classList.remove("fixed-top", "bg-white");
+    fixednav.classList.add("py-4", "py-xl-5");
+    TweenMax.to("#content", 0, { marginTop: "0px" });
+    TweenMax.to(fixednav, .5, { boxShadow: "0px 0px 0px rgba(0,0,0,0)" });
+});
 
     
     controller.addScene([introScene,menuScene,recentScene ]);
