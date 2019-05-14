@@ -1,7 +1,7 @@
 +++
 banner = "/uploads/img12.png"
 categories = ["Design"]
-date = "2019-04-04T04:00:00+00:00"
+date = "2016-01-15T05:00:00+00:00"
 employer = "Gobierno Autonomo de La Paz"
 thumb = "/uploads/thumb_a.jpg"
 title = "GAMLP Social Media Illustrations"
