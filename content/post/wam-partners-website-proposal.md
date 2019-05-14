@@ -1,7 +1,8 @@
 +++
 banner = "/uploads/wamstaff_thumb.png"
 categories = ["Web Design", "UX/UI"]
-date = "2019-04-08T04:00:00+00:00"
+date = "2018-04-13T04:00:00+00:00"
+employer = ""
 thumb = "/uploads/wamstaff_thumb.png"
 title = "WAM Partners Website Proposal"
 [[portfolio_items]]
@@ -9,5 +10,6 @@ description = "Varietates autem iniurasque fortunae facile veteres philosophorum
 header1 = "Custom Home Page Template"
 header2 = "Dynamic Loaded Content"
 image = "/uploads/2018-10-18-23-53-www.wamstaff.com.png"
+img_title = "Website Layout"
 
 +++
