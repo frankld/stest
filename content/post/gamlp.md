@@ -15,6 +15,12 @@ img_title = "Agua2"
 [[portfolio_items]]
 image = "/uploads/agua3.jpg"
 img_title = "Agua3"
+[[portfolio_items]]
+image = "/uploads/agua4.jpg"
+img_title = "Agua4"
+[[portfolio_items]]
+image = "/uploads/agua5.jpg"
+img_title = "Agua5"
 
 +++
 ## Introduction
