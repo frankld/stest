@@ -30,14 +30,8 @@ fields:
   description: These are Items
   fields:
   - type: text
-    name: header1
-    label: header1
-  - type: text
-    name: header2
-    label: header2
-  - type: textarea
-    name: description
-    label: Short Description
+    name: img_title
+    label: Image Title
   - type: file
     name: image
     label: Image
@@ -48,7 +42,6 @@ pages:
 - content/post/go-is-for-great-lovers.md
 - content/post/migrate-from-jekyll.md
 - content/post/wam-partners-website-proposal.md
-- content/post/create-a-new-theme.md
 - content/post/220e42ndst.md
 - content/post/another-post.md
 - content/post/think-animated-gif.md
