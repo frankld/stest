@@ -20,7 +20,11 @@ image = "/uploads/STANDARD-PAGE-TEMPLATE-WITH-SIDEBAR.jpg"
 img_title = "Standard Page With Sidebar Mock Up"
 
 +++
-## Move static content to `static`
+##### Site Architecture
 
 Jekyll has a rule that any directory not starting with `_` will be copied as-is to the `_site` output. Hugo keeps all static content under `static`. You should therefore move it all there.
 With Jekyll, something that looked like
+
+##### Visual Design
+
+Jekyll has a rule that any directory not starting with `_` will be copied as-is to the `_site` output. Hugo keeps all static content under `static`. You should therefore move it all there. With Jekyll, something that looked like
