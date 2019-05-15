@@ -25,10 +25,10 @@ image = "/uploads/853_10a4.jpg"
 img_title = "853 10A 4"
 
 +++
-# WAM Partners Photography
+##### WAM Partners Photography
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Quod quidem iam fit etiam in Academia. Nam si amitti vita beata potest, beata esse non potest. **Quorum sine causa fieri nihil putandum est.** Duo Reges: constructio interrete. [Sed ad rem redeamus;](http://loripsum.net/)
 
-## HDR Composites
+##### HDR Composites
 
 Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo. Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum; Qui potest igitur habitare in beata vita summi mali metus?
