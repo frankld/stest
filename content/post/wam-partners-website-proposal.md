@@ -13,21 +13,23 @@ image = "/uploads/2018-10-18-23-53-www.wamstaff.com.png"
 img_title = "Website Layout"
 
 +++
-Quid nunc honeste dicit?
+During my time at WAM Partners I was able to work on a side project that involved the company. I was able to create a website using Wordpress with a custom theme using Advanced Custom Fields (ACF) in the backend, and then using Bootstrap for the front end.
 
-**Sed ego in hoc resisto;** **Confecta res esset.** Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum anteponebas? _Omnis enim est natura diligens sui._ Quod non faceret, si in voluptate summum bonum poneret. **Omnis enim est natura diligens sui.** Intrandum est igitur in rerum naturam et penitus quid ea postulet pervidendum;
+#### Listings Website 
 
-### Me igitur ipsum ames oportet, non mea, si veri amici futuri sumus.
+###### Problem
 
-Hoc sic expositum dissimile est superiori. Quam tu ponis in verbis, ego positam in re putabam. Laboro autem non sine causa; Sed mehercule pergrata mihi oratio tua. **Nemo igitur esse beatus potest.** Hic nihil fuit, quod quaereremus. Cur igitur, cum de re conveniat, non malumus usitate loqui?
+So the intial problem I had run into while working at WAM Partners was having to update their website. I had to juggle a lot of tasks being the Webmaster/Listings manager. I initially suggest an update to the website to my boss and he was more than happy for me to pursue it as a side project. 
 
-##### Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta.
+I took the time 
+
+Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta.
 
 Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Itaque et manendi in vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. Aperiendum est igitur, quid sit voluptas; Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? _Ratio enim nostra consentit, pugnat oratio._ Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? _Ostendit pedes et pectus._
 
 _In schola desinis._ Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur? Ergo, inquit, tibi Q. Huius ego nunc auctoritatem sequens idem faciam. In eo autem voluptas omnium Latine loquentium more ponitur, cum percipitur ea, quae sensum aliquem moveat, iucunditas. Et certamen honestum et disputatio splendida! omnis est enim de virtutis dignitate contentio.
 
-#### Idem iste, inquam, de voluptate quid sentit?
+##### Idem iste, inquam, de voluptate quid sentit?
 
 Est autem a te semper dictum nec gaudere quemquam nisi propter corpus nec dolere. Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Quamvis enim depravatae non sint, pravae tamen esse possunt. **Quo modo autem philosophus loquitur?** Quem si tenueris, non modo meum Ciceronem, sed etiam me ipsum abducas licebit. _Numquam facies._
 
