@@ -38,6 +38,7 @@ fields:
   config:
     labelField: img_title
 pages:
+- content/post/wam-partners-e-blasts.md
 - content/post/migrate-from-jekyll.md
 - content/post/go-is-for-great-lovers.md
 - content/post/courier-logo.md
@@ -48,5 +49,4 @@ pages:
 - content/post/220e42ndst.md
 - content/post/another-post.md
 - content/post/think-animated-gif.md
-- content/post/wam-partners-e-blasts.md
 - content/post/quam-hoc-suave.md
