@@ -8,6 +8,12 @@ title = "WAM Partners E-Blasts"
 [[portfolio_items]]
 image = "/uploads/mc-large.jpg"
 img_title = "Large"
+[[portfolio_items]]
+image = "/uploads/Artboard 1.jpg"
+img_title = "Section 1"
+[[portfolio_items]]
+image = "/uploads/Artboard 2.jpg"
+img_title = "Section 2"
 
 +++
 ##### Nihilo magis.
