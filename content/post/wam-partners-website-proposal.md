@@ -19,18 +19,8 @@ During my time at WAM Partners I was able to work on a side project that involve
 
 ###### Problem
 
-So the intial problem I had run into while working at WAM Partners was having to update their website. I had to juggle a lot of tasks being the Webmaster/Listings manager. I initially suggest an update to the website to my boss and he was more than happy for me to pursue it as a side project. 
-
-I took the time 
+So the intial problem I had run into while working at WAM Partners was having to update their website. I had to juggle a lot of tasks being the Webmaster/Listings manager and having to update listings using HTML and CSS was not efficient. I initially suggest a redesign to the website to my boss and he was more than happy for me to pursue it as a side project. Later I came to realize that rather that it would be more useful to the company if I installed a CMS for them that they could use to manage the listings on their website.
 
 ###### Solution
 
 Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Itaque et manendi in vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. Aperiendum est igitur, quid sit voluptas; Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? _Ratio enim nostra consentit, pugnat oratio._ Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? _Ostendit pedes et pectus._
-
-_In schola desinis._ Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur? Ergo, inquit, tibi Q. Huius ego nunc auctoritatem sequens idem faciam. In eo autem voluptas omnium Latine loquentium more ponitur, cum percipitur ea, quae sensum aliquem moveat, iucunditas. Et certamen honestum et disputatio splendida! omnis est enim de virtutis dignitate contentio.
-
-##### Idem iste, inquam, de voluptate quid sentit?
-
-Est autem a te semper dictum nec gaudere quemquam nisi propter corpus nec dolere. Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Quamvis enim depravatae non sint, pravae tamen esse possunt. **Quo modo autem philosophus loquitur?** Quem si tenueris, non modo meum Ciceronem, sed etiam me ipsum abducas licebit. _Numquam facies._
-
-**Collatio igitur ista te nihil iuvat.** Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Idcirco enim non desideraret, quia, quod dolore caret, id in voluptate est. Hic quoque suus est de summoque bono dissentiens dici vere Peripateticus non potest. Pauca mutat vel plura sane; Mihi, inquam, qui te id ipsum rogavi? Et non ex maxima parte de tota iudicabis?
