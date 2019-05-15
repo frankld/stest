@@ -2,9 +2,27 @@
 banner = "/uploads/img4.png"
 categories = ["Photography"]
 date = "2019-04-04T04:00:00+00:00"
-portfolio_items = []
+employer = ""
 thumb = "/uploads/wam_photography_thumb.jpg"
 title = "WAM Partners Photography"
+[[portfolio_items]]
+image = "/uploads/150_13s1.jpg"
+img_title = "150_1"
+[[portfolio_items]]
+image = "/uploads/150_13s2.jpg"
+img_title = "150_2 13S"
+[[portfolio_items]]
+image = "/uploads/853_10a1.jpg"
+img_title = "853 10A 1"
+[[portfolio_items]]
+image = "/uploads/853_10a2.jpg"
+img_title = "853 10A 2"
+[[portfolio_items]]
+image = "/uploads/853_10a3.jpg"
+img_title = "853 10A 3"
+[[portfolio_items]]
+image = "/uploads/853_10a4.jpg"
+img_title = "853 10A 4"
 
 +++
 # WAM Partners Photography
