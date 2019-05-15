@@ -23,7 +23,7 @@ So the intial problem I had run into while working at WAM Partners was having to
 
 I took the time 
 
-Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta.
+###### Solution
 
 Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Itaque et manendi in vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. Aperiendum est igitur, quid sit voluptas; Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? _Ratio enim nostra consentit, pugnat oratio._ Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? _Ostendit pedes et pectus._
 
