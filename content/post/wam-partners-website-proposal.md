@@ -13,13 +13,13 @@ image = "/uploads/2018-10-18-23-53-www.wamstaff.com.png"
 img_title = "Website Layout"
 
 +++
-During my time at WAM Partners I was able to work on a side project that involved the company. I was able to create a website using Wordpress with a custom theme using Advanced Custom Fields (ACF) in the backend, and then using Bootstrap for the front end.
+During my time at WAM Partners I was able to work on a side project that involved the company. I was able to create a website using WordPress with a custom theme using Advanced Custom Fields (ACF) in the back end, and then using Bootstrap for the front end.
 
 #### Listings Website 
 
 ###### Problem
 
-So the intial problem I had run into while working at WAM Partners was having to update their website. I had to juggle a lot of tasks being the Webmaster/Listings manager and having to update listings using HTML and CSS was not efficient. I initially suggest a redesign to the website to my boss and he was more than happy for me to pursue it as a side project. Later I came to realize that rather that it would be more useful to the company if I installed a CMS for them that they could use to manage the listings on their website.
+So the initial problem I had run into while working at WAM Partners was having to update their website. I had to juggle a lot of tasks being the Webmaster/Listings manager and having to update listings using HTML and CSS was not efficient. I initially suggest a redesign to the website to my boss and he was more than happy for me to pursue it as a side project. Later I came to realize that rather that it would be more useful to the company if I installed a CMS for them that they could use to manage the listings on their website.
 
 ###### Solution
 
