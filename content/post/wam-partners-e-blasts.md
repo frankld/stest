@@ -14,9 +14,6 @@ img_title = "SMALL"
 [[portfolio_items]]
 image = "/uploads/mc-large.jpg"
 img_title = "Large"
-[[portfolio_items]]
-image = "/uploads/mc-full.jpg"
-img_title = "COMPLETE"
 
 +++
 ##### Nihilo magis.
