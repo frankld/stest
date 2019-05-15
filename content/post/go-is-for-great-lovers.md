@@ -2,7 +2,7 @@
 banner = "/uploads/img4.png"
 categories = ["Photography"]
 date = "2017-10-16T04:00:00+00:00"
-employer = ""
+employer = "WAM Partners"
 thumb = "/uploads/wam_photography_thumb.jpg"
 title = "WAM Partners Photography"
 [[portfolio_items]]
