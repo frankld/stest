@@ -9,12 +9,12 @@ image = "/uploads/courier-02-2.png"
 img_title = "Logo Image"
 
 +++
-Hoc sic expositum dissimile est superiori. Quam tu ponis in verbis, ego positam in re putabam. Laboro autem non sine causa; Sed mehercule pergrata mihi oratio tua. **Nemo igitur esse beatus potest.** Hic nihil fuit, quod quaereremus. Cur igitur, cum de re conveniat, non malumus usitate loqui?
+I designed this courier logo first as a personal project. At first it was going to be a full fledged digital illustration, but after finishing the head I decided to create as a mock up logo. 
 
 ##### Geometric, Clean and Minimal
 
-Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Itaque et manendi in vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. Aperiendum est igitur, quid sit voluptas; Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? _Ratio enim nostra consentit, pugnat oratio._ Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? _Ostendit pedes et pectus._
+I decided to keep a clean minimal style for this project and based it all on basic shapes.
 
 ##### Vector Illustration in Adobe Illustrator
 
-Est autem a te semper dictum nec gaudere quemquam nisi propter corpus nec dolere. Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Quamvis enim depravatae non sint, pravae tamen esse possunt. **Quo modo autem philosophus loquitur?** Quem si tenueris, non modo meum Ciceronem, sed etiam me ipsum abducas licebit. _Numquam facies._
+ i used adobe illustrator to create this logo, staring off with a circle, triangle and rectangle for the head, and a semi circle for the head. After creating a basic proportion using these shapes I added minimalistic details to the character
