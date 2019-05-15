@@ -1,16 +1,16 @@
 ---
 baseurl: https://frankld.netlify.com/
 disqusShortname: FLD
-googleAnalytics: ''
+googleAnalytics: ""
 languageCode: en-us
-paginate: 6
 theme: frank
 title: Francis Laguna-Driscoll - Portfolio
 params:
   custom_css: []
   custom_js: []
   date_format: 2006-01-02 00:00:00.000000000 +00:00
-  description: Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor,
+  description:
+    Phasellus vestibulum, urna et ultrices vulputate, tellus egestas dolor,
     eu faucibus quam nunc quis dolor. Vestibulum eget tempor lorem, eleifend maximus
     felis. Sed aliquam urna sed aliquet. Morbi vestibulum mauris vitae dui molestie
     condimentum. Suspendisse tempus quis dui ut mattis.
@@ -18,7 +18,8 @@ params:
   name: Francis Laguna-Driscoll
   show_read_time: false
   about:
-    content: Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
+    content:
+      Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
       lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor
       primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit
       enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper
@@ -27,10 +28,11 @@ params:
     title: Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque.
   contact:
     address:
-    - 1234 Somewhere Rd.
-    - Nashville, TN 00000
-    - United States
-    content: Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna.
+      - 1234 Somewhere Rd.
+      - Nashville, TN 00000
+      - United States
+    content:
+      Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna.
       Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque
       lorem ipsum dolor.
     email: fldriscoll@gmail.com
@@ -47,22 +49,22 @@ params:
     hide: false
     title: Recent Work
     gallery:
-    - description: Lorem ipsum dolor sit amet.
-      image: fulls/01.jpg
-      thumb: thumbs/01.jpg
-      title: Lorem ipsum dolor.
-    - description: Lorem ipsum dolor sit amet.
-      image: fulls/02.jpg
-      thumb: thumbs/02.jpg
-      title: Lorem ipsum dolor.
-    - description: Lorem ipsum dolor sit amet.
-      image: fulls/03.jpg
-      thumb: thumbs/03.jpg
-      title: Lorem ipsum dolor.
-    - description: Lorem ipsum dolor sit amet.
-      image: fulls/04.jpg
-      thumb: thumbs/04.jpg
-      title: Lorem ipsum dolor.
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/01.jpg
+        thumb: thumbs/01.jpg
+        title: Lorem ipsum dolor.
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/02.jpg
+        thumb: thumbs/02.jpg
+        title: Lorem ipsum dolor.
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/03.jpg
+        thumb: thumbs/03.jpg
+        title: Lorem ipsum dolor.
+      - description: Lorem ipsum dolor sit amet.
+        image: fulls/04.jpg
+        thumb: thumbs/04.jpg
+        title: Lorem ipsum dolor.
   recentposts:
     hide: false
     title: Recent blog posts
@@ -70,12 +72,12 @@ params:
     avatar: avatar.jpg
     bio: "**HEY, I’M FRANCIS LAGUNA-DRISCOLL I’M A GRAPHIC DESIGNER BASED IN NY**"
     copyright:
-    - "&copy; Francis Laguna-Driscoll"
+      - "&copy; Francis Laguna-Driscoll"
     dribbble: fldriscoll
     facebook: fldriscoll
     flickr: spf1366328801@N05
-    github: ''
+    github: ""
     instagram: fldriscoll
-    googleplus: ''
+    googleplus: ""
     linkedin: fldriscoll
-    twitter: ''
+    twitter: ""
