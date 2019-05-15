@@ -6,12 +6,6 @@ employer = ""
 thumb = "/uploads/mc_wam_thumb.jpg"
 title = "WAM Partners E-Blasts"
 [[portfolio_items]]
-description = "Idemne potest esse dies saepius, qui semel fuit? Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quasi ego id curem, quid ille aiat aut neget."
-header1 = "Eblasts"
-header2 = "Creating Luxurious E-Blasts"
-image = "/uploads/mc-small.jpg"
-img_title = "SMALL"
-[[portfolio_items]]
 image = "/uploads/mc-large.jpg"
 img_title = "Large"
 
