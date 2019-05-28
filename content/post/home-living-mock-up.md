@@ -60,8 +60,25 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 ##### Layout and Composition
 {{% /columns %}}
 
-{{% columns col="6" %}}
+{{<> columns col="6" >}}
+
 {{% rows %}}
+
 NESTED YAY!
+
 {{% /rows %}}
+
 {{% /columns %}}
+
+
+<div>
+    <p>
+    This is a paragraph
+    </p>
+    <ul>
+        THIS IS A LIST:
+        <li>LIST ITEM<li>
+        <li>LIST ITEM<li>
+        <li>LIST ITEM<li>
+    </ul>
+</div>
