@@ -27,9 +27,13 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 {{% /columns %}}
 
 
-{{% columns col="12" %}} ##### Color Palette {{% /columns %}}
+{{% columns col="12" %}}
+##### Color Palette
+{{% /columns %}}
 
-{{% columns col="6" %}} ![](/uploads/Color Palette @2x.png) {{% /columns %}}
+{{% columns col="6" %}}
+![](/uploads/Color Palette @2x.png)
+{{% /columns %}}
 
 
 
@@ -38,12 +42,18 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 \[IMAGE TO BE PLACED\]
 
 
-{{% columns col="12" %}} ##### Initial Component {{% /columns %}}
+{{% columns col="12" %}} 
+##### Initial Component 
+{{% /columns %}}
 
-{{% columns col="6" %}} ![](/uploads/UI CARD DESIGN - noGrid.png) {{% /columns %}}
+{{% columns col="6" %}} 
+![](/uploads/UI CARD DESIGN - noGrid.png) 
+{{% /columns %}}
 
 
-{{% columns col="12" %}} ##### Grid {{% /columns %}}
+{{% columns col="12" %}} 
+##### Grid 
+{{% /columns %}}
 
 {{% columns col="6" %}} ![](/uploads/UI CARD DESIGN.png) {{% /columns %}}
 
