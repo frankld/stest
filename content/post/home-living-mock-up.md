@@ -47,11 +47,11 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{% /columns %}}
 
 {{% columns col="6" %}}
-![](/uploads/UI CARD DESIGN - noGrid.png)
+![](/uploads/UI CARD DESIGN - noGrid.png class="single-image data-zoomable img-fluid shadow")
 {{% /columns %}}
 
 {{% columns col="6" %}}
-![](/uploads/UI CARD DESIGN.png)
+![](/uploads/UI CARD DESIGN.png class="single-image data-zoomable img-fluid shadow")
 {{% /columns %}}
 
 {{% columns col="6" %}}
