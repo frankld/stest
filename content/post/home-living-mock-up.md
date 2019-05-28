@@ -27,7 +27,7 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 
 This is some text
 
-{{< /pitems>}}
+{{< /pitems >}}
 
 
 ##### Color Palette
