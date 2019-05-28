@@ -69,16 +69,3 @@ NESTED YAY!
 {{% /rows %}}
 
 {{% /columns %}}
-
-
-<div>
-    <p>
-    This is a paragraph
-    </p>
-    <ul>
-        THIS IS A LIST:
-        <li>LIST ITEM<li>
-        <li>LIST ITEM<li>
-        <li>LIST ITEM<li>
-    </ul>
-</div>
