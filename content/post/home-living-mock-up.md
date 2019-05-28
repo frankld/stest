@@ -30,7 +30,7 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{% /columns %}}
 
 {{% columns col="6" %}}
-![](/uploads/Color Palette @2x.png)
+![](/uploads/Color Palette @2x.png class="single-image data-zoomable img-fluid shadow")
 {{% /columns %}}
 
 {{% columns col="12" %}}
