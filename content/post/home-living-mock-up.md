@@ -15,7 +15,6 @@ image = "/uploads/landing-page.png"
 img_title = "Landing Page"
 
 +++
-
 {{% columns col="12" %}}
 
 ### Tollenda est atque extrahenda radicitus.
@@ -31,32 +30,30 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 ##### Color Palette
 {{% /columns %}}
 
-{{% columns col="6" %}}
+{{% columns col="16" %}}
 ![](/uploads/Color Palette @2x.png)
+{{% /columns %}}
+
+{{% columns col="12" %}}
+##### Typography
+
+\[IMAGE TO BE PLACED\]
 {{% /columns %}}
 
 
 
-##### Typography
-
-\[IMAGE TO BE PLACED\]
-
 
 {{% columns col="12" %}} 
-##### Initial Component 
+##### Initial Component
 {{% /columns %}}
 
 {{% columns col="6" %}} 
 ![](/uploads/UI CARD DESIGN - noGrid.png) 
 {{% /columns %}}
 
-
-{{% columns col="12" %}} 
-##### Grid 
+{{% columns col="6" %}}
+![](/uploads/UI CARD DESIGN.png)
 {{% /columns %}}
-
-{{% columns col="6" %}} ![](/uploads/UI CARD DESIGN.png) {{% /columns %}}
 
 
 ##### Layout and Composition
-
