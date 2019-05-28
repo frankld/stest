@@ -2,9 +2,17 @@
 categories = ["Web Design", "Branding", "UX/UI"]
 date = "2019-05-20T04:00:00+00:00"
 employer = "Personal"
-portfolio_items = []
 thumb = "/uploads/Website Export (1).png"
 title = "Home Living Mock Up"
+[[portfolio_items]]
+image = "/uploads/single-page.png"
+img_title = "Single Page"
+[[portfolio_items]]
+image = "/uploads/list-page.png"
+img_title = "List Page"
+[[portfolio_items]]
+image = "/uploads/landing-page.png"
+img_title = "Landing Page"
 
 +++
 ### Tollenda est atque extrahenda radicitus.
@@ -29,14 +37,4 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 
 ![](/uploads/UI CARD DESIGN.png)
 
-##### Landing Page
-
-![](/uploads/landing-page.png)
-
-##### List Page
-
-![](/uploads/list-page.png)
-
-##### Single Page
-
-![](/uploads/single-page.png)
+##### 
