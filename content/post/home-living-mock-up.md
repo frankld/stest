@@ -57,7 +57,5 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 {{% /columns %}}
 
 {{% columns col="6" %}}
-
 ##### Layout and Composition
-
 {{% /columns %}}
