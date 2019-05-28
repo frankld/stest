@@ -60,13 +60,9 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 ##### Layout and Composition
 {{% /columns %}}
 
-{{< columns col="6" >}}
-
+{{< columns col="12" >}}
 {{% rows %}}
-
 NESTED YAY!
-
 {{% /rows %}}
-
 {{< /columns >}}
 
