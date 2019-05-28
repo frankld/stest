@@ -22,18 +22,6 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur. Quae cum dixisset paulumque institisset, Quid est? **At multis malis affectus.** An me, inquam, nisi te audire vellem, censes haec dicturum fuisse? _Haeret in salebra._ Istic sum, inquit. Deprehensus omnem poenam contemnet. Hoc loco tenere se Triarius non potuit.
 
 
-<div class="row">
-
-
-{{< pitems >}}
-
-This is some text
-
-{{< /pitems>}}
-
-
-</div>
-
 ##### Color Palette
 
 ![](/uploads/Color Palette @2x.png)
