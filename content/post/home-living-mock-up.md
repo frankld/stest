@@ -4,6 +4,7 @@ date = "2019-05-20T04:00:00+00:00"
 employer = "Personal"
 thumb = "/uploads/Website Export (1).png"
 title = "Home Living Mock Up"
+markup = "mmark"
 [[portfolio_items]]
 image = "/uploads/single-page.png"
 img_title = "Single Page"
