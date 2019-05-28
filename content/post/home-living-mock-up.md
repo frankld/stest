@@ -30,7 +30,7 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 ##### Color Palette
 {{% /columns %}}
 
-{{% columns col="16" %}}
+{{% columns col="6" %}}
 ![](/uploads/Color Palette @2x.png)
 {{% /columns %}}
 
