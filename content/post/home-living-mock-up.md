@@ -31,6 +31,12 @@ Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, inge
 
 ##### Landing Page
 
+![](/uploads/landing-page.png)
+
 ##### List Page
 
+![](/uploads/list-page.png)
+
 ##### Single Page
+
+![](/uploads/single-page.png)
