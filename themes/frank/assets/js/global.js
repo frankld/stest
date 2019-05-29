@@ -126,3 +126,7 @@ menuScene.on('leave', function (event) {
 
     
     controller.addScene([introScene,menuScene,recentScene ]);
+
+
+
+    for (var i=0; i<128; i++) document.writeln (("<p>") + i + ": " + String.fromCharCode (i) + "<br>");
