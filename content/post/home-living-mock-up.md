@@ -48,8 +48,7 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 {{< columns col="6" >}}
 
-{{< images src="/uploads/UI CARD DESIGN - noGrid.png" alt="" >}}
-{{< images src="" alt="" >}}
+{{< images src="/uploads/UI CARD DESIGN - noGrid.png" alt="UI CARD DESIGN - No Grid" >}}
 
 {{< /columns >}}
 
