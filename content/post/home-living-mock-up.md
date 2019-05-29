@@ -58,10 +58,11 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 ##### Layout and Composition
 {{% /columns %}}
 
+{{< columns  col="12" >}}
 {{< rows >}}
 {{% columns col="12" %}}
 NESTED YAY!
 {{% /columns %}}
 {{< /rows >}}
-
+{{< /columns >}}
 
