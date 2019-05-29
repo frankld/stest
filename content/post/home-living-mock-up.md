@@ -53,6 +53,7 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{< /columns >}}
 
 {{% columns col="6" %}}
+{{< images src="/uploads/UI CARD DESIGN.png" alt="UI CARD DESIGN" >}}
 ![](/uploads/UI CARD DESIGN.png)
 {{% /columns %}}
 
@@ -67,4 +68,3 @@ NESTED YAY!
 {{% /columns %}}
 {{< /rows >}}
 {{< /columns >}}
-
