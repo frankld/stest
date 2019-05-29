@@ -129,4 +129,3 @@ menuScene.on('leave', function (event) {
 
 
 
-    for (var i=0; i<128; i++) document.writeln (("<p>") + i + ": " + String.fromCharCode (i) + "<br>");
