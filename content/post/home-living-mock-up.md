@@ -37,7 +37,11 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 ##### Typography
 
-\[IMAGE TO BE PLACED\]
+0123456789  
+!"#$%&'()*+,-./:;<=>?@\[\\\]^_\`{|}\~  
+ABCDEFGHIJKLMNOPQRSTUVWXYZ  
+abcdefghijklmnopqrstuvwxyz
+
 {{% /columns %}}
 
 {{% columns col="12" %}}
@@ -57,7 +61,9 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{% /columns %}}
 
 {{% columns col="6" %}}
+
 ##### Layout and Composition
+
 {{% /columns %}}
 
 {{< columns  col="12" >}}
