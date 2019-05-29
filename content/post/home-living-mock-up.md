@@ -48,7 +48,7 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{% /columns %}}
 
 {{% columns col="6" %}}
-<img class="single-image data-zoomable img-fluid shadow" src="(/uploads/UI CARD DESIGN - noGrid.png)">
+![](/uploads/UI CARD DESIGN - noGrid.png)
 {{% /columns %}}
 
 {{% columns col="6" %}}
