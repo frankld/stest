@@ -127,5 +127,3 @@ menuScene.on('leave', function (event) {
     
     controller.addScene([introScene,menuScene,recentScene ]);
 
-
-
