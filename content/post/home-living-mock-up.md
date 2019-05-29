@@ -46,9 +46,12 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 {{% /columns %}}
 
-{{% columns col="6" %}}
-![](/uploads/UI CARD DESIGN - noGrid.png)
-{{% /columns %}}
+{{< columns col="6" >}}
+
+{{< images src="/uploads/UI CARD DESIGN - noGrid.png" alt="" >}}
+{{< images src="" alt="" >}}
+
+{{< /columns >}}
 
 {{% columns col="6" %}}
 ![](/uploads/UI CARD DESIGN.png)
