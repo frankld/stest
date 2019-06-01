@@ -7106,6 +7106,8 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 1rem; }
   .content p {
     font-size: 12px; }
+  .content #logo {
+    font-family: "Gatsby Normal"; }
 
 .typography {
   font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
