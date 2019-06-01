@@ -39,7 +39,7 @@ $container-max-widths: (
 $speed: 600ms;
 $easing: cubic-bezier(0.7, 0, 0, 0.7);
 
-.content {
+.page-content {
   overflow: hidden;
   img {
     max-width: 100%;
@@ -175,10 +175,6 @@ dd {
   }
 }
 @include media-breakpoint-up(xl) {
-  .content img {
-    // width: 50%;
-    // margin-bottom: 1rem;
-  }
 }
 
 #logo {

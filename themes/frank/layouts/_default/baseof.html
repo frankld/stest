@@ -6,7 +6,7 @@
     <header id="fixed-nav" class="py-4 py-xl-5">
         {{ block "header" .}} {{ end }}
     </header>
-    <div id="content" class="position-relative content">
+    <div id="content" class="position-relative {{ if .IsHome }}home-{{ else if .IsPage }}page-{{ else }}list-{{ end }}content">
         {{ block "main" . }}{{ end }}
     </div>
     <footer>

@@ -5,5 +5,4 @@ menu:
   main:
     name: Archive
     weight: 2
-
 ---

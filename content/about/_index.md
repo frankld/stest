@@ -7,7 +7,6 @@ name = "About"
 weight = 3
 
 +++
-![](/uploads/frank.jpg)
 
 My name is Francis and I am a Graphic Designer specializing in web design. I currently live in New York City after spending the last 9 years living La Paz, Bolivia, where I graduated from La Universidad Catolica with a Bachelor’s Degree in Graphic Design.
 
@@ -20,7 +19,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 <h3 class="mb-3">Skills</h3>
 <div class="row">
 <div class="col-12 col-sm-4">
-<h5 class="font-weight-bold mb-3">Web Development</h5>
+<h4 class="font-weight-bold mb-3">WEB DEVELOPMENT</h4>
 <p>HTML5, CSS3</p>
 <p>SCSS/SASS</p>
 <p>jQuery</p>
@@ -29,7 +28,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 <p>Hugo</p>
 </div>
 <div class="col-12 col-sm-4">
-<h5 class="font-weight-bold mb-3">Design Tools</h5>
+<h4 class="font-weight-bold mb-3">DESIGN TOOLS</h4>
 <p>Adobe Photoshop</p>
 <p>Adobe Illustrator</p>
 <p>Adobe Indesign</p>
@@ -38,7 +37,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 <p>Vue/Nuxt</p>
 </div>
 <div class="col-12 col-sm-4">
-<h5 class="font-weight-bold mb-3">Animation</h5>
+<h4 class="font-weight-bold mb-3">ANIMATION</h4>
 <p>Adobe After Effects </p>
 <p>GSAP</p>
 <p>ScrollMagic</p>
@@ -53,7 +52,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 
 <div class="row">
 <div class="col">
-<h3 class="mb-3">Education</h3>
+<h3 class="mb-3">EDUCATION</h3>
 <h6 class="font-weight-bold">Universidad Católica Boliviana</h6>
 <p>Diseño Gráfico y Comunicación Visual,<br>Graphic Design 2011-2016</p>
 </div>
@@ -76,7 +75,7 @@ In addition to web design, I also have a strong interest in branding, digital il
 <h3 class="mb-3">Contact</h3>
 <div class="row">
 <div class="col-12 col-sm-4">
-<h5 class="font-weight-bold mb-3">Email</h5>
+<h4 class="font-weight-bold mb-3">Email</h4>
 <p><a href="http://localhost:1313/mailto:fldriscoll@gmail.com?Subject=Hello%2C%20is%20it%20me%20you%27re%20looking%20for%3F">fldriscoll@gmail.com</a></p>
 </div>
 </div>
