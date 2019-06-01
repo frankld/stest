@@ -6,7 +6,7 @@ thumb = "/uploads/Website Export (1).png"
 title = "Home Living Mock Up"
 +++
 
-{{% columns col="12" %}}
+{{% columns col="12" margin="my-4" %}}
 
 ### Tollenda est atque extrahenda radicitus
 
@@ -14,7 +14,9 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 {{% /columns %}}
 
-{{% columns col="12" %}}
+<!-- New Section -->
+
+{{% columns col="12" margin="my-4" %}}
 
 ### Color Palette
 
@@ -25,32 +27,74 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{< color name="Dark Blue" hex="35434E" r="255" g="154" b="19" >}}
 {{< /columns >}}
 
-{{% columns col="12" %}}
+<!-- New Section -->
+
+{{% columns col="12" margin="my-4" %}}
 
 ### Typography
 
 #### LOGO - GATSBY (ENVATO ELEMENTS)
 
+# EMMETT COLESON
+
+#### HEADERS - SAIRA (GOOGLE WEBFONTS)
+
 {{< typography >}}
 
 {{% /columns %}}
 
-{{% columns col="12" %}}
+<!-- New Section -->
+
+{{% columns col="12" margin="my-4" %}}
 
 ### Components
 
 {{< row >}}
-{{< columns col="6" >}}
-{{< images src="/uploads/UI CARD DESIGN - noGrid.png" alt="UI CARD DESIGN - No Grid" >}}
-{{< /columns >}}
 
 {{% columns col="6" %}}
+
+#### CARD DESIGN
+
+{{< images src="/uploads/UI CARD DESIGN - noGrid.png" alt="UI CARD DESIGN - No Grid" >}}
+
+{{% /columns %}}
+
+{{% columns col="6" %}}
+
+#### CARD DESIGN (GRID)
+
 {{< images src="/uploads/UI CARD DESIGN.png" alt="UI CARD DESIGN" >}}
 {{% /columns %}}
-{{< /row >}}
-{{% /columns %}}
-{{% columns col="12" %}}
 
-### Layout and Composition
+{{< /row >}}
+
+{{% /columns %}}
+
+<!-- New Section -->
+
+{{% columns col="12" margin="my-4" %}}
+
+### Templates
+
+{{< row >}}
+{{% columns col="4" %}}
+
+#### LANDING PAGE
+
+{{< images src="/uploads/landing-page.png" alt="UI CARD DESIGN" >}}
+{{% /columns %}}
+{{% columns col="4" %}}
+
+#### LIST PAGE
+
+{{< images src="/uploads/list-page.png" alt="UI CARD DESIGN" >}}
+{{% /columns %}}
+{{% columns col="4" %}}
+
+#### SINGLE PAGE
+
+{{< images src="/uploads/single-page.png" alt="UI CARD DESIGN" >}}
+{{% /columns %}}
+{{< /row >}}
 
 {{% /columns %}}
