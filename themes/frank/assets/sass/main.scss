@@ -43,6 +43,7 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
   overflow: hidden;
   img {
     max-width: 100%;
+    margin-bottom: 1rem;
   }
   h2 {
     font-size: 12px;
@@ -68,6 +69,7 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
   font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
     Arial, sans-serif;
   background-color: $grey;
+  margin-bottom: 1rem;
 
   .pretype {
     font-size: 10px;
@@ -472,6 +474,7 @@ p img {
   background-color: $grey;
   display: inline-block;
   margin-right: 5px;
+  margin-bottom: 1rem;
 }
 
 .color-palette {

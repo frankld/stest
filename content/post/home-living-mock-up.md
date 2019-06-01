@@ -7,6 +7,7 @@ thumb = "/uploads/Website Export (1).png"
 title = "Home Living Mock Up"
 
 +++
+
 {{% columns col="12" margin="my-4" %}}
 
 ### Tollenda est atque extrahenda radicitus
@@ -66,9 +67,7 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 {{< images src="/uploads/UI CARD DESIGN.png" alt="UI CARD DESIGN" >}}
 {{% /columns %}}
-
 {{< /row >}}
-
 {{% /columns %}}
 
 <!-- New Section -->

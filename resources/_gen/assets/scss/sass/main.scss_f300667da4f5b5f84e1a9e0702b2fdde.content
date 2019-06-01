@@ -7094,7 +7094,8 @@ a.text-dark:hover, a.text-dark:focus {
 .content {
   overflow: hidden; }
   .content img {
-    max-width: 100%; }
+    max-width: 100%;
+    margin-bottom: 1rem; }
   .content h2 {
     font-size: 12px; }
   .content h3 {
@@ -7111,7 +7112,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .typography {
   font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  margin-bottom: 1rem; }
   .typography .pretype {
     font-size: 10px;
     margin-right: 10px;
@@ -7436,7 +7438,8 @@ p img {
   width: 140px;
   background-color: whitesmoke;
   display: inline-block;
-  margin-right: 5px; }
+  margin-right: 5px;
+  margin-bottom: 1rem; }
 
 .color-palette {
   height: 100px; }
