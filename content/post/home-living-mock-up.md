@@ -2,10 +2,11 @@
 categories = ["Web Design", "Branding", "UX/UI"]
 date = "2019-05-20T04:00:00+00:00"
 employer = "Personal"
+portfolio_items = []
 thumb = "/uploads/Website Export (1).png"
 title = "Home Living Mock Up"
-+++
 
++++
 {{% columns col="12" margin="my-4" %}}
 
 ### Tollenda est atque extrahenda radicitus
@@ -35,7 +36,7 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 #### LOGO - GATSBY (ENVATO ELEMENTS)
 
-# EMMETT COLESON
+# ![](/uploads/logo.png)
 
 #### HEADERS - SAIRA (GOOGLE WEBFONTS)
 
