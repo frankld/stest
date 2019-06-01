@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
-    {{ partial "header/head.html" . }}
-    <body>
-        <header id="fixed-nav" class="py-4 py-xl-5">
-            {{ block "header" .}} {{ end }}
-        </header>
-        <div id="content" class="position-relative">
+{{ partial "header/head.html" . }}
+
+<body>
+    <header id="fixed-nav" class="py-4 py-xl-5">
+        {{ block "header" .}} {{ end }}
+    </header>
+    <div id="content" class="position-relative content">
         {{ block "main" . }}{{ end }}
-        </div>
-        <footer>
-            {{ block "footer" .}}{{ end }}    
-        </footer>
-        {{ partial "scripts.html" }}
-    </body>
+    </div>
+    <footer>
+        {{ block "footer" .}}{{ end }}
+    </footer>
+    {{ partial "scripts.html" }}
+</body>
+
 </html>

@@ -1,0 +1,12 @@
+<div class="color-container">
+    <div class="color-palette" style="background-color: #{{ .Get `hex`}} ;"></div>
+    <div class="color-meta">
+        <dl style="margin-bottom:0px;">
+            <dd><strong style="color:#{{ .Get `hex`}};">{{ .Get "name" }}</strong></dd>
+            <dt>RGB:</dt>
+            <dd>{{ .Get `r`}} , {{ .Get `g`}} , {{ .Get `b`}}</dd>
+            <dt>HEX:</dt>
+            <dd style="margin-bottom:0px;">#{{ .Get `hex`}}</dd>
+        </dl>
+    </div>
+</div>

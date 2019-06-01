@@ -4,20 +4,11 @@ date = "2019-05-20T04:00:00+00:00"
 employer = "Personal"
 thumb = "/uploads/Website Export (1).png"
 title = "Home Living Mock Up"
-[[portfolio_items]]
-image = "/uploads/single-page.png"
-img_title = "Single Page"
-[[portfolio_items]]
-image = "/uploads/list-page.png"
-img_title = "List Page"
-[[portfolio_items]]
-image = "/uploads/landing-page.png"
-img_title = "Landing Page"
-
 +++
+
 {{% columns col="12" %}}
 
-### Tollenda est atque extrahenda radicitus.
+### Tollenda est atque extrahenda radicitus
 
 Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. Nunc haec primum fortasse audientis servire debemus. Quo modo autem optimum, si bonum praeterea nullum est? Cum id quoque, ut cupiebat, audivisset, evelli iussit eam, qua erat transfixus, hastam. [Igitur ne dolorem quidem.](http://loripsum.net/) Huius, Lyco, oratione locuples, rebus ipsis ielunior. **Duo Reges: constructio interrete.**
 
@@ -25,63 +16,41 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 {{% columns col="12" %}}
 
-##### Color Palette
+### Color Palette
 
-{{% /columns %}}
-
-{{% columns col="6" %}}
-![](/uploads/Color Palette @2x.png)
-{{% /columns %}}
+{{< color name="Lavender" hex="707C9B" r="255" g="154" b="19" >}}
+{{< color name="Purple" hex="7F7599" r="255" g="154" b="19" >}}
+{{< color name="Sea Green" hex="546A7B" r="255" g="154" b="19" >}}
+{{< color name="Muted Blue" hex="3B4B57" r="255" g="154" b="19" >}}
+{{< color name="Dark Blue" hex="35434E" r="255" g="154" b="19" >}}
+{{< /columns >}}
 
 {{% columns col="12" %}}
 
-##### Typography
+### Typography
 
-    
+#### LOGO - GATSBY (ENVATO ELEMENTS)
 
-# h1 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
-
-## h2 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
-
-### h3 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
-
-#### h4 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
-
-##### h5 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
-
-###### h6 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
-
-0123456789  
-!"#$%&'()*+,-./:;<=>?@\[\\\]^_\`{|}\~
+{{< typography >}}
 
 {{% /columns %}}
 
 {{% columns col="12" %}}
 
-##### Initial Component
+### Components
 
-{{% /columns %}}
-
+{{< row >}}
 {{< columns col="6" >}}
-
 {{< images src="/uploads/UI CARD DESIGN - noGrid.png" alt="UI CARD DESIGN - No Grid" >}}
-
 {{< /columns >}}
 
 {{% columns col="6" %}}
 {{< images src="/uploads/UI CARD DESIGN.png" alt="UI CARD DESIGN" >}}
 {{% /columns %}}
-
-{{% columns col="6" %}}
-
-##### Layout and Composition
-
+{{< /row >}}
 {{% /columns %}}
-
-{{< columns  col="12" >}}
-{{< rows >}}
 {{% columns col="12" %}}
-NESTED YAY!
+
+### Layout and Composition
+
 {{% /columns %}}
-{{< /rows >}}
-{{< /columns >}}

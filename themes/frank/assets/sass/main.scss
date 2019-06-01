@@ -4,6 +4,8 @@ $enable-shadows: true;
 $enable-responsive-font-sizes: true;
 
 $primary: rgb(240, 68, 0);
+$grey: rgb(245, 245, 245);
+$black: #212529;
 $headings-font-family: "Montserrat";
 $font-family-sans-serif: "Montserrat";
 $headings-font-weight: 700;
@@ -37,12 +39,81 @@ $container-max-widths: (
 $speed: 600ms;
 $easing: cubic-bezier(0.7, 0, 0, 0.7);
 
-#content {
+.content {
   overflow: hidden;
+  img {
+    max-width: 100%;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  p {
+    font-size: 12px;
+  }
 }
 
-.content img {
-  max-width: 100%
+.typography {
+  font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif;
+  background-color: $grey;
+
+  .pretype {
+    font-size: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
+    font-size: 35px;
+    line-height: 1.5;
+    color: $black;
+  }
+  h2 {
+    font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    color: $black;
+  }
+  h3 {
+    font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: $black;
+  }
+  h4 {
+    font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $black;
+  }
+  h5 {
+    font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: $black;
+  }
+  h6 {
+    font-family: "Saira", "Helvetica", "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    color: $black;
+  }
 }
 
 .display-4 {
@@ -92,8 +163,8 @@ dd {
 }
 @include media-breakpoint-up(xl) {
   .content img {
-    width: 50%;
-    margin-bottom: 1rem;
+    // width: 50%;
+    // margin-bottom: 1rem;
   }
 }
 
@@ -382,4 +453,19 @@ p img {
 }
 .recentLink {
   overflow: hidden;
+}
+
+.color-container {
+  width: 140px;
+  background-color: $grey;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.color-palette {
+  height: 100px;
+}
+
+.color-meta {
+  padding: 15px;
 }

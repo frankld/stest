@@ -6,18 +6,29 @@
     <description>Recent content in Ux/Ui on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 04:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://frankld.netlify.com/categories/ux/ui/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Home Living Mock Up</title>
+      <link>https://frankld.netlify.com/post/home-living-mock-up/</link>
+      <pubDate>Mon, 20 May 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/post/home-living-mock-up/</guid>
+      <description>Tollenda est atque extrahenda radicitus Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. Nunc haec primum fortasse audientis servire debemus. Quo modo autem optimum, si bonum praeterea nullum est? Cum id quoque, ut cupiebat, audivisset, evelli iussit eam, qua erat transfixus, hastam. Igitur ne dolorem quidem. Huius, Lyco, oratione locuples, rebus ipsis ielunior. Duo Reges: constructio interrete.
+ Color Palette   Lavender RGB: 255 , 154 , 19 HEX: #707C9B     Purple RGB: 255 , 154 , 19 HEX: #7F7599     Sea Green RGB: 255 , 154 , 19 HEX: #546A7B     Muted Blue RGB: 255 , 154 , 19 HEX: #3B4B57     Dark Blue RGB: 255 , 154 , 19 HEX: #35434E     Typography LOGO - GATSBY (ENVATO ELEMENTS) h1 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz h2 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz h3 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz h4 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz h5 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz h6 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz  0123456789</description>
+    </item>
+    
+    <item>
       <title>WAM Partners Website Proposal</title>
       <link>https://frankld.netlify.com/post/wam-partners-website-proposal/</link>
-      <pubDate>Mon, 08 Apr 2019 04:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Apr 2018 04:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/post/wam-partners-website-proposal/</guid>
-      <description></description>
+      <description>During my time at WAM Partners I was able to work on a side project that involved the company. I was able to create a website using WordPress with a custom theme using Advanced Custom Fields (ACF) in the back end, and then using Bootstrap for the front end.
+Listings Website Problem So the initial problem I had run into while working at WAM Partners was having to update their website.</description>
     </item>
     
   </channel>
