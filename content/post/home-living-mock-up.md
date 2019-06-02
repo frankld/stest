@@ -8,30 +8,25 @@ title = "Home Living Mock Up"
 
 +++
 
-{{% columns col="12" margin="my-4" %}}
-
 ### Tollenda est atque extrahenda radicitus
 
 Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. Nunc haec primum fortasse audientis servire debemus. Quo modo autem optimum, si bonum praeterea nullum est? Cum id quoque, ut cupiebat, audivisset, evelli iussit eam, qua erat transfixus, hastam. [Igitur ne dolorem quidem.](http://loripsum.net/) Huius, Lyco, oratione locuples, rebus ipsis ielunior. **Duo Reges: constructio interrete.**
 
-{{% /columns %}}
 
 <!-- New Section -->
-
+{{% row %}}
 {{% columns col="12" margin="my-4" %}}
-
 ### Color Palette
-
 {{< color name="Lavender" hex="707C9B" r="255" g="154" b="19" >}}
 {{< color name="Purple" hex="7F7599" r="255" g="154" b="19" >}}
 {{< color name="Sea Green" hex="546A7B" r="255" g="154" b="19" >}}
 {{< color name="Muted Blue" hex="3B4B57" r="255" g="154" b="19" >}}
 {{< color name="Dark Blue" hex="35434E" r="255" g="154" b="19" >}}
-{{< /columns >}}
+{{% /columns %}}
+{{< /row >}}
 
 <!-- New Section -->
 
-{{% columns col="12" margin="my-4" %}}
 
 ### Typography
 
@@ -43,11 +38,8 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 
 {{< typography >}}
 
-{{% /columns %}}
 
 <!-- New Section -->
-
-{{% columns col="12" margin="my-4" %}}
 
 ### Components
 
@@ -68,11 +60,8 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{< images src="/uploads/UI CARD DESIGN.png" alt="UI CARD DESIGN" >}}
 {{% /columns %}}
 {{< /row >}}
-{{% /columns %}}
 
 <!-- New Section -->
-
-{{% columns col="12" margin="my-4" %}}
 
 ### Templates
 
@@ -97,4 +86,3 @@ Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco simili
 {{% /columns %}}
 {{< /row >}}
 
-{{% /columns %}}
