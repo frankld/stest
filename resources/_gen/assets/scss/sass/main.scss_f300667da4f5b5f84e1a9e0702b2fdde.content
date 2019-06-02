@@ -7157,6 +7157,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: #212529;
     margin-bottom: 0.5rem; }
 
+footer .social {
+  padding-left: 0; }
+
 .display-4 {
   font-size: 1.7rem;
   line-height: 1.5; }
