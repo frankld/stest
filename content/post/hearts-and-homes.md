@@ -20,11 +20,10 @@ image = "/uploads/STANDARD-PAGE-TEMPLATE-WITH-SIDEBAR.jpg"
 img_title = "Standard Page With Sidebar Mock Up"
 
 +++
-##### Site Architecture
 
-Jekyll has a rule that any directory not starting with `_` will be copied as-is to the `_site` output. Hugo keeps all static content under `static`. You should therefore move it all there.
-With Jekyll, something that looked like
+HHR is a non-profit humanitarian group focused on supporting government-approved agencies that welcome, protect and advocate for refugees in their new communities. They brought me on board to create a more seamless web experience for the end-user and to showcase the positive work that they are doing for this ongoing crisis. 
 
-##### Visual Design
+### Tasks
 
-Jekyll has a rule that any directory not starting with `_` will be copied as-is to the `_site` output. Hugo keeps all static content under `static`. You should therefore move it all there. With Jekyll, something that looked like
+The project is being built on mezzanine a content management system based on the Django web framework. We hope to introduce reusable components that will be spread across the entirety of the website with the goal of educating people on the proper definitions being used in the refugee crisis. I also created a design that adhered to their visual style while reflecting the organization’s positive and upbeat attitude on a serious topic matter, which is something core to their organizational values
+
