@@ -24,3 +24,15 @@ So the initial problem I had run into while working at WAM Partners was having t
 ###### Solution
 
 Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Itaque et manendi in vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. Aperiendum est igitur, quid sit voluptas; Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? _Ratio enim nostra consentit, pugnat oratio._ Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? _Ostendit pedes et pectus._
+
+{{% row %}}
+{{% columns col="12" margin="my-4" %}}
+### Color Palette
+{{< color name="Black" hex="1a1a1a" r="26" g="26" b="26" >}}
+{{< color name="Dark Grey" hex="222222" r="34" g="34" b="34" >}}
+{{< color name="Grey" hex="eeeeee" r="255" g="154" b="19" >}}
+{{< color name="Red" hex="b30100" r="238" g="238" b="238" >}}
+{{% /columns %}}
+{{< /row >}}
+
+You can visit the working prototype at [WAM Partners](http://www.wamstaff.com)

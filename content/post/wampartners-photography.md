@@ -25,10 +25,7 @@ image = "/uploads/853_10a4.jpg"
 img_title = "853 10A 4"
 
 +++
-##### WAM Partners Photography
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Quod quidem iam fit etiam in Academia. Nam si amitti vita beata potest, beata esse non potest. **Quorum sine causa fieri nihil putandum est.** Duo Reges: constructio interrete. [Sed ad rem redeamus;](http://loripsum.net/)
+### WAM Partners Photography
 
-##### HDR Composites
-
-Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo. Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum; Qui potest igitur habitare in beata vita summi mali metus?
+I updated the photography being used on the company’s website. Previously, they were using standard point and shoot images on their website with minimal editing. Therefore, I began to composite photos for each of the rental properties. I would execute this by setting up a tripod and taking various images at different exposures. Then, using Photoshop I would remove unwanted artifacts, fix lighting and correct color, which resulted in a high quality final composite that truly captured what the residences looked like in a quick turn-around time.

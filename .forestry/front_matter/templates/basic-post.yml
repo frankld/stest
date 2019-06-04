@@ -38,7 +38,6 @@ fields:
   config:
     labelField: img_title
 pages:
-- content/post/migrate-from-jekyll.md
 - content/post/courier-logo.md
 - content/post/wam-partners-e-blasts.md
 - content/post/gamlp.md

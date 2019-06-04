@@ -2,7 +2,7 @@
 banner = "/uploads/mc_wam_thumb.jpg"
 categories = ["EBlast"]
 date = "2018-01-18T05:00:00+00:00"
-employer = ""
+employer = "WAM Partners"
 thumb = "/uploads/mc_wam_thumb.jpg"
 title = "WAM Partners E-Blasts"
 [[portfolio_items]]
@@ -16,15 +16,10 @@ image = "/uploads/Artboard 2.jpg"
 img_title = "Section 2"
 
 +++
-##### Nihilo magis.
 
-Tu enim ista lenius, hic Stoicorum more nos vexat. Non enim ipsa genuit hominem, sed accepit a natura inchoatum.
+### Mailchimp Campaigns
 
-**Nam Pyrrho, Aristo, Erillus iam diu abiecti.** Et quidem iure fortasse, sed tamen non gravissimum est testimonium multitudinis.
-
-##### Duo Reges: constructio interrete.
-
-Nihil est enim, de quo aliter tu sentias atque ego, modo commutatis verbis ipsas res conferamus. Quod iam a me expectare noli. Illa videamus, quae a te de amicitia dicta sunt. Heri, inquam, ludis commissis ex urbe profectus veni ad vesperum. Indicant pueri, in quibus ut in speculis natura cernitur. [Negat esse eam, inquit, propter se expetendam.](http://loripsum.net/) Vide, quantum, inquam, fallare, Torquate. [Quid ergo?](http://loripsum.net/) Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. Et harum quidem rerum facilis est et expedita distinctio. [Memini me adesse P.](http://loripsum.net/)
+I introduced a fresher but still elegant design scheme to our email campaigns. I also began to highlight the features of the luxury residences, such as architectural details and modern appliances, which resulted in increased response to our email campaigns.
 
 ##### Nam illud vehementer repugnat, eundem beatum esse et multis malis oppressum.
 
