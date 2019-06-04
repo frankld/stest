@@ -34,6 +34,7 @@ $container-max-widths: (
   xl: 1200px
 );
 
+@import url("https://fonts.googleapis.com/css?family=Saira:400,700&display=swap");
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 $speed: 600ms;
