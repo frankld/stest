@@ -19,7 +19,7 @@
         {{ $currentPage := .Page }}
         {{ range .Site.Menus.main }}
         <li class="nav-item mx-2 d-inline">
-          <a class="nav-link d-inline {{ if eq $currentPage.URL .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+          <a class="nav-link d-inline {{ if eq $currentPage.RelPermalink .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
         </li>
         {{ end }}
       </ul>
@@ -56,7 +56,7 @@
             {{ $currentPage := .Page }}
             {{ range .Site.Menus.main }}
             <li class="nav-item">
-              <a class="nav-link {{ if eq $currentPage.URL .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+              <a class="nav-link {{ if eq $currentPage.RelPermalink .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
             </li>
             {{ end }}
           </ul>
