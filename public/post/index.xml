@@ -23,12 +23,12 @@
     
     <item>
       <title>Hearts and Homes for Refugees</title>
-      <link>https://frankld.netlify.com/post/migrate-from-jekyll/</link>
+      <link>https://frankld.netlify.com/post/hearts-and-homes/</link>
       <pubDate>Thu, 15 Nov 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/migrate-from-jekyll/</guid>
-      <description>Site Architecture Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-Visual Design Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there.</description>
+      <guid>https://frankld.netlify.com/post/hearts-and-homes/</guid>
+      <description>HHR is a non-profit humanitarian group focused on supporting government-approved agencies that welcome, protect and advocate for refugees in their new communities. They brought me on board to create a more seamless web experience for the end-user and to showcase the positive work that they are doing for this ongoing crisis.
+Tasks The project is being built on mezzanine a content management system based on the Django web framework. We hope to introduce reusable components that will be spread across the entirety of the website with the goal of educating people on the proper definitions being used in the refugee crisis.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ Visual Design Jekyll has a rule that any directory not starting with _ will be c
       
       <guid>https://frankld.netlify.com/post/home-living-mock-up/</guid>
       <description>Tollenda est atque extrahenda radicitus Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. Nunc haec primum fortasse audientis servire debemus. Quo modo autem optimum, si bonum praeterea nullum est? Cum id quoque, ut cupiebat, audivisset, evelli iussit eam, qua erat transfixus, hastam. Igitur ne dolorem quidem. Huius, Lyco, oratione locuples, rebus ipsis ielunior. Duo Reges: constructio interrete.
- Color Palette  Lavender RGB: 255 , 154 , 19 HEX: #707C9B     Purple RGB: 255 , 154 , 19 HEX: #7F7599     Sea Green RGB: 255 , 154 , 19 HEX: #546A7B     Muted Blue RGB: 255 , 154 , 19 HEX: #3B4B57     Dark Blue RGB: 255 , 154 , 19 HEX: #35434E     Typography LOGO - GATSBY (ENVATO ELEMENTS) HEADERS - SAIRA (GOOGLE WEBFONTS) h1Quick fox jumps nightly above wizard.</description>
+Color Palette  Lavender RGB: 255 , 154 , 19 HEX: #707C9B     Purple RGB: 255 , 154 , 19 HEX: #7F7599     Sea Green RGB: 255 , 154 , 19 HEX: #546A7B     Muted Blue RGB: 255 , 154 , 19 HEX: #3B4B57     Dark Blue RGB: 255 , 154 , 19 HEX: #35434E</description>
     </item>
     
     <item>
@@ -88,9 +88,8 @@ Listings Website Problem So the initial problem I had run into while working at 
       <pubDate>Thu, 18 Jan 2018 05:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/post/wam-partners-e-blasts/</guid>
-      <description>Nihilo magis. Tu enim ista lenius, hic Stoicorum more nos vexat. Non enim ipsa genuit hominem, sed accepit a natura inchoatum.
-Nam Pyrrho, Aristo, Erillus iam diu abiecti. Et quidem iure fortasse, sed tamen non gravissimum est testimonium multitudinis.
-Duo Reges: constructio interrete. Nihil est enim, de quo aliter tu sentias atque ego, modo commutatis verbis ipsas res conferamus. Quod iam a me expectare noli. Illa videamus, quae a te de amicitia dicta sunt.</description>
+      <description>Mailchimp Campaigns I introduced a fresher but still elegant design scheme to our email campaigns. I also began to highlight the features of the luxury residences, such as architectural details and modern appliances, which resulted in increased response to our email campaigns.
+Nam illud vehementer repugnat, eundem beatum esse et multis malis oppressum. Mene ergo et Triarium dignos existimas, apud quos turpiter loquare? Ex quo illud efficitur, qui bene cenent omnis libenter cenare, qui libenter, non continuo bene.</description>
     </item>
     
     <item>
@@ -99,8 +98,7 @@ Duo Reges: constructio interrete. Nihil est enim, de quo aliter tu sentias atque
       <pubDate>Mon, 16 Oct 2017 04:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/post/wampartners-photography/</guid>
-      <description>WAM Partners Photography Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Quod quidem iam fit etiam in Academia. Nam si amitti vita beata potest, beata esse non potest. Quorum sine causa fieri nihil putandum est. Duo Reges: constructio interrete. Sed ad rem redeamus;
-HDR Composites Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Quae diligentissime contra Aristonem dicuntur a Chryippo.</description>
+      <description>WAM Partners Photography I updated the photography being used on the company’s website. Previously, they were using standard point and shoot images on their website with minimal editing. Therefore, I began to composite photos for each of the rental properties. I would execute this by setting up a tripod and taking various images at different exposures. Then, using Photoshop I would remove unwanted artifacts, fix lighting and correct color, which resulted in a high quality final composite that truly captured what the residences looked like in a quick turn-around time.</description>
     </item>
     
     <item>
@@ -110,8 +108,8 @@ HDR Composites Varietates autem iniurasque fortunae facile veteres philosophorum
       
       <guid>https://frankld.netlify.com/post/gamlp/</guid>
       <description>Introduction 
-Government Work This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-Social Media Posts We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+Government Work Social Media Post offering recommendations on how to conserve water. Created for the Mayor’s Office in La Paz Bolivia
+Vector Art Using Illustrator In this tutorial, commands that you enter will start with the &amp;ldquo;$&amp;rdquo; prompt. The output will follow. Lines that start with &amp;ldquo;#&amp;rdquo; are comments that I&amp;rsquo;ve added to explain a point. When I show updates to a file, the &amp;ldquo;:wq&amp;rdquo; on the last line means to save the file.</description>
     </item>
     
     <item>
@@ -129,8 +127,7 @@ Social Media Posts We&amp;rsquo;ll start with creating a new site with a very ba
       <pubDate>Fri, 11 Sep 2015 04:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/post/museos-franciscanos/</guid>
-      <description>Lorem ipsum dolor sit a met, consectetur adipiscing elit. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Duo Reges: constructio interrete. Bona autem corporis huic sunt, quod posterius posui, similiora. Quid de Platone aut de Democrito loquar? Itaque ad tempus ad Pisonem omnes. Nam ante Aristippus, et ille melius.
-Bonum integritas corporis: misera debilitas.</description>
+      <description>I provided Los Museos Franciscanos in Bolivia with a modern rebrand of their brand family. We wanted to unify each museum under one brand, while also highlighting their own individual history. You can see the unity in the set of logos. Each logo consists of a shield that represents the three vows that the Franciscan take upon entering service: poverty, chastity, and obedience. At the same time, each logo contains details specific to their geographical location.</description>
     </item>
     
   </channel>

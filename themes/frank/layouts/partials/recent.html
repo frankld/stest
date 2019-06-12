@@ -9,9 +9,9 @@
         {{ range first 9 $sortedposts }}
         <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
             <div class="recentWrap w-100 m-1">
-                <a href="{{ .Permalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
+                <a href="{{ .RelPermalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
-                    <a href="{{.Permalink}}">
+                    <a href="{{.RelPermalink}}">
                         <h1 class="h3 text-uppercase">
                             <strong>
                                 {{ .Title}}
@@ -44,9 +44,9 @@
         {{ range sort .Pages ".Date" "desc" }}
         <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="recentWrap w-100 m-1">
-                <a href="{{ .Permalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
+                <a href="{{ .RelPermalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
-                    <a href="{{.Permalink}}">
+                    <a href="{{.RelPermalink}}">
                         <h1 class="h3 text-uppercase">
                             <strong>
                                 {{ .Title}}
