@@ -9,7 +9,7 @@ title = "Home Living Mock Up"
 +++
 ### Tollenda est atque extrahenda radicitus
 
-Lorem ipsum dolores sit amet, consectetur adipiscing elit. Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. Nunc haec primum fortasse audientis servire debemus. Quo modo autem optimum, si bonum praeterea nullum est? Cum id quoque, ut cupiebat, audivisset, evelli iussit eam, qua erat transfixus, hastam. [Igitur ne dolorem quidem.](http://loripsum.net/) Huius, Lyco, oratione locuples, rebus ipsis ielunior. **Duo Reges: constructio interrete.**
+This is a personal project that I decided to do in between jobs. My goal is to create a mock up for a designer shop for different home products. I started this project of by designing a product component that would be utilized across the website. This component was my initial sketch for this product which later developed into a mini design system. I created a simple word mark for this brand then settled on a secondary typography to use on this project from google web fonts. I created a cool color pallets with muted colors. I really wanted to create clean and modern design that would really highlight the products. I decided to use a little bit of the atomic design process in order to organize this project. Break down the designs into smaller parts. The templates included with this project are a list page, a single page
 
 <!-- New Section -->
 {{% row %}}
