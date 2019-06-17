@@ -7,21 +7,22 @@ thumb = "/uploads/Website Export (1).png"
 title = "Home Living Mock Up"
 
 +++
+
 ### Tollenda est atque extrahenda radicitus
 
-This is a personal project that I decided to do in between jobs to keep practicing and to stay on top of current trends. My goal is to create a mock up for a designer shop for different home products. 
-
-I recently read up on atomic design and decided to try and split this project up into the different portions trying to stay in line with the atomic design way. 
-
-I started this project of by designing a product component that would be utilized across the website. This component was my initial sketch for this product which later developed into a mini design system. I created a simple word mark for this brand then settled on a secondary typography to use on this project from google web fonts. I created a cool color pallets with muted colors. I really wanted to create clean and modern design that would really highlight the products. I decided to use a little bit of the atomic design process in order to organize this project. Break down the designs into smaller parts. The templates included with this project are a list page, a single page
+This is a personal project I worked on in order to practice the open-composition design trend I recently read about on 99designs.com. My goal here was to create a mock-up for a home goods website.
+First, I sketched a product component to be used across the website. I then integrated the component into three different templates: a landing page, a product page and a shop page.
+I mocked-up a quick and simple word mark for the brand and picked a secondary typography from Google web fonts. I used a cool muted color palette to contrast the product’s wood material.
+The end result is a clean, modern design that really highlights the product.
 
 <!-- New Section -->
+
 {{% row %}}
 {{% columns col="12" margin="my-4" %}}
 
 ### Color Palette
 
-For this design I choose to use a muted color palette giving it more of an arts and crafts feel to it, I also choose to keep the colors on the cool side favoring blueish and blue greenish colors. 
+For this design I choose to use a muted color palette giving it more of an arts and crafts feel to it, I also choose to keep the colors on the cool side favoring blueish and blue greenish colors.
 
 {{< color name="Lavender" hex="707C9B" r="255" g="154" b="19" >}}
 {{< color name="Purple" hex="7F7599" r="255" g="154" b="19" >}}
