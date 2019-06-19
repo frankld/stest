@@ -18,32 +18,8 @@
   </url>
   
   <url>
-    <loc>https://frankld.netlify.com/categories/branding/</loc>
-    <lastmod>2019-05-20T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/</loc>
-    <lastmod>2019-05-20T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://frankld.netlify.com/post/home-living-mock-up/</loc>
     <lastmod>2019-05-20T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/ux/ui/</loc>
-    <lastmod>2019-05-20T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/web-design/</loc>
-    <lastmod>2019-05-20T04:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -52,37 +28,8 @@
   </url>
   
   <url>
-    <loc>https://frankld.netlify.com/post/220e42ndst/</loc>
+    <loc>https://frankld.netlify.com/post/lorelli-nyc/</loc>
     <lastmod>2019-03-15T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/eblast/</loc>
-    <lastmod>2019-03-15T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/advertising/</loc>
-    <lastmod>2019-03-13T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/post/360-hamilton-ad/</loc>
-    <lastmod>2019-03-13T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/print/</loc>
-    <lastmod>2019-03-13T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/design/</loc>
-    <lastmod>2018-11-15T05:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -96,12 +43,6 @@
   </url>
   
   <url>
-    <loc>https://frankld.netlify.com/categories/photography/</loc>
-    <lastmod>2017-10-16T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://frankld.netlify.com/post/wampartners-photography/</loc>
     <lastmod>2017-10-16T04:00:00+00:00</lastmod>
   </url>
@@ -109,12 +50,6 @@
   <url>
     <loc>https://frankld.netlify.com/post/gamlp/</loc>
     <lastmod>2016-01-15T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://frankld.netlify.com/categories/animation/</loc>
-    <lastmod>2015-10-15T18:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -138,13 +73,61 @@
   </url>
   
   <url>
+    <loc>https://frankld.netlify.com/categories/animation/</loc>
+    <lastmod>2015-10-15T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/categories/branding/</loc>
+    <lastmod>2019-05-20T04:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/categories/</loc>
+    <lastmod>2015-10-15T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/categories/design/</loc>
+    <lastmod>2018-11-15T05:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/categories/eblast/</loc>
+    <lastmod>2019-03-15T04:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://frankld.netlify.com/categories/illustration/</loc>
     <lastmod>2012-02-15T05:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://frankld.netlify.com/categories/photography/</loc>
+    <lastmod>2017-10-16T04:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://frankld.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/categories/ux/ui/</loc>
+    <lastmod>2019-05-20T04:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frankld.netlify.com/categories/web-design/</loc>
+    <lastmod>2019-05-20T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

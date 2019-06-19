@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 May 2019 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2015 18:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://frankld.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Animation</title>
+      <link>https://frankld.netlify.com/categories/animation/</link>
+      <pubDate>Thu, 15 Oct 2015 18:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/categories/animation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Branding</title>
@@ -17,51 +26,6 @@
       <pubDate>Mon, 20 May 2019 04:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/categories/branding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UX/UI</title>
-      <link>https://frankld.netlify.com/categories/ux/ui/</link>
-      <pubDate>Mon, 20 May 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/categories/ux/ui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Design</title>
-      <link>https://frankld.netlify.com/categories/web-design/</link>
-      <pubDate>Mon, 20 May 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/categories/web-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EBlast</title>
-      <link>https://frankld.netlify.com/categories/eblast/</link>
-      <pubDate>Fri, 15 Mar 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/categories/eblast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Advertising</title>
-      <link>https://frankld.netlify.com/categories/advertising/</link>
-      <pubDate>Wed, 13 Mar 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/categories/advertising/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Print</title>
-      <link>https://frankld.netlify.com/categories/print/</link>
-      <pubDate>Wed, 13 Mar 2019 04:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/categories/print/</guid>
       <description></description>
     </item>
     
@@ -75,20 +39,11 @@
     </item>
     
     <item>
-      <title>Photography</title>
-      <link>https://frankld.netlify.com/categories/photography/</link>
-      <pubDate>Mon, 16 Oct 2017 04:00:00 +0000</pubDate>
+      <title>Eblast</title>
+      <link>https://frankld.netlify.com/categories/eblast/</link>
+      <pubDate>Fri, 15 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/categories/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Animation</title>
-      <link>https://frankld.netlify.com/categories/animation/</link>
-      <pubDate>Thu, 15 Oct 2015 18:00:00 +0000</pubDate>
-      
-      <guid>https://frankld.netlify.com/categories/animation/</guid>
+      <guid>https://frankld.netlify.com/categories/eblast/</guid>
       <description></description>
     </item>
     
@@ -98,6 +53,33 @@
       <pubDate>Wed, 15 Feb 2012 05:00:00 +0000</pubDate>
       
       <guid>https://frankld.netlify.com/categories/illustration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://frankld.netlify.com/categories/photography/</link>
+      <pubDate>Mon, 16 Oct 2017 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ux/Ui</title>
+      <link>https://frankld.netlify.com/categories/ux/ui/</link>
+      <pubDate>Mon, 20 May 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/categories/ux/ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Design</title>
+      <link>https://frankld.netlify.com/categories/web-design/</link>
+      <pubDate>Mon, 20 May 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://frankld.netlify.com/categories/web-design/</guid>
       <description></description>
     </item>
     

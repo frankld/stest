@@ -1,13 +1,63 @@
 {{ "<!-- RECENT WORK -->" | safeHTML }}
 {{ if .IsHome }}
 
+
+<div class="w-100 section1">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 py-5">
+                <img src="uploads/landing-page.png" alt="" class="img-fluid shadow-lg">
+            </div>
+            <div class="col-12 col-lg-6 p-5 d-block d-sm-flex align-items-center text-white">
+                <div>
+                    <span>SECTION 1</span>
+                    <h2>HOME LIVING MOCK UP</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos saepe maiores, nihil, iste eligendi aliquam cum adipisci vitae ab blanditiis neque inventore, quo ipsum quidem quos dolore qui culpa dolor!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w-100 section2">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 py-5">
+                <img src="uploads/hhr-homes.jpg" alt="" class="img-fluid shadow-lg">
+            </div>
+            <div class="col-12 col-lg-6 p-5 d-block d-sm-flex align-items-center text-white">
+                <div>
+                    <span>SECTION 1</span>
+                    <h2>HOME LIVING MOCK UP</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos saepe maiores, nihil, iste eligendi aliquam cum adipisci vitae ab blanditiis neque inventore, quo ipsum quidem quos dolore qui culpa dolor!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w-100 section3">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 py-5">
+                <img src="uploads/landing-page.png" alt="" class="img-fluid shadow-lg">
+            </div>
+            <div class="col-12 col-lg-6 p-5 d-block d-sm-flex align-items-center text-white">
+                <div>
+                    <span>SECTION 1</span>
+                    <h2>HOME LIVING MOCK UP</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos saepe maiores, nihil, iste eligendi aliquam cum adipisci vitae ab blanditiis neque inventore, quo ipsum quidem quos dolore qui culpa dolor!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container pt-5">
     <h1 class="h5 text-uppercase"> <strong>Recent Work</strong> </h1>
     <div class="row py-4 recentWork no-gutters">
         {{ $recentposts := where .Data.Pages "Section" "post" }}
         {{ $sortedposts := sort $recentposts ".Date" "desc" }}
         {{ range first 9 $sortedposts }}
-        <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+        <div class="col-12 col-sm-6 col-sm-6 col-lg-4 d-flex justify-content-center">
             <div class="recentWrap w-100 m-1">
                 <a href="{{ .RelPermalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
@@ -42,7 +92,7 @@
     </div>
     <div class="row py-4 recentWork no-gutters">
         {{ range sort .Pages ".Date" "desc" }}
-        <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
+        <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="recentWrap w-100 m-1">
                 <a href="{{ .RelPermalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">

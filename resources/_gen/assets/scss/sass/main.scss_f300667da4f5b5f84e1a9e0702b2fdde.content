@@ -7468,3 +7468,12 @@ p img {
 
 .color-meta {
   padding: 15px; }
+
+.section1 {
+  background-color: #566b74; }
+
+.section2 {
+  background-color: #6f3598; }
+
+.section3 {
+  background-color: #292929; }
