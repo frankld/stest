@@ -97,7 +97,6 @@ recent.forEach(function (value) {
         triggerElement: value,
     })
         .setTween(rtl)
-        .addIndicators({ name: "recent" }) // add indicators (requires plugin)
         .addTo(controller);
 });
 

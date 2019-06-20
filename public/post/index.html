@@ -12,10 +12,10 @@
 <link rel="stylesheet" href="https://frankld.netlify.com/sass/main.css">
 
 <body>
-    <header id="fixed-nav" class="py-4 py-xl-5">
+    <header id="fixed-nav" class="d-flex align-items-center">
         
     
-<nav id="fixed-nav" class="navbar navbar-expand-xl navbar-light p-sm-1" role="navigation" aria-label="main navigation">
+<nav class="navbar navbar-expand-xl navbar-light p-sm-1 w-100" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand py-2 ">
       <a class="navbar-brand text-primary" href="/">
@@ -31,53 +31,59 @@
         </h1>
       </a>
     </div>
-    
+
     <ul class="navbar-nav ml-auto d-none d-lg-block">
-        
-        
-        <li class="nav-item mx-2 d-inline">
-          <a class="nav-link d-inline " href="/">Home</a>
-        </li>
-        
-        <li class="nav-item mx-2 d-inline">
-          <a class="nav-link d-inline active" href="/post/">Archive</a>
-        </li>
-        
-        <li class="nav-item mx-2 d-inline">
-          <a class="nav-link d-inline " href="/about/">About</a>
-        </li>
-        
-      </ul>
+      
+      
+      <li class="nav-item mx-2 d-inline">
+        <a class="nav-link d-inline " href="/">Home</a>
+      </li>
+      
+      <li class="nav-item mx-2 d-inline">
+        <a class="nav-link d-inline active" href="/post/">Archive</a>
+      </li>
+      
+      <li class="nav-item mx-2 d-inline">
+        <a class="nav-link d-inline " href="/about/">About</a>
+      </li>
+      
+    </ul>
 
     <a class="toggler position-relative d-lg-none">
-      <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="20" height="9.717"><g data-name="menu"><path data-name="bottom" d="M0 7.717h20v2H0z"/><path data-name="middle" d="M0 3.859h20v2H0z"/><path data-name="top" d="M0 0h20v2H0z"/></g></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="20" height="9.717">
+        <g data-name="menu">
+          <path data-name="bottom" d="M0 7.717h20v2H0z" />
+          <path data-name="middle" d="M0 3.859h20v2H0z" />
+          <path data-name="top" d="M0 0h20v2H0z" />
+        </g>
+      </svg>
     </a>
   </div>
 </nav>
 
 
 <aside id="mySidenav" class="sidenav">
-    <nav class="navbar navbar-light p-0 fixed-top" role="navigation" aria-label="main navigation">
-        <div class="container px-4 py-3 justify-content-end">
-            <a id="nav-close" class="toggler close" >
-              <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="12.021" height="12.021" viewBox="0 0 12.021 12.021">
-                <g id="menu" transform="translate(78.51 156.152)">
-                  <rect id="line2" width="15" height="2" transform="translate(-78.51 -145.545) rotate(-45)"/>
-                  <rect id="line1" width="15" height="2" transform="translate(-77.096 -156.152) rotate(45)"/>
-                </g>
-              </svg>
-            </a>
-        </div>
-      </nav>
-  <div class="container" style="max-width:900px;">
+  <nav class="navbar navbar-light p-0 fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container px-4 py-3 justify-content-end">
+      <a id="nav-close" class="toggler close">
+        <svg xmlns="http://www.w3.org/2000/svg" class="svgx2" width="12.021" height="12.021" viewBox="0 0 12.021 12.021">
+          <g id="menu" transform="translate(78.51 156.152)">
+            <rect id="line2" width="15" height="2" transform="translate(-78.51 -145.545) rotate(-45)" />
+            <rect id="line1" width="15" height="2" transform="translate(-77.096 -156.152) rotate(45)" />
+          </g>
+        </svg>
+      </a>
+    </div>
+  </nav>
+  <div class="container">
     <div class="row vh-100 d-flex align-items-center">
       <div class="col">
         <div>
-          <div class="pb-5 text-center text-sm-left">
-            <h1 class="menu-header"> <strong>FRANCIS <br> LAGUNA-DRISCOLL</strong></h1>
+          <div class="pb-5 text-center">
+            <h2 class="menu-header"> <strong>FRANCIS <br> LAGUNA-DRISCOLL</strong></h2>
             <h3 class="menu-header" style="font-weight:400;">DESIGNER / PHOTOGRAPHER</h3>
           </div>
-          <ul class="nav flex-column text-center text-sm-left">
+          <ul class="nav flex-column text-center">
             
             
             <li class="nav-item">
@@ -98,10 +104,8 @@
 
     </div>
   </div>
-  
+
 </aside>
-
-
 
 
     </header>
@@ -120,7 +124,7 @@
     <div class="row py-4 recentWork no-gutters">
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/home-living-mock-up/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/Website%20Export%20%281%29.png" alt="Home Living Mock Up" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/home-living-mock-up/">
@@ -135,7 +139,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/courier-logo/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/courier-02-1.png" alt="Courier Logo" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/courier-logo/">
@@ -150,7 +154,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/lorelli-nyc/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/220East-thumb-1.jpg" alt="Lorelli NYC" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/lorelli-nyc/">
@@ -165,7 +169,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/hearts-and-homes/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/Hearts%20and%20Homes%20for%20Refugees_thumb.png" alt="Hearts and Homes for Refugees" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/hearts-and-homes/">
@@ -180,7 +184,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/wam-partners-website-proposal/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/wamstaff_thumb.png" alt="WAM Partners Website Proposal" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/wam-partners-website-proposal/">
@@ -195,7 +199,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/wam-partners-e-blasts/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/mc_wam_thumb.jpg" alt="WAM Partners E-Blasts" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/wam-partners-e-blasts/">
@@ -210,7 +214,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/wampartners-photography/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/wam_photography_thumb.jpg" alt="WAM Partners Photography" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/wampartners-photography/">
@@ -225,7 +229,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/gamlp/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/thumb_a.jpg" alt="GAMLP Social Media Illustrations" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/gamlp/">
@@ -240,7 +244,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/think-animated-gif/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/think-1.gif" alt="Think Animated Gif" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/think-animated-gif/">
@@ -255,7 +259,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/museos-franciscanos/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/fl1-1.png" alt="Museos Franciscanos" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/museos-franciscanos/">
@@ -270,7 +274,7 @@
         </div>
         
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="/post/digital-illustration/" id="test" class="recentLink d-block shadow-sm"><img src="/uploads/img4.png" alt="Digital Illustration" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="/post/digital-illustration/">
