@@ -6,13 +6,10 @@ var items = document.querySelectorAll('.nav-item');
 var header = document.querySelectorAll('.menu-header');
 var logo = document.getElementById('logo');
 var letters = document.querySelectorAll('.logostagger');
-var logotl = new TimelineMax({paused: true});
-var menutl = new TimelineMax({paused: true});
-var menuscrolltl = new TimelineMax({paused: true});
+var logotl = new TimelineMax({ paused: true });
+var menutl = new TimelineMax({ paused: true });
+var menuscrolltl = new TimelineMax({ paused: true });
 var sidenav = document.getElementById('mySidenav');
-var rWork = document.querySelectorAll('.recentWork');
-var rLink = document.querySelectorAll('.recentLink');
-var rImage = document.querySelectorAll('.recentImage');
 var recentWrap = document.querySelectorAll('.recentWrap');
 var rHeader = document.querySelectorAll('.pop');
 
@@ -76,54 +73,65 @@ recentWrap.forEach(function (t, k) {
 var controller = new ScrollMagic.Controller();
 
 //tweens
-var hTween1 = new TweenMax.to('.sm-h-1', 1, {
-    y: 100
-});
-var hTween2 = new TweenMax.to('.sm-h-2', 1, {
-    y: 100
-});
 
-var hTween3 = new TweenMax.to('.dot-grid', 1, {
-    x: 50
-});
+
 
 // dot-grid
 
+
+
 // intro scene
-var introScene = new ScrollMagic.Scene({
-    duration: wh * 2
-}).setTween([hTween1, hTween3]);
 
 
-var recentScene = new ScrollMagic.Scene({
-    triggerHook: "onEnter",
-    offset: -350,
-    duration: wh
-}).setTween(hTween2);
+
+// FEATURED 1
+
+var recent = document.querySelectorAll('.recent_section');
+
+
+recent.forEach(function (value) {
+    let rtl = new TimelineMax();
+    rtl.from(value.querySelectorAll(".recent_text"), .5, { y: 30, autoAlpha: 0, ease: 'ease-in' })
+        .from(value.querySelectorAll(".recent_img"), .5, { y: 30, autoAlpha: 0, ease: 'ease-in' }, -0.2);
+    new ScrollMagic.Scene({
+        triggerElement: value,
+    })
+        .setTween(rtl)
+        .addIndicators({ name: "recent" }) // add indicators (requires plugin)
+        .addTo(controller);
+});
+
+
+for (var i = 0; i < recent.length; i++) {
+
+
+}
+
+
 
 
 
 
 var menuScene = new ScrollMagic.Scene({
-    offset: 200
+    offset: '200'
 });
-    
+
+
 
 //MENU SCENE
 menuScene.on('enter', function (event) {
     fixednav.classList.add("fixed-top", "bg-white");
     fixednav.classList.remove("py-4", "py-xl-5");
     TweenMax.fromTo(fixednav, .5, { opacity: 0 }, { opacity: 1 });
-    TweenMax.to(fixednav, .5, { boxShadow: "0px 0px 8px rgba(0,0,0,0.2)" });
-    TweenMax.to("#content", 0, { marginTop: "162px" });
+    TweenMax.to("#content", 0, { marginTop: "200px" });
+    TweenMax.to(fixednav, 0, { boxShadow: "0px 0px 8px rgba(0,0,0,0.2)", height: "8vh" });
 });
 menuScene.on('leave', function (event) {
     fixednav.classList.remove("fixed-top", "bg-white");
-    fixednav.classList.add("py-4", "py-xl-5");
     TweenMax.to("#content", 0, { marginTop: "0px" });
-    TweenMax.to(fixednav, .5, { boxShadow: "0px 0px 0px rgba(0,0,0,0)" });
+    TweenMax.to(fixednav, 0, { boxShadow: "0px 0px 0px rgba(0,0,0,0)", height: "20vh" });
 });
 
-    
-    controller.addScene([introScene,menuScene,recentScene ]);
+
+controller.addScene(menuScene);
 

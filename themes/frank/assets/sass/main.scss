@@ -8,13 +8,13 @@ $grey: rgb(245, 245, 245);
 $black: #212529;
 $temp1: #566b74;
 $temp2: #6f3598;
-$temp3: #292929;
+$temp3: #333333;
 $headings-font-family: "Montserrat";
 $font-family-sans-serif: "Montserrat";
 $headings-font-weight: 700;
 
-$display1-size: 5rem;
-$display2-size: 4.5rem;
+$display1-size: 4.5rem;
+$display2-size: 4rem;
 $display3-size: 3.5rem;
 $display4-size: 2.5rem;
 
@@ -212,6 +212,10 @@ p img {
   height: auto;
 }
 
+#fixed-nav {
+  height: 20vh;
+}
+
 .nav-item:last-child {
   margin-right: 0rem !important;
 }
@@ -355,70 +359,11 @@ p img {
   background: #00f !important;
 }
 
-.dot-grid {
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  top: 0px;
-  left: 0px;
-}
-
-.dot-grid:before {
-  content: "";
-  background-image: url(/img/plus1.svg);
-  background-repeat: repeat repeat;
-  display: block;
-  height: 120%;
-  width: 600px;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-
 .btn-plus {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
-
-.btn-plus::after {
-  content: "+";
-  display: block;
-  font-weight: bolder;
-  padding: 0.375rem 0.75rem;
-  position: absolute;
-  border: 3px solid transparent;
-  color: #f04400;
-  border-color: #f04400;
-  z-index: -1;
-  background-color: white;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-  -o-transition: 0.5s all;
-}
-
-.btn-left::after {
-  right: 50%;
-  top: -3px;
-}
-.btn-right::after {
-  left: 50%;
-  top: -3px;
-}
-
-.btn-left:hover:after {
-  right: 100%;
-}
-.btn-right:hover:after {
-  left: 100%;
+.btn-primary {
+  box-shadow: none;
 }
 
 // .p-items img {

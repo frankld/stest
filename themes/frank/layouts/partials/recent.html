@@ -2,55 +2,58 @@
 {{ if .IsHome }}
 
 
-<div class="w-100 section1">
+<div class="w-100 recent_section section1 d-block d-md-flex align-items-center">
     <div class="container py-5">
-        <div class="row">
+        <div class="row py-4">
             <div class="col-12 col-lg-6 py-5">
-                <img src="uploads/landing-page.png" alt="" class="img-fluid shadow-lg">
+                <img id="featured_img1" src="uploads/landing-page.png" alt="" class="img-fluid shadow-lg js-tilt recent_img" data-tilt>
             </div>
             <div class="col-12 col-lg-6 p-5 d-block d-sm-flex align-items-center text-white">
-                <div>
-                    <span>SECTION 1</span>
-                    <h2>HOME LIVING MOCK UP</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos saepe maiores, nihil, iste eligendi aliquam cum adipisci vitae ab blanditiis neque inventore, quo ipsum quidem quos dolore qui culpa dolor!</p>
+                <div class="recent_text">
+                    <span>Personal Project</span>
+                    <h1>HOME LIVING MOCK UP</h2>
+                        <p class="small">A quick personal project with the goal of setting up a mini design system with a single component. For practice purposes only!</p>
+                        <a href="post/home-living-mock-up/" class="btn btn-primary btn-plus">Read More</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="w-100 section2">
+<div class="w-100 recent_section section2 d-block d-md-flex align-items-center">
     <div class="container py-5">
-        <div class="row">
+        <div class="row py-4">
             <div class="col-12 col-lg-6 py-5">
-                <img src="uploads/hhr-homes.jpg" alt="" class="img-fluid shadow-lg">
+                <img id="featured_img2" src="uploads/hhr-home.jpg" alt="" class="img-fluid shadow-lg js-tilt recent_img" data-tilt>
             </div>
             <div class="col-12 col-lg-6 p-5 d-block d-sm-flex align-items-center text-white">
-                <div>
-                    <span>SECTION 1</span>
-                    <h2>HOME LIVING MOCK UP</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos saepe maiores, nihil, iste eligendi aliquam cum adipisci vitae ab blanditiis neque inventore, quo ipsum quidem quos dolore qui culpa dolor!</p>
+                <div class="recent_text">
+                    <span>UX/UI & Visual Design</span>
+                    <h1>Hearts and Homes for Refugees</h1>
+                    <p class="small">A little help goes a long way. I look forward to working for this great cause and giving their website a refresh.</p>
+                    <a href="post/hearts-and-homes/" class="btn btn-primary btn-plus">Read More</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="w-100 section3">
+<div class="w-100 recent_section section3 d-block d-md-flex align-items-center">
     <div class="container py-5">
-        <div class="row">
+        <div class="row py-4">
             <div class="col-12 col-lg-6 py-5">
-                <img src="uploads/landing-page.png" alt="" class="img-fluid shadow-lg">
+                <img id="featured_img3" src="uploads/wam-home.jpg" alt="" class="img-fluid shadow-lg js-tilt recent_img" data-tilt>
             </div>
             <div class="col-12 col-lg-6 p-5 d-block d-sm-flex align-items-center text-white">
-                <div>
-                    <span>SECTION 1</span>
-                    <h2>HOME LIVING MOCK UP</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos saepe maiores, nihil, iste eligendi aliquam cum adipisci vitae ab blanditiis neque inventore, quo ipsum quidem quos dolore qui culpa dolor!</p>
+                <div class="recent_text">
+                    <span>Wordpress Theme</span>
+                    <h1>WAM Partners Property Management</h1>
+                    <p class="small">During my time at WAM Partners I was able to work on a side project that involved the company. I was able to create a website using WordPress with a custom theme using Advanced Custom Fields (ACF) in the back end, and then using Bootstrap for the front end.</p>
+                    <a href="post/wam-partners-website-proposal/" class="btn btn-primary btn-plus">Read More</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<!-- 
 <div class="container pt-5">
     <h1 class="h5 text-uppercase"> <strong>Recent Work</strong> </h1>
     <div class="row py-4 recentWork no-gutters">
@@ -58,7 +61,7 @@
         {{ $sortedposts := sort $recentposts ".Date" "desc" }}
         {{ range first 9 $sortedposts }}
         <div class="col-12 col-sm-6 col-sm-6 col-lg-4 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="{{ .RelPermalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="{{.RelPermalink}}">
@@ -75,7 +78,7 @@
 
 
     </div>
-</div>
+</div> -->
 
 
 
@@ -93,7 +96,7 @@
     <div class="row py-4 recentWork no-gutters">
         {{ range sort .Pages ".Date" "desc" }}
         <div class="col-12 col-sm-6 col-sm-6 col-lg-3 d-flex justify-content-center">
-            <div class="recentWrap w-100 m-1">
+            <div class="recentWrap w-100 m-1 d-flex align-items-center">
                 <a href="{{ .RelPermalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="{{.RelPermalink}}">
