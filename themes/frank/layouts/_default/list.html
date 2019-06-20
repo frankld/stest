@@ -1,19 +1,21 @@
 {{ define "header"}}
-    
-    {{partial "header/header.html" .}}
+
+{{partial "header/header.html" .}}
 
 {{ end }}
 
 {{ define "main" }}
 
-    <div class="container">
-            {{.Content}}
-    </div>
+<div class="container">
+    {{.Content}}
+</div>
 
 {{ end }}
 
 {{ define "footer"}}
-    
-    {{partial "footer.html" .}}
+
+{{ partial "prefooter" .}}
+
+{{partial "footer.html" .}}
 
 {{ end }}

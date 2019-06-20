@@ -1,17 +1,19 @@
 {{ define "header"}}
-    
+
 {{partial "header/header.html" .}}
 
 {{ end }}
 
 {{ define "main" }}
 
-    {{ partial "recent" .}} 
+{{ partial "recent" .}}
 
 {{ end }}
 
 {{ define "footer"}}
-    
-    {{partial "footer.html" .}}
+
+{{ partial "prefooter" .}}
+
+{{partial "footer.html" .}}
 
 {{ end }}

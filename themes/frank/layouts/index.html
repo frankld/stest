@@ -1,21 +1,21 @@
 {{ define "header"}}
-    
+
 {{partial "header/header.html" .}}
 
 {{ end }}
 
 {{ define "main" }}
 
-    {{ partial "home/intro" .}}
-    
-    {{ partial "recent" .}} 
+{{ partial "home/intro" .}}
 
-    {{ partial "home/web" .}}
+{{ partial "recent" .}}
 
 {{ end }}
 
 {{ define "footer"}}
-    
-    {{partial "footer.html" .}}
+
+{{ partial "prefooter" .}}
+
+{{partial "footer.html" .}}
 
 {{ end }}

@@ -23,7 +23,7 @@
     </div>
     <div class="row mb-5">
         <div class="col">
-        {{ .Content }}
+            {{ .Content }}
         </div>
     </div>
     <div class="row">
@@ -44,6 +44,8 @@
 {{ end }}
 
 {{ define "footer"}}
+
+{{ partial "prefooter" .}}
 
 {{partial "footer.html" .}}
 
