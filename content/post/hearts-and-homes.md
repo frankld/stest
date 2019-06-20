@@ -1,14 +1,13 @@
 +++
 banner = "/uploads/img16.gif"
 categories = ["Design"]
-date = "2018-11-15T05:00:00+00:00"
+date = "2019-06-10T04:00:00+00:00"
 employer = "Hearts and Homes for Refugees"
 thumb = "/uploads/Hearts and Homes for Refugees_thumb.png"
 title = "Hearts and Homes for Refugees"
 weight = 3
 
 +++
-
 {{< row class="my-3" >}}
 {{% columns col="12" %}}
 HHR is a non-profit humanitarian group focused on supporting government-approved agencies that welcome, protect and advocate for refugees in their new communities. They brought me on board to create a more seamless web experience for the end-user and to showcase the positive work that they are doing for this ongoing crisis.
