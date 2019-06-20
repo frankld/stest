@@ -13,7 +13,7 @@
                     <span>Personal Project</span>
                     <h1>HOME LIVING MOCK UP</h2>
                         <p class="small">A quick personal project with the goal of setting up a mini design system with a single component. For practice purposes only!</p>
-                        <a href="post/home-living-mock-up/" class="btn btn-primary btn-plus">Read More</a>
+                        <a href="post/home-living-mock-up/" class="btn btn-outline-light btn-plus">Read More</a>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
                     <span>UX/UI & Visual Design</span>
                     <h1>Hearts and Homes for Refugees</h1>
                     <p class="small">A little help goes a long way. I look forward to working for this great cause and giving their website a refresh.</p>
-                    <a href="post/hearts-and-homes/" class="btn btn-primary btn-plus">Read More</a>
+                    <a href="post/hearts-and-homes/" class="btn btn-outline-light btn-plus">Read More</a>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
                     <span>Wordpress Theme</span>
                     <h1>WAM Partners Property Management</h1>
                     <p class="small">During my time at WAM Partners I was able to work on a side project that involved the company. I was able to create a website using WordPress with a custom theme using Advanced Custom Fields (ACF) in the back end, and then using Bootstrap for the front end.</p>
-                    <a href="post/wam-partners-website-proposal/" class="btn btn-primary btn-plus">Read More</a>
+                    <a href="post/wam-partners-website-proposal/" class="btn btn-outline-light btn-plus">Read More</a>
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
 <div class="container pt-5">
     <div class="row">
         <div class="col">
-            <h1 class="display-3">{{ .Title }}</h1>
+            <h2 class="display-4">{{ .Title }}</h2>
         </div>
     </div>
     <div class="row py-4 recentWork no-gutters">
@@ -100,11 +100,11 @@
                 <a href="{{ .RelPermalink }}" id="test" class="recentLink d-block shadow-sm"><img src="{{ .Params.thumb }}" alt="{{.Title}}" class="recentImage" style="width:100%;"></a>
                 <div class="recent-meta">
                     <a href="{{.RelPermalink}}">
-                        <h1 class="h3 text-uppercase">
+                        <h2 class="h3 text-uppercase">
                             <strong>
                                 {{ .Title}}
                             </strong>
-                        </h1>
+                        </h2>
                     </a>
                 </div>
             </div>

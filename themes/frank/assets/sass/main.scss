@@ -25,10 +25,10 @@ $display4-weight: 400;
 $logo-font-weight: 800;
 $menu-color: #333;
 $menu-opacity: 0.5;
-$border-width: 3px;
-$border-radius: 0;
-$border-radius-lg: 0;
-$border-radius-sm: 0;
+$border-width: 2px;
+$border-radius: 2px;
+$border-radius-lg: 2px;
+$border-radius-sm: 2px;
 
 $container-max-widths: (
   sm: 540px,
@@ -36,6 +36,17 @@ $container-max-widths: (
   lg: 960px,
   xl: 1200px
 );
+
+@font-face {
+  font-family: "RNSCamelia-Bold";
+  src: url("RNSCamelia-Bold.eot");
+  src: url("RNSCamelia-Bold.eot?#iefix") format("embedded-opentype"),
+    url("RNSCamelia-Bold.woff") format("woff"),
+    url("RNSCamelia-Bold.woff2") format("woff2"),
+    url("FontName-webfont.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @import url("https://fonts.googleapis.com/css?family=Saira:400,700&display=swap");
 @import "../node_modules/bootstrap/scss/bootstrap";
