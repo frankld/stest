@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Saira:400,700&display=swap");
 @font-face {
   font-family: "RNSCamelia-Bold";
-  src: url("RNSCamelia-Bold.eot");
-  src: url("RNSCamelia-Bold.eot?#iefix") format("embedded-opentype"), url("RNSCamelia-Bold.woff") format("woff"), url("RNSCamelia-Bold.woff2") format("woff2"), url("FontName-webfont.otf") format("otf");
+  src: url("/fonts/RNSCamelia-Bold.eot");
+  src: url("/fonts/RNSCamelia-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/RNSCamelia-Bold.woff") format("woff"), url("/fonts/RNSCamelia-Bold.woff2") format("woff2"), url("/fonts/RNSCamelia-Bold.otf") format("otf");
   font-weight: normal;
   font-style: normal; }
 

@@ -23,15 +23,7 @@ image = "/uploads/agua5.jpg"
 img_title = "Agua5"
 
 +++
-## Introduction
-
-<br>
-
-### Government Work
-
-Social Media Post offering recommendations on how to conserve water. Created for the Mayor’s Office in La Paz Bolivia
-
 
 ### Vector Art Using Illustrator
 
-In this tutorial, commands that you enter will start with the "$" prompt. The output will follow. Lines that start with "#" are comments that I've added to explain a point. When I show updates to a file, the ":wq" on the last line means to save the file. 
+#### Vector Art created for social media campaign raising awareness for water conservation.

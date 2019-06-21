@@ -11,3 +11,7 @@ header2 = "Adobe After Effects"
 image = "/uploads/think-1.gif"
 
 +++
+
+### Animated Type Animations
+
+#### Made using Adobe After Effects
