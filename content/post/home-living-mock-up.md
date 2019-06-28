@@ -11,8 +11,6 @@ title = "Home Living Mock Up"
 {{% row class="my-3" %}}
 {{% columns col="12" %}}
 
-### Tollenda est atque extrahenda radicitus
-
 This is a personal project I worked on in order to practice the open-composition design trend I recently read about on 99designs.com. My goal here was to create a mock-up for a home goods website. First, I sketched a product component to be used across the website. I then integrated the component into three different templates: a landing page, a product page and a shop page. I mocked-up a quick and simple word mark for the brand and picked a secondary typography from Google web fonts.
 
 The end result is a clean, modern design that really highlights the product.
