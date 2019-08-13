@@ -8,13 +8,12 @@ title = "Hearts and Homes for Refugees"
 weight = 3
 
 +++
+
 {{< row class="my-3" >}}
 {{% columns col="12" %}}
 HHR is a non-profit humanitarian group focused on supporting government-approved agencies that welcome, protect and advocate for refugees in their new communities. They brought me on board to create a more seamless web experience for the end-user and to showcase the positive work that they are doing for this ongoing crisis.
 
-### Tasks
-
-The project is being built on mezzanine a content management system based on the Django web framework. We hope to introduce reusable components that will be spread across the entirety of the website with the goal of educating people on the proper definitions being used in the refugee crisis. I also created a design that adhered to their visual style while reflecting the organization’s positive and upbeat attitude on a serious topic matter, which is something core to their organizational values
+The project is being built on mezzanine a content management system based on the Django web framework. I also created a design that adhered to their visual style while reflecting the organization’s positive and upbeat attitude on a serious topic matter, which is something core to the organization's values.
 {{% /columns %}}
 {{< /row >}}
 
