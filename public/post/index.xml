@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archive on Francis Laguna-Driscoll - Portfolio</title>
-    <link>https://frankld.netlify.com/post/</link>
+    <link>https://frankld.com/post/</link>
     <description>Recent content in Archive on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 11:50:46 +0000</lastBuildDate>
     
-	<atom:link href="https://frankld.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://frankld.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Digital Illustration</title>
-      <link>https://frankld.netlify.com/post/digital-illustration/</link>
+      <link>https://frankld.com/post/digital-illustration/</link>
       <pubDate>Wed, 15 Feb 2012 05:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/digital-illustration/</guid>
+      <guid>https://frankld.com/post/digital-illustration/</guid>
       <description> Digital Painting Undertaker/ The Right Stuff  Side View of Girl   </description>
     </item>
     
     <item>
       <title>Hearts and Homes for Refugees</title>
-      <link>https://frankld.netlify.com/post/hearts-and-homes/</link>
+      <link>https://frankld.com/post/hearts-and-homes/</link>
       <pubDate>Mon, 10 Jun 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/hearts-and-homes/</guid>
+      <guid>https://frankld.com/post/hearts-and-homes/</guid>
       <description>HHR is a non-profit humanitarian group focused on supporting government-approved agencies that welcome, protect and advocate for refugees in their new communities. They brought me on board to create a more seamless web experience for the end-user and to showcase the positive work that they are doing for this ongoing crisis.
-Tasks The project is being built on mezzanine a content management system based on the Django web framework. We hope to introduce reusable components that will be spread across the entirety of the website with the goal of educating people on the proper definitions being used in the refugee crisis.</description>
+The project is being built on mezzanine a content management system based on the Django web framework. I also created a design that adhered to their visual style while reflecting the organization’s positive and upbeat attitude on a serious topic matter, which is something core to the organization&amp;rsquo;s values.</description>
     </item>
     
     <item>
       <title>Home Living Mock Up</title>
-      <link>https://frankld.netlify.com/post/home-living-mock-up/</link>
+      <link>https://frankld.com/post/home-living-mock-up/</link>
       <pubDate>Mon, 20 May 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/home-living-mock-up/</guid>
+      <guid>https://frankld.com/post/home-living-mock-up/</guid>
       <description>This is a personal project I worked on in order to practice the open-composition design trend I recently read about on 99designs.com. My goal here was to create a mock-up for a home goods website. First, I sketched a product component to be used across the website. I then integrated the component into three different templates: a landing page, a product page and a shop page. I mocked-up a quick and simple word mark for the brand and picked a secondary typography from Google web fonts.</description>
     </item>
     
     <item>
       <title>Courier Logo</title>
-      <link>https://frankld.netlify.com/post/courier-logo/</link>
+      <link>https://frankld.com/post/courier-logo/</link>
       <pubDate>Wed, 17 Apr 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/courier-logo/</guid>
+      <guid>https://frankld.com/post/courier-logo/</guid>
       <description>I designed this courier logo first as a personal project. At first it was going to be a full fledged digital illustration, but after finishing the head I decided to create as a mock up logo.
 Geometric, Clean and Minimal I decided to keep a clean minimal style for this project and based it all on basic shapes.
 Vector Illustration in Adobe Illustrator I used adobe illustrator to create this logo, staring off with a circle, triangle and rectangle for the head, and a semi circle for the head.</description>
@@ -52,65 +52,65 @@ Vector Illustration in Adobe Illustrator I used adobe illustrator to create this
     
     <item>
       <title>Lorelli NYC</title>
-      <link>https://frankld.netlify.com/post/lorelli-nyc/</link>
+      <link>https://frankld.com/post/lorelli-nyc/</link>
       <pubDate>Fri, 15 Mar 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/lorelli-nyc/</guid>
+      <guid>https://frankld.com/post/lorelli-nyc/</guid>
       <description>Production Designer January 2019 to March 2019 I recently worked for Lorelli NYC from January to March of this year. Lorelli NYC caters to luxury property management firms offering branding and advertising. I gained a lot of experience as a production designer, working on a team under an account manager. My knowledge in the Adobe Creative suite came in handy while working with the Lorelli team. I utilized my skills in layout skills editing digital-ads, e-blasts, and mailers.</description>
     </item>
     
     <item>
       <title>WAM Partners Website Proposal</title>
-      <link>https://frankld.netlify.com/post/wam-partners-website-proposal/</link>
+      <link>https://frankld.com/post/wam-partners-website-proposal/</link>
       <pubDate>Fri, 13 Apr 2018 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/wam-partners-website-proposal/</guid>
+      <guid>https://frankld.com/post/wam-partners-website-proposal/</guid>
       <description>WORDPRESS THEME During my time at WAM Partners I was able to work on a side project that involved the company. I was able to create a website using WordPress with a custom theme using Advanced Custom Fields (ACF) in the back end, and then using Bootstrap for the front end.
 So the initial problem I had run into while working at WAM Partners was having to update their website.</description>
     </item>
     
     <item>
       <title>WAM Partners E-Blasts</title>
-      <link>https://frankld.netlify.com/post/wam-partners-e-blasts/</link>
+      <link>https://frankld.com/post/wam-partners-e-blasts/</link>
       <pubDate>Thu, 18 Jan 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/wam-partners-e-blasts/</guid>
+      <guid>https://frankld.com/post/wam-partners-e-blasts/</guid>
       <description>Mailchimp Campaigns I introduced a fresher but still elegant design scheme to our email campaigns. I also began to highlight the features of the luxury residences, such as architectural details and modern appliances, which resulted in increased response to our email campaigns.</description>
     </item>
     
     <item>
       <title>WAM Partners Photography</title>
-      <link>https://frankld.netlify.com/post/wampartners-photography/</link>
+      <link>https://frankld.com/post/wampartners-photography/</link>
       <pubDate>Mon, 16 Oct 2017 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/wampartners-photography/</guid>
+      <guid>https://frankld.com/post/wampartners-photography/</guid>
       <description>WAM Partners Photography I updated the photography being used on the company’s website. Previously, they were using standard point and shoot images on their website with minimal editing. Therefore, I began to composite photos for each of the rental properties. I would execute this by setting up a tripod and taking various images at different exposures. Then, using Photoshop I would remove unwanted artifacts, fix lighting and correct color, which resulted in a high quality final composite that truly captured what the residences looked like in a quick turn-around time.</description>
     </item>
     
     <item>
       <title>GAMLP Social Media Illustrations</title>
-      <link>https://frankld.netlify.com/post/gamlp/</link>
+      <link>https://frankld.com/post/gamlp/</link>
       <pubDate>Fri, 15 Jan 2016 05:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/gamlp/</guid>
+      <guid>https://frankld.com/post/gamlp/</guid>
       <description> Vector Art Using Illustrator Vector Art created for social media campaign raising awareness for water conservation. </description>
     </item>
     
     <item>
       <title>Think Animated Gif</title>
-      <link>https://frankld.netlify.com/post/think-animated-gif/</link>
+      <link>https://frankld.com/post/think-animated-gif/</link>
       <pubDate>Thu, 15 Oct 2015 18:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/think-animated-gif/</guid>
+      <guid>https://frankld.com/post/think-animated-gif/</guid>
       <description> Animated Type Animations Made using Adobe After Effects </description>
     </item>
     
     <item>
       <title>Museos Franciscanos</title>
-      <link>https://frankld.netlify.com/post/museos-franciscanos/</link>
+      <link>https://frankld.com/post/museos-franciscanos/</link>
       <pubDate>Fri, 11 Sep 2015 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/museos-franciscanos/</guid>
+      <guid>https://frankld.com/post/museos-franciscanos/</guid>
       <description>I provided Los Museos Franciscanos in Bolivia with a modern rebrand of their brand family. We wanted to unify each museum under one brand, while also highlighting their own individual history. You can see the unity in the set of logos. Each logo consists of a shield that represents the three vows that the Franciscan take upon entering service: poverty, chastity, and obedience. At the same time, each logo contains details specific to their geographical location.</description>
     </item>
     
