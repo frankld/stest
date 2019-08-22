@@ -21,8 +21,17 @@ img_title = "853 10A 2"
 image = "/uploads/853_10a3.jpg"
 img_title = "853 10A 3"
 [[portfolio_items]]
+image = "/uploads/853_10a8.jpg"
+img_title = "853 10A 8"
+[[portfolio_items]]
 image = "/uploads/853_10a4.jpg"
 img_title = "853 10A 4"
+[[portfolio_items]]
+image = "/uploads/575_10b7.jpg"
+img_title = "575 10B 7"
+[[portfolio_items]]
+image = "/uploads/575_10b8.jpg"
+img_title = "575 10B 8"
 
 +++
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photography on Francis Laguna-Driscoll - Portfolio</title>
-    <link>https://frankld.netlify.com/categories/photography/</link>
+    <link>https://frankld.com/categories/photography/</link>
     <description>Recent content in Photography on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Oct 2017 04:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://frankld.netlify.com/categories/photography/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://frankld.com/categories/photography/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WAM Partners Photography</title>
-      <link>https://frankld.netlify.com/post/wampartners-photography/</link>
+      <link>https://frankld.com/post/wampartners-photography/</link>
       <pubDate>Mon, 16 Oct 2017 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/wampartners-photography/</guid>
+      <guid>https://frankld.com/post/wampartners-photography/</guid>
       <description>WAM Partners Photography I updated the photography being used on the company’s website. Previously, they were using standard point and shoot images on their website with minimal editing. Therefore, I began to composite photos for each of the rental properties. I would execute this by setting up a tripod and taking various images at different exposures. Then, using Photoshop I would remove unwanted artifacts, fix lighting and correct color, which resulted in a high quality final composite that truly captured what the residences looked like in a quick turn-around time.</description>
     </item>
     

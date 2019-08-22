@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Francis Laguna-Driscoll - Portfolio</title>
-    <link>https://frankld.netlify.com/categories/design/</link>
+    <link>https://frankld.com/categories/design/</link>
     <description>Recent content in Design on Francis Laguna-Driscoll - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2019 04:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://frankld.netlify.com/categories/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://frankld.com/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hearts and Homes for Refugees</title>
-      <link>https://frankld.netlify.com/post/hearts-and-homes/</link>
+      <link>https://frankld.com/post/hearts-and-homes/</link>
       <pubDate>Mon, 10 Jun 2019 04:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/hearts-and-homes/</guid>
+      <guid>https://frankld.com/post/hearts-and-homes/</guid>
       <description>HHR is a non-profit humanitarian group focused on supporting government-approved agencies that welcome, protect and advocate for refugees in their new communities. They brought me on board to create a more seamless web experience for the end-user and to showcase the positive work that they are doing for this ongoing crisis.
-Tasks The project is being built on mezzanine a content management system based on the Django web framework. We hope to introduce reusable components that will be spread across the entirety of the website with the goal of educating people on the proper definitions being used in the refugee crisis.</description>
+The project is being built on mezzanine a content management system based on the Django web framework. I also created a design that adhered to their visual style while reflecting the organization’s positive and upbeat attitude on a serious topic matter, which is something core to the organization&amp;rsquo;s values.</description>
     </item>
     
     <item>
       <title>GAMLP Social Media Illustrations</title>
-      <link>https://frankld.netlify.com/post/gamlp/</link>
+      <link>https://frankld.com/post/gamlp/</link>
       <pubDate>Fri, 15 Jan 2016 05:00:00 +0000</pubDate>
       
-      <guid>https://frankld.netlify.com/post/gamlp/</guid>
+      <guid>https://frankld.com/post/gamlp/</guid>
       <description> Vector Art Using Illustrator Vector Art created for social media campaign raising awareness for water conservation. </description>
     </item>
     
