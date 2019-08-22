@@ -63,8 +63,8 @@ In addition to web design, I also have a strong interest in branding, digital il
 <div class="row">
 <div class="col">
 <h3 class="mb-3">Resume</h3>
-<p><a href="linked">Design Resume - 2019</a></p>
-<p><a href="linked">Design Resume - 2018</a></p>
+<p><a href="/resume/fld_resume_2019.pdf">Design Resume - 2019</a></p>
+<p><a href="/resume/fld_resume_2018.pdf">Design Resume - 2018</a></p>
 </div>
 </div>
 
