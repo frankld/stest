@@ -11,7 +11,7 @@
   "dependencies": {
     "animejs": "^3.0.1",
     "bootstrap": "^4.3.1",
-    "gsap": "^2.1.2",
+    "gsap": "^3.6.0",
     "jquery": "^3.4.0",
     "medium-zoom": "^1.0.4",
     "popper.js": "^1.15.0",
